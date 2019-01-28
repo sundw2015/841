@@ -1,4 +1,1 @@
-# sec_event
-
-# celery
-celery -A soc worker -B -l info
+841安全项目源码
