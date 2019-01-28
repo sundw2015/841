@@ -1,0 +1,24 @@
+[
+  {
+    "fields": {
+      "two_factor": 0,
+      "enable": 0,
+      "is_admin": 1,
+      "name": "\u7ba1\u7406\u5458",
+      "agent": 1
+    },
+    "model": "soc_user.roles",
+    "pk": 1
+  },
+  {
+    "fields": {
+      "two_factor": 0,
+      "enable": 1,
+      "is_admin": 0,
+      "name": "\u7528\u6237",
+      "agent": 1
+    },
+    "model": "soc_user.roles",
+    "pk": 2
+  }
+]

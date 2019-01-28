@@ -1,0 +1,1337 @@
+[
+  {
+    "fields": {
+      "sort": 89,
+      "index": 1000,
+      "enable": 0,
+      "name": "\u670d\u52a1\u652f\u6301",
+      "parent": null,
+      "level": "100000",
+      "topic": "service_support",
+      "company_show": 1,
+      "is_landing": 0
+    },
+    "model": "soc_system.defaultmenu",
+    "pk": 92
+  },
+  {
+    "fields": {
+      "sort": 50,
+      "index": 1001,
+      "enable": 1,
+      "name": "\u670d\u52a1\u652f\u6301",
+      "parent": 92,
+      "level": "100100",
+      "topic": "support",
+      "company_show": 1,
+      "is_landing": 0
+    },
+    "model": "soc_system.defaultmenu",
+    "pk": 93
+  },
+  {
+    "fields": {
+      "sort": 50,
+      "index": 1002,
+      "enable": 1,
+      "name": "\u516c\u53f8\u7ba1\u7406",
+      "parent": 93,
+      "level": "100101",
+      "topic": "company-mgt",
+      "company_show": 1,
+      "is_landing": 0
+    },
+    "model": "soc_system.defaultmenu",
+    "pk": 94
+  },
+  {
+    "fields": {
+      "sort": 50,
+      "index": 1003,
+      "enable": 1,
+      "name": "\u7528\u6237\u7ba1\u7406",
+      "parent": 93,
+      "level": "100102",
+      "topic": "user-mgt",
+      "company_show": 1,
+      "is_landing": 0
+    },
+    "model": "soc_system.defaultmenu",
+    "pk": 95
+  },
+  {
+    "fields": {
+      "sort": 50,
+      "index": 1004,
+      "enable": 1,
+      "name": "\u6d88\u606f\u7ba1\u7406",
+      "parent": 93,
+      "level": "100103",
+      "topic": "message-mgt",
+      "company_show": 1,
+      "is_landing": 0
+    },
+    "model": "soc_system.defaultmenu",
+    "pk": 96
+  },
+  {
+    "fields": {
+      "sort": 50,
+      "index": 1005,
+      "enable": 1,
+      "name": "\u5de5\u5355\u7ba1\u7406",
+      "parent": 93,
+      "level": "100104",
+      "topic": "workorder-mgt",
+      "company_show": 1,
+      "is_landing": 0
+    },
+    "model": "soc_system.defaultmenu",
+    "pk": 97
+  },
+  {
+    "fields": {
+      "sort": 90,
+      "index": 2501,
+      "enable": 1,
+      "name": "\u7cfb\u7edf\u7ba1\u7406",
+      "parent": null,
+      "level": "110000",
+      "topic": "system",
+      "company_show": 1,
+      "is_landing": 0
+    },
+    "model": "soc_system.defaultmenu",
+    "pk": 98
+  },
+  {
+    "fields": {
+      "sort": 50,
+      "index": 1102,
+      "enable": 0,
+      "name": "\u5168\u5c40\u8bbe\u7f6e",
+      "parent": 98,
+      "level": "110100",
+      "topic": "global",
+      "company_show": 1,
+      "is_landing": 0
+    },
+    "model": "soc_system.defaultmenu",
+    "pk": 99
+  },
+  {
+    "fields": {
+      "sort": 50,
+      "index": 1103,
+      "enable": 1,
+      "name": "\u57fa\u672c\u4fe1\u606f",
+      "parent": 99,
+      "level": "110101",
+      "topic": "base-info",
+      "company_show": 1,
+      "is_landing": 0
+    },
+    "model": "soc_system.defaultmenu",
+    "pk": 100
+  },
+  {
+    "fields": {
+      "sort": 50,
+      "index": 1104,
+      "enable": 1,
+      "name": "\u83dc\u5355\u7ba1\u7406",
+      "parent": 99,
+      "level": "110102",
+      "topic": "menu-mgt",
+      "company_show": 1,
+      "is_landing": 0
+    },
+    "model": "soc_system.defaultmenu",
+    "pk": 101
+  },
+  {
+    "fields": {
+      "sort": 50,
+      "index": 1105,
+      "enable": 1,
+      "name": "\u7ba1\u7406\u8bbe\u7f6e",
+      "parent": 98,
+      "level": "110200",
+      "topic": "manage",
+      "company_show": 1,
+      "is_landing": 0
+    },
+    "model": "soc_system.defaultmenu",
+    "pk": 102
+  },
+  {
+    "fields": {
+      "sort": 50,
+      "index": 1106,
+      "enable": 1,
+      "name": "\u7528\u6237\u7ba1\u7406",
+      "parent": 102,
+      "level": "110201",
+      "topic": "admin-mgt",
+      "company_show": 1,
+      "is_landing": 0
+    },
+    "model": "soc_system.defaultmenu",
+    "pk": 103
+  },
+  {
+    "fields": {
+      "sort": 50,
+      "index": 1107,
+      "enable": 0,
+      "name": "\u6743\u9650\u7ba1\u7406",
+      "parent": 102,
+      "level": "110202",
+      "topic": "permissions-mgt",
+      "company_show": 1,
+      "is_landing": 0
+    },
+    "model": "soc_system.defaultmenu",
+    "pk": 104
+  },
+  {
+    "fields": {
+      "sort": 50,
+      "index": 1108,
+      "enable": 0,
+      "name": "\u7cfb\u7edf\u8bbe\u7f6e",
+      "parent": 98,
+      "level": "110300",
+      "topic": "system",
+      "company_show": 1,
+      "is_landing": 0
+    },
+    "model": "soc_system.defaultmenu",
+    "pk": 105
+  },
+  {
+    "fields": {
+      "sort": 50,
+      "index": 1109,
+      "enable": 1,
+      "name": "\u8bbf\u95ee\u8bbe\u7f6e",
+      "parent": 105,
+      "level": "110301",
+      "topic": "access",
+      "company_show": 1,
+      "is_landing": 0
+    },
+    "model": "soc_system.defaultmenu",
+    "pk": 106
+  },
+  {
+    "fields": {
+      "sort": 50,
+      "index": 1110,
+      "enable": 1,
+      "name": "\u8d22\u52a1\u8bbe\u7f6e",
+      "parent": 105,
+      "level": "110303",
+      "topic": "finance",
+      "company_show": 1,
+      "is_landing": 0
+    },
+    "model": "soc_system.defaultmenu",
+    "pk": 108
+  },
+  {
+    "fields": {
+      "sort": 50,
+      "index": 1111,
+      "enable": 1,
+      "name": "\u90ae\u4ef6\u8bbe\u7f6e",
+      "parent": 105,
+      "level": "110304",
+      "topic": "email",
+      "company_show": 1,
+      "is_landing": 0
+    },
+    "model": "soc_system.defaultmenu",
+    "pk": 109
+  },
+  {
+    "fields": {
+      "sort": 50,
+      "index": 1112,
+      "enable": 1,
+      "name": "\u77ed\u4fe1\u8bbe\u7f6e",
+      "parent": 105,
+      "level": "110305",
+      "topic": "message-setting",
+      "company_show": 1,
+      "is_landing": 0
+    },
+    "model": "soc_system.defaultmenu",
+    "pk": 110
+  },
+  {
+    "fields": {
+      "sort": 50,
+      "index": 1113,
+      "enable": 1,
+      "name": "\u63a5\u53e3\u8bbe\u7f6e",
+      "parent": 105,
+      "level": "110306",
+      "topic": "api-setting",
+      "company_show": 1,
+      "is_landing": 0
+    },
+    "model": "soc_system.defaultmenu",
+    "pk": 111
+  },
+  {
+    "fields": {
+      "sort": 50,
+      "index": 1114,
+      "enable": 0,
+      "name": "\u5b89\u5168\u8bbe\u7f6e",
+      "parent": 98,
+      "level": "110400",
+      "topic": "security",
+      "company_show": 1,
+      "is_landing": 0
+    },
+    "model": "soc_system.defaultmenu",
+    "pk": 112
+  },
+  {
+    "fields": {
+      "sort": 50,
+      "index": 1115,
+      "enable": 1,
+      "name": "\u7cfb\u7edf\u5b89\u5168",
+      "parent": 112,
+      "level": "110401",
+      "topic": "system-security",
+      "company_show": 1,
+      "is_landing": 0
+    },
+    "model": "soc_system.defaultmenu",
+    "pk": 113
+  },
+  {
+    "fields": {
+      "sort": 50,
+      "index": 1116,
+      "enable": 0,
+      "name": "\u96c6\u4e2d\u7ba1\u7406",
+      "parent": 98,
+      "level": "110500",
+      "topic": "node",
+      "company_show": 1,
+      "is_landing": 0
+    },
+    "model": "soc_system.defaultmenu",
+    "pk": 115
+  },
+  {
+    "fields": {
+      "sort": 50,
+      "index": 1117,
+      "enable": 1,
+      "name": "\u7ea7\u8054\u8bbe\u7f6e",
+      "parent": 115,
+      "level": "110501",
+      "topic": "node-control",
+      "company_show": 1,
+      "is_landing": 0
+    },
+    "model": "soc_system.defaultmenu",
+    "pk": 116
+  },
+  {
+    "fields": {
+      "sort": 50,
+      "index": 1118,
+      "enable": 1,
+      "name": "\u7ea7\u8054\u7ba1\u7406",
+      "parent": 115,
+      "level": "110502",
+      "topic": "node-state",
+      "company_show": 1,
+      "is_landing": 0
+    },
+    "model": "soc_system.defaultmenu",
+    "pk": 117
+  },
+  {
+    "fields": {
+      "sort": 50,
+      "index": 1119,
+      "enable": 1,
+      "name": "\u7cfb\u7edf\u8d44\u6e90",
+      "parent": 115,
+      "level": "110503",
+      "topic": "system-resource",
+      "company_show": 1,
+      "is_landing": 0
+    },
+    "model": "soc_system.defaultmenu",
+    "pk": 118
+  },
+  {
+    "fields": {
+      "sort": 50,
+      "index": 1120,
+      "enable": 1,
+      "name": "\u7cfb\u7edf\u5065\u5eb7",
+      "parent": 115,
+      "level": "110504",
+      "topic": "system-health",
+      "company_show": 1,
+      "is_landing": 0
+    },
+    "model": "soc_system.defaultmenu",
+    "pk": 119
+  },
+  {
+    "fields": {
+      "sort": 50,
+      "index": 1123,
+      "enable": 0,
+      "name": "\u7cfb\u7edf\u5347\u7ea7",
+      "parent": 98,
+      "level": "110700",
+      "topic": "upgrade",
+      "company_show": 1,
+      "is_landing": 0
+    },
+    "model": "soc_system.defaultmenu",
+    "pk": 120
+  },
+  {
+    "fields": {
+      "sort": 50,
+      "index": 1124,
+      "enable": 1,
+      "name": "\u7cfb\u7edf\u5347\u7ea7",
+      "parent": 120,
+      "level": "110701",
+      "topic": "system-upgrade",
+      "company_show": 1,
+      "is_landing": 0
+    },
+    "model": "soc_system.defaultmenu",
+    "pk": 121
+  },
+  {
+    "fields": {
+      "sort": 50,
+      "index": 1125,
+      "enable": 0,
+      "name": "\u65e5\u5fd7\u5ba1\u8ba1",
+      "parent": 98,
+      "level": "110800",
+      "topic": "log",
+      "company_show": 1,
+      "is_landing": 0
+    },
+    "model": "soc_system.defaultmenu",
+    "pk": 122
+  },
+  {
+    "fields": {
+      "sort": 50,
+      "index": 1126,
+      "enable": 1,
+      "name": "\u673a\u623f\u767b\u5f55",
+      "parent": 122,
+      "level": "110801",
+      "topic": "admin-login",
+      "company_show": 1,
+      "is_landing": 0
+    },
+    "model": "soc_system.defaultmenu",
+    "pk": 123
+  },
+  {
+    "fields": {
+      "sort": 50,
+      "index": 1127,
+      "enable": 1,
+      "name": "\u673a\u623f\u64cd\u4f5c",
+      "parent": 122,
+      "level": "110802",
+      "topic": "admin-operation",
+      "company_show": 1,
+      "is_landing": 0
+    },
+    "model": "soc_system.defaultmenu",
+    "pk": 124
+  },
+  {
+    "fields": {
+      "sort": 50,
+      "index": 1128,
+      "enable": 1,
+      "name": "\u7528\u6237\u767b\u5f55",
+      "parent": 122,
+      "level": "110803",
+      "topic": "user-login",
+      "company_show": 1,
+      "is_landing": 0
+    },
+    "model": "soc_system.defaultmenu",
+    "pk": 125
+  },
+  {
+    "fields": {
+      "sort": 50,
+      "index": 1129,
+      "enable": 1,
+      "name": "\u7528\u6237\u64cd\u4f5c",
+      "parent": 122,
+      "level": "110804",
+      "topic": "user-operation",
+      "company_show": 1,
+      "is_landing": 0
+    },
+    "model": "soc_system.defaultmenu",
+    "pk": 126
+  },
+  {
+    "fields": {
+      "sort": 50,
+      "index": 1121,
+      "enable": 0,
+      "name": "\u5b89\u5168\u54cd\u5e94",
+      "parent": 98,
+      "level": "110600",
+      "topic": "system-action",
+      "company_show": 1,
+      "is_landing": 0
+    },
+    "model": "soc_system.defaultmenu",
+    "pk": 141
+  },
+  {
+    "fields": {
+      "sort": 50,
+      "index": 1130,
+      "enable": 1,
+      "name": "\u6570\u636e\u5907\u4efd",
+      "parent": 122,
+      "level": "110805",
+      "topic": "backup-mgt",
+      "company_show": 1,
+      "is_landing": 0
+    },
+    "model": "soc_system.defaultmenu",
+    "pk": 142
+  },
+  {
+    "fields": {
+      "sort": 50,
+      "index": 1122,
+      "enable": 1,
+      "name": "\u54cd\u5e94\u914d\u7f6e",
+      "parent": 141,
+      "level": "110601",
+      "topic": "system-action-alert",
+      "company_show": 1,
+      "is_landing": 0
+    },
+    "model": "soc_system.defaultmenu",
+    "pk": 145
+  },
+  {
+    "fields": {
+      "sort": 50,
+      "index": 2400,
+      "enable": 1,
+      "name": "\u5b89\u5168\u8fd0\u7ef4",
+      "parent": null,
+      "level": "240000",
+      "topic": "op",
+      "company_show": 1,
+      "is_landing": 0
+    },
+    "model": "soc_system.defaultmenu",
+    "pk": 179
+  },
+  {
+    "fields": {
+      "sort": 50,
+      "index": 2401,
+      "enable": 1,
+      "name": "\u77e5\u8bc6\u5e93",
+      "parent": 179,
+      "level": "240101",
+      "topic": "op-knowledge",
+      "company_show": 1,
+      "is_landing": 0
+    },
+    "model": "soc_system.defaultmenu",
+    "pk": 180
+  },
+  {
+    "fields": {
+      "sort": 50,
+      "index": 2402,
+      "enable": 1,
+      "name": "\u77e5\u8bc6\u5e93\u7ba1\u7406",
+      "parent": 180,
+      "level": "240102",
+      "topic": "op-knowledge-mgt",
+      "company_show": 1,
+      "is_landing": 0
+    },
+    "model": "soc_system.defaultmenu",
+    "pk": 181
+  },
+  {
+    "fields": {
+      "sort": 50,
+      "index": 2403,
+      "enable": 1,
+      "name": "\u6f0f\u6d1e\u5e93",
+      "parent": 179,
+      "level": "240201",
+      "topic": "op-hole",
+      "company_show": 1,
+      "is_landing": 0
+    },
+    "model": "soc_system.defaultmenu",
+    "pk": 182
+  },
+  {
+    "fields": {
+      "sort": 50,
+      "index": 2404,
+      "enable": 1,
+      "name": "\u6f0f\u6d1e\u5e93\u7ba1\u7406",
+      "parent": 182,
+      "level": "240202",
+      "topic": "op-hole-mgt",
+      "company_show": 1,
+      "is_landing": 0
+    },
+    "model": "soc_system.defaultmenu",
+    "pk": 183
+  },
+  {
+    "fields": {
+      "sort": 50,
+      "index": 2405,
+      "enable": 1,
+      "name": "\u9884\u6848\u5e93",
+      "parent": 179,
+      "level": "240301",
+      "topic": "op-plan",
+      "company_show": 1,
+      "is_landing": 0
+    },
+    "model": "soc_system.defaultmenu",
+    "pk": 184
+  },
+  {
+    "fields": {
+      "sort": 50,
+      "index": 2406,
+      "enable": 1,
+      "name": "\u9884\u6848\u5e93\u7ba1\u7406",
+      "parent": 184,
+      "level": "240301",
+      "topic": "op-plan-mgt",
+      "company_show": 1,
+      "is_landing": 0
+    },
+    "model": "soc_system.defaultmenu",
+    "pk": 185
+  },
+  {
+    "fields": {
+      "sort": 50,
+      "index": 1500,
+      "enable": 1,
+      "name": "\u6001\u52bf\u611f\u77e5",
+      "parent": null,
+      "level": "150000",
+      "topic": "ssa",
+      "company_show": 1,
+      "is_landing": 0
+    },
+    "model": "soc_system.defaultmenu",
+    "pk": 190
+  },
+  {
+    "fields": {
+      "sort": 50,
+      "index": 1501,
+      "enable": 1,
+      "name": "\u5168\u5c40\u6001\u52bf",
+      "parent": 190,
+      "level": "150101",
+      "topic": "ssa-global-config",
+      "company_show": 1,
+      "is_landing": 0
+    },
+    "model": "soc_system.defaultmenu",
+    "pk": 191
+  },
+  {
+    "fields": {
+      "sort": 50,
+      "index": 1502,
+      "enable": 1,
+      "name": "\u5168\u5c40\u6001\u52bf\u6570\u636e",
+      "parent": 191,
+      "level": "150102",
+      "topic": "ssa-global",
+      "company_show": 1,
+      "is_landing": 1
+    },
+    "model": "soc_system.defaultmenu",
+    "pk": 192
+  },
+  {
+    "fields": {
+      "sort": 50,
+      "index": 1503,
+      "enable": 1,
+      "name": "\u8d44\u6e90\u6001\u52bf",
+      "parent": 190,
+      "level": "150201",
+      "topic": "ssa-source-config",
+      "company_show": 1,
+      "is_landing": 0
+    },
+    "model": "soc_system.defaultmenu",
+    "pk": 193
+  },
+  {
+    "fields": {
+      "sort": 50,
+      "index": 1504,
+      "enable": 1,
+      "name": "\u8d44\u6e90\u6001\u52bf\u6570\u636e",
+      "parent": 193,
+      "level": "150202",
+      "topic": "ssa-source",
+      "company_show": 1,
+      "is_landing": 0
+    },
+    "model": "soc_system.defaultmenu",
+    "pk": 194
+  },
+  {
+    "fields": {
+      "sort": 50,
+      "index": 1505,
+      "enable": 0,
+      "name": "\u4e1a\u52a1\u6001\u52bf",
+      "parent": 190,
+      "level": "150301",
+      "topic": "ssa-business-config",
+      "company_show": 1,
+      "is_landing": 0
+    },
+    "model": "soc_system.defaultmenu",
+    "pk": 195
+  },
+  {
+    "fields": {
+      "sort": 50,
+      "index": 1506,
+      "enable": 1,
+      "name": "\u4e1a\u52a1\u6001\u52bf\u6570\u636e",
+      "parent": 195,
+      "level": "150302",
+      "topic": "ssa-business",
+      "company_show": 1,
+      "is_landing": 0
+    },
+    "model": "soc_system.defaultmenu",
+    "pk": 196
+  },
+  {
+    "fields": {
+      "sort": 50,
+      "index": 1507,
+      "enable": 1,
+      "name": "\u5b89\u5168\u6001\u52bf",
+      "parent": 190,
+      "level": "150401",
+      "topic": "ssa-security-config",
+      "company_show": 1,
+      "is_landing": 0
+    },
+    "model": "soc_system.defaultmenu",
+    "pk": 197
+  },
+  {
+    "fields": {
+      "sort": 50,
+      "index": 1508,
+      "enable": 1,
+      "name": "\u5b89\u5168\u6001\u52bf\u6570\u636e",
+      "parent": 197,
+      "level": "150402",
+      "topic": "ssa-security",
+      "company_show": 1,
+      "is_landing": 0
+    },
+    "model": "soc_system.defaultmenu",
+    "pk": 198
+  },
+  {
+    "fields": {
+      "sort": 50,
+      "index": 1509,
+      "enable": 0,
+      "name": "\u4e13\u5bb6\u5206\u6790",
+      "parent": 190,
+      "level": "150501",
+      "topic": "ssa-experts-analysis",
+      "company_show": 1,
+      "is_landing": 0
+    },
+    "model": "soc_system.defaultmenu",
+    "pk": 199
+  },
+  {
+    "fields": {
+      "sort": 50,
+      "index": 1510,
+      "enable": 1,
+      "name": "\u89c4\u5219\u7ba1\u7406",
+      "parent": 199,
+      "level": "150502",
+      "topic": "ssa-experts-analysis-rule-manage",
+      "company_show": 1,
+      "is_landing": 0
+    },
+    "model": "soc_system.defaultmenu",
+    "pk": 200
+  },
+  {
+    "fields": {
+      "sort": 50,
+      "index": 1600,
+      "enable": 0,
+      "name": "\u6570\u636e\u7ba1\u7406",
+      "parent": null,
+      "level": "160000",
+      "topic": "dama",
+      "company_show": 1,
+      "is_landing": 0
+    },
+    "model": "soc_system.defaultmenu",
+    "pk": 203
+  },
+  {
+    "fields": {
+      "sort": 50,
+      "index": 1601,
+      "enable": 1,
+      "name": "\u6570\u636e\u7ba1\u7406",
+      "parent": 203,
+      "level": "160101",
+      "topic": "dama-config",
+      "company_show": 1,
+      "is_landing": 0
+    },
+    "model": "soc_system.defaultmenu",
+    "pk": 204
+  },
+  {
+    "fields": {
+      "sort": 50,
+      "index": 1602,
+      "enable": 1,
+      "name": "\u6570\u636e\u7ba1\u7406",
+      "parent": 204,
+      "level": "160102",
+      "topic": "dama-mgt",
+      "company_show": 1,
+      "is_landing": 0
+    },
+    "model": "soc_system.defaultmenu",
+    "pk": 205
+  },
+  {
+    "fields": {
+      "sort": 50,
+      "index": 1603,
+      "enable": 0,
+      "name": "\u6570\u636e\u9884\u89c8",
+      "parent": 204,
+      "level": "160103",
+      "topic": "dama-preview",
+      "company_show": 1,
+      "is_landing": 0
+    },
+    "model": "soc_system.defaultmenu",
+    "pk": 206
+  },
+  {
+    "fields": {
+      "sort": 50,
+      "index": 1700,
+      "enable": 1,
+      "name": "\u5b89\u5168\u62a5\u8868",
+      "parent": null,
+      "level": "170000",
+      "topic": "data-report",
+      "company_show": 1,
+      "is_landing": 0
+    },
+    "model": "soc_system.defaultmenu",
+    "pk": 207
+  },
+  {
+    "fields": {
+      "sort": 50,
+      "index": 1701,
+      "enable": 1,
+      "name": "\u5b89\u5168\u62a5\u8868",
+      "parent": 207,
+      "level": "170101",
+      "topic": "data-report-config",
+      "company_show": 1,
+      "is_landing": 0
+    },
+    "model": "soc_system.defaultmenu",
+    "pk": 208
+  },
+  {
+    "fields": {
+      "sort": 70,
+      "index": 1702,
+      "enable": 1,
+      "name": "\u521b\u5efa\u62a5\u8868\u6a21\u677f",
+      "parent": 208,
+      "level": "170102",
+      "topic": "create-report-template",
+      "company_show": 1,
+      "is_landing": 0
+    },
+    "model": "soc_system.defaultmenu",
+    "pk": 209
+  },
+  {
+    "fields": {
+      "sort": 60,
+      "index": 1703,
+      "enable": 1,
+      "name": "\u6a21\u677f\u7ba1\u7406",
+      "parent": 208,
+      "level": "170103",
+      "topic": "data-report",
+      "company_show": 1,
+      "is_landing": 0
+    },
+    "model": "soc_system.defaultmenu",
+    "pk": 210
+  },
+  {
+    "fields": {
+      "sort": 50,
+      "index": 1704,
+      "enable": 1,
+      "name": "\u62a5\u8868\u7ba1\u7406",
+      "parent": 208,
+      "level": "170104",
+      "topic": "report-mgt",
+      "company_show": 1,
+      "is_landing": 0
+    },
+    "model": "soc_system.defaultmenu",
+    "pk": 211
+  },
+  {
+    "fields": {
+      "sort": 50,
+      "index": 1511,
+      "enable": 0,
+      "name": "\u6001\u52bf\u9884\u8b66\u7ba1\u7406",
+      "parent": 190,
+      "level": "150601",
+      "topic": "ssa-warning",
+      "company_show": 1,
+      "is_landing": 0
+    },
+    "model": "soc_system.defaultmenu",
+    "pk": 212
+  },
+  {
+    "fields": {
+      "sort": 50,
+      "index": 1512,
+      "enable": 1,
+      "name": "\u9884\u8b66\u7ba1\u7406",
+      "parent": 212,
+      "level": "150602",
+      "topic": "ssa-warning-mgt",
+      "company_show": 1,
+      "is_landing": 0
+    },
+    "model": "soc_system.defaultmenu",
+    "pk": 213
+  },
+  {
+    "fields": {
+      "sort": 50,
+      "index": 1800,
+      "enable": 1,
+      "name": "\u4e8b\u4ef6\u68c0\u6d4b",
+      "parent": null,
+      "level": "180000",
+      "topic": "event-detect",
+      "company_show": 1,
+      "is_landing": 0
+    },
+    "model": "soc_system.defaultmenu",
+    "pk": 214
+  },
+  {
+    "fields": {
+      "sort": 50,
+      "index": 1801,
+      "enable": 1,
+      "name": "\u5b89\u5168\u4e8b\u4ef6",
+      "parent": 214,
+      "level": "180101",
+      "topic": "security-event",
+      "company_show": 1,
+      "is_landing": 0
+    },
+    "model": "soc_system.defaultmenu",
+    "pk": 215
+  },
+  {
+    "fields": {
+      "sort": 50,
+      "index": 1802,
+      "enable": 1,
+      "name": "\u4e8b\u4ef6\u641c\u7d22",
+      "parent": 215,
+      "level": "180102",
+      "topic": "analysis-event-search",
+      "company_show": 1,
+      "is_landing": 0
+    },
+    "model": "soc_system.defaultmenu",
+    "pk": 216
+  },
+  {
+    "fields": {
+      "sort": 50,
+      "index": 1513,
+      "enable": 1,
+      "name": "\u5b9a\u5236\u56fe\u8868",
+      "parent": 190,
+      "level": "150701",
+      "topic": "ssa-chart",
+      "company_show": 1,
+      "is_landing": 0
+    },
+    "model": "soc_system.defaultmenu",
+    "pk": 217
+  },
+  {
+    "fields": {
+      "sort": 50,
+      "index": 1514,
+      "enable": 1,
+      "name": "\u521b\u5efa\u56fe\u8868",
+      "parent": 217,
+      "level": "150702",
+      "topic": "ssa-new-chart",
+      "company_show": 1,
+      "is_landing": 0
+    },
+    "model": "soc_system.defaultmenu",
+    "pk": 218
+  },
+  {
+    "fields": {
+      "sort": 50,
+      "index": 1515,
+      "enable": 1,
+      "name": "\u56fe\u8868\u7ba1\u7406",
+      "parent": 217,
+      "level": "150703",
+      "topic": "ssa-chart-manage",
+      "company_show": 1,
+      "is_landing": 0
+    },
+    "model": "soc_system.defaultmenu",
+    "pk": 219
+  },
+  {
+    "fields": {
+      "sort": 50,
+      "index": 1803,
+      "enable": 0,
+      "name": "\u4e8b\u4ef6\u65f6\u95f4\u7ebf",
+      "parent": 214,
+      "level": "180103",
+      "topic": "security-event-time",
+      "company_show": 1,
+      "is_landing": 0
+    },
+    "model": "soc_system.defaultmenu",
+    "pk": 222
+  },
+  {
+    "fields": {
+      "sort": 50,
+      "index": 1804,
+      "enable": 1,
+      "name": "\u4e8b\u4ef6\u65f6\u95f4\u7ebf",
+      "parent": 222,
+      "level": "180104",
+      "topic": "event-timeline",
+      "company_show": 1,
+      "is_landing": 0
+    },
+    "model": "soc_system.defaultmenu",
+    "pk": 223
+  },
+  {
+    "fields": {
+      "sort": 50,
+      "index": 1805,
+      "enable": 1,
+      "name": "\u65e5\u5fd7\u641c\u7d22",
+      "parent": 215,
+      "level": "180105",
+      "topic": "event-search",
+      "company_show": 1,
+      "is_landing": 0
+    },
+    "model": "soc_system.defaultmenu",
+    "pk": 224
+  },
+  {
+    "fields": {
+      "sort": 50,
+      "index": 2407,
+      "enable": 1,
+      "name": "\u660e\u6587\u8bcd\u5e93",
+      "parent": 179,
+      "level": "240401",
+      "topic": "op-sm",
+      "company_show": 1,
+      "is_landing": 0
+    },
+    "model": "soc_system.defaultmenu",
+    "pk": 225
+  },
+  {
+    "fields": {
+      "sort": 50,
+      "index": 2408,
+      "enable": 1,
+      "name": "\u660e\u6587\u8bcd\u5e93\u7ba1\u7406",
+      "parent": 225,
+      "level": "240402",
+      "topic": "op-sm-mgt",
+      "company_show": 1,
+      "is_landing": 0
+    },
+    "model": "soc_system.defaultmenu",
+    "pk": 226
+  },
+  {
+    "fields": {
+      "sort": 50,
+      "index": 1900,
+      "enable": 1,
+      "name": "\u6df1\u5ea6\u626b\u63cf",
+      "parent": null,
+      "level": "190000",
+      "topic": "scan",
+      "company_show": 1,
+      "is_landing": 0
+    },
+    "model": "soc_system.defaultmenu",
+    "pk": 227
+  },
+  {
+    "fields": {
+      "sort": 50,
+      "index": 1901,
+      "enable": 1,
+      "name": "\u641c\u7d22\u8d44\u4ea7",
+      "parent": 227,
+      "level": "190100",
+      "topic": "scan-ip",
+      "company_show": 1,
+      "is_landing": 0
+    },
+    "model": "soc_system.defaultmenu",
+    "pk": 228
+  },
+  {
+    "fields": {
+      "sort": 50,
+      "index": 1902,
+      "enable": 1,
+      "name": "\u641c\u7d22\u8d44\u4ea7",
+      "parent": 228,
+      "level": "190101",
+      "topic": "scan-ip-mgt",
+      "company_show": 1,
+      "is_landing": 0
+    },
+    "model": "soc_system.defaultmenu",
+    "pk": 229
+  },
+  {
+    "fields": {
+      "sort": 50,
+      "index": 1903,
+      "enable": 1,
+      "name": "\u626b\u63cf\u4efb\u52a1",
+      "parent": 227,
+      "level": "190200",
+      "topic": "scan-task",
+      "company_show": 1,
+      "is_landing": 0
+    },
+    "model": "soc_system.defaultmenu",
+    "pk": 230
+  },
+  {
+    "fields": {
+      "sort": 50,
+      "index": 1904,
+      "enable": 1,
+      "name": "\u626b\u63cf\u4efb\u52a1\u7ba1\u7406",
+      "parent": 230,
+      "level": "190201",
+      "topic": "scan-task-mgt",
+      "company_show": 1,
+      "is_landing": 0
+    },
+    "model": "soc_system.defaultmenu",
+    "pk": 231
+  },
+  {
+    "fields": {
+      "sort": 50,
+      "index": 1905,
+      "enable": 0,
+      "name": "\u63d2\u4ef6\u7ba1\u7406",
+      "parent": 227,
+      "level": "190300",
+      "topic": "scan-plug",
+      "company_show": 1,
+      "is_landing": 0
+    },
+    "model": "soc_system.defaultmenu",
+    "pk": 232
+  },
+  {
+    "fields": {
+      "sort": 50,
+      "index": 1906,
+      "enable": 0,
+      "name": "\u63d2\u4ef6\u7ba1\u7406",
+      "parent": 232,
+      "level": "190301",
+      "topic": "scan-plug-mgt",
+      "company_show": 1,
+      "is_landing": 0
+    },
+    "model": "soc_system.defaultmenu",
+    "pk": 233
+  },
+  {
+    "fields": {
+      "sort": 50,
+      "index": 1907,
+      "enable": 0,
+      "name": "\u62a5\u8868\u7ba1\u7406",
+      "parent": 227,
+      "level": "190400",
+      "topic": "scan-report",
+      "company_show": 1,
+      "is_landing": 0
+    },
+    "model": "soc_system.defaultmenu",
+    "pk": 234
+  },
+  {
+    "fields": {
+      "sort": 50,
+      "index": 1908,
+      "enable": 0,
+      "name": "\u62a5\u8868\u7ba1\u7406",
+      "parent": 234,
+      "level": "190401",
+      "topic": "scan-report-mgt",
+      "company_show": 1,
+      "is_landing": 0
+    },
+    "model": "soc_system.defaultmenu",
+    "pk": 235
+  },
+  {
+    "fields": {
+      "sort": 50,
+      "index": 1909,
+      "enable": 1,
+      "name": "\u626b\u63cf\u914d\u7f6e",
+      "parent": 227,
+      "level": "190500",
+      "topic": "scan-conf",
+      "company_show": 1,
+      "is_landing": 0
+    },
+    "model": "soc_system.defaultmenu",
+    "pk": 236
+  },
+  {
+    "fields": {
+      "sort": 50,
+      "index": 1910,
+      "enable": 1,
+      "name": "\u626b\u63cf\u914d\u7f6e",
+      "parent": 236,
+      "level": "190501",
+      "topic": "scan-conf-mgt",
+      "company_show": 1,
+      "is_landing": 0
+    },
+    "model": "soc_system.defaultmenu",
+    "pk": 237
+  },
+  {
+    "fields": {
+      "sort": 50,
+      "index": 2409,
+      "enable": 1,
+      "name": "\u5de5\u4f5c\u65e5",
+      "parent": 179,
+      "level": "240501",
+      "topic": "op-wd",
+      "company_show": 1,
+      "is_landing": 0
+    },
+    "model": "soc_system.defaultmenu",
+    "pk": 238
+  },
+  {
+    "fields": {
+      "sort": 50,
+      "index": 2410,
+      "enable": 1,
+      "name": "\u5de5\u4f5c\u65e5\u7ba1\u7406",
+      "parent": 238,
+      "level": "240502",
+      "topic": "op-wd-mgt",
+      "company_show": 1,
+      "is_landing": 0
+    },
+    "model": "soc_system.defaultmenu",
+    "pk": 239
+  }
+]

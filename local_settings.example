@@ -1,0 +1,123 @@
+# coding: utf-8
+# SECURITY WARNING: keep the secret key used in production secret!
+# 请勿使用本文件中的 SECRET_KEY！
+SECRET_KEY = ''
+
+# SECURITY WARNING: don't run with debug turned on in production!
+DEBUG = False
+TEMPLATE_DEBUG = False
+
+ALLOWED_HOSTS = ["*"]
+
+# 时区，True
+USE_TZ = True
+
+MEDIA_URL = '/media/'
+STATIC_URL = '/static/'
+
+# ======= 二次验证配置 =======
+# 二次验证标题
+QSSEC_SOC = "Yunsong"
+
+# ======= 数据库配置 =======
+DATABASES = {
+    'default': {
+        'ENGINE': 'django.db.backends.mysql',
+        'NAME': '',
+        'USER': '',
+        'PASSWORD': '',
+        'HOST': '127.0.0.1',
+        'PORT': '3306',
+    }
+}
+
+# ======= 部署环境配置 =======
+# 根据部署环境不用填写不同的字串
+ENV = "local"
+
+# ======= 邮件消息报错 =======
+# 全局报错
+ADMINS = (
+    ('admin', 'admin@qssec.com'),
+)
+
+# 管理员提醒
+ASIC_ERROR_EMAIL = ('admin@qssec.com',)
+NOTIFY_WORKER_ORDER_EMAIL = ('admin@qssec.com',)
+ADMINISTRATORS = ('admin@qssec.com',)
+
+# ======= 本地队列(Celery)配置 =======
+# redis
+BROKER_URL = 'redis://:password@localhost:6379/0'
+# store task results in redis
+CELERY_RESULT_BACKEND = 'redis://:password@localhost:6379/0'
+# task result life time until they will be deleted
+CELERY_TASK_RESULT_EXPIRES = 7*86400  # 7 days
+# needed for worker monitoring
+CELERY_SEND_EVENTS = True
+# where to store periodic tasks (needed for scheduler)
+CELERYBEAT_SCHEDULER = "djcelery.schedulers.DatabaseScheduler"
+# accept content
+CELERY_ACCEPT_CONTENT = ['json', 'msgpack', 'yaml']
+CELERY_TASK_SERIALIZER = 'json'
+CELERY_RESULT_SERIALIZER = 'json'
+
+# ====== 缓存配置(redis) ===========
+
+CACHES = {
+    "default": {
+        "BACKEND": "django_redis.cache.RedisCache",
+        "LOCATION": "redis://:password@localhost:6379/2",
+        "OPTIONS": {
+            "CLIENT_CLASS": "django_redis.client.DefaultClient",
+        }
+    }
+}
+
+# ======系统资源 redis=======
+SYS_REDIS_HOST = '127.0.0.1'
+SYS_REDIS_DB = 1
+SYS_REDIS_PORT = 6379
+SYS_REDIS_PASSWORD = None
+
+# 默认网关
+EMAIL_HOST_USER = 'alarm@qssec.com'
+EMAIL_HOST_PASSWORD = ''
+EMAIL_HOST = 'smtp.exmail.qq.com'
+SERVER_EMAIL = 'alarm@qssec.com'
+
+# SOHU 邮件网关
+SOHU_EMAIL_URL = 'https://sendcloud.sohu.com/webapi/mail.send.json'
+SOHU_EMAIL_API_USER = ''
+SOHU_EMAIL_API_KEY = ''
+
+# ======= 短信发送 =======
+SEND_PHONE_MESSAGE_URL = ''
+CorpID = ''
+Pwd = ''
+
+# ======= Elastic Search 配置 =======
+ELASTICSEARCH_HOSTS = ['http://127.0.0.1:9200/']
+
+# ======= 用户对应私有化代理商信息 =======
+# 私有化代理商信息
+AGENT = {
+    "phone": ""
+}
+
+CRM_URL = ""
+MONGO_DB = {
+    "DB": '127.0.0.1',
+    "PORT": 27017,
+    "DBNAME": 'xunfeng',
+    "DBUSERNAME": 'scan',
+    "DBPASSWORD": 'scan123'
+
+}
+
+# ======= HDFS配置 =======
+HDFS_HOSTS = "http://127.0.0.1:50070"
+
+# ====== kafk配置 ========
+KAFKA_HOSTS = ['127.0.0.1:9092']
+KAFKA_TOPICS = 'realeventdata'

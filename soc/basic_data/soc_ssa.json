@@ -1,0 +1,4999 @@
+[
+  {
+    "fields": {
+      "time_format": "yyyy-MM-dd-HH",
+      "path": "ssa-ag-fw",
+      "company": null,
+      "name": "\u9632\u706b\u5899",
+      "agent": null
+    },
+    "model": "soc_ssa.ssadatatag",
+    "pk": 3
+  },
+  {
+    "fields": {
+      "time_format": "yyyy-MM-dd-HH",
+      "path": "ssa-ag-gl",
+      "company": null,
+      "name": "\u9694\u79bb\u8bbe\u5907",
+      "agent": null
+    },
+    "model": "soc_ssa.ssadatatag",
+    "pk": 11
+  },
+  {
+    "fields": {
+      "time_format": "yyyy-MM-dd-HH",
+      "path": "ssa-ag-bd",
+      "company": null,
+      "name": "\u6446\u6e21\u8bbe\u5907",
+      "agent": null
+    },
+    "model": "soc_ssa.ssadatatag",
+    "pk": 12
+  },
+  {
+    "fields": {
+      "time_format": "yyyy-MM-dd-HH",
+      "path": "ssa-ag-all-terminal",
+      "company": null,
+      "name": "\u7ec8\u7aef",
+      "agent": null
+    },
+    "model": "soc_ssa.ssadatatag",
+    "pk": 13
+  },
+  {
+    "fields": {
+      "time_format": "yyyy-MM-dd-HH",
+      "path": "ssa-ag-360",
+      "company": null,
+      "name": "\u6740\u6bd2\u8f6f\u4ef6",
+      "agent": null
+    },
+    "model": "soc_ssa.ssadatatag",
+    "pk": 20
+  },
+  {
+    "fields": {
+      "time_format": "yyyy-MM-dd-HH",
+      "path": "ssa-ag-database",
+      "company": null,
+      "name": "\u6570\u636e\u5e93\u5ba1\u8ba1",
+      "agent": null
+    },
+    "model": "soc_ssa.ssadatatag",
+    "pk": 21
+  },
+  {
+    "fields": {
+      "time_format": "yyyy-MM-dd-HH",
+      "path": "ssa-ag-ids",
+      "company": null,
+      "name": "IDS",
+      "agent": null
+    },
+    "model": "soc_ssa.ssadatatag",
+    "pk": 22
+  },
+  {
+    "fields": {
+      "name": "\u4e8b\u4ef6",
+      "diff_field": null,
+      "company": null,
+      "agent": null,
+      "time_format": "yyyy-MM-dd-HH",
+      "diff_value": null,
+      "path": "all-event"
+    },
+    "model": "soc_ssa.secdatatag",
+    "pk": 1
+  },
+  {
+    "fields": {
+      "name": "\u4e8b\u4ef6",
+      "diff_field": null,
+      "company": null,
+      "agent": null,
+      "time_format": "yyyy-MM-dd-HH",
+      "diff_value": null,
+      "path": "all-event"
+    },
+    "model": "soc_ssa.secdatatag",
+    "pk": 2
+  },
+  {
+    "fields": {
+      "name": "\u4e8b\u4ef6",
+      "diff_field": null,
+      "company": null,
+      "agent": null,
+      "time_format": "yyyy-MM-dd-HH",
+      "diff_value": null,
+      "path": "all-event"
+    },
+    "model": "soc_ssa.secdatatag",
+    "pk": 3
+  },
+  {
+    "fields": {
+      "name": "\u4e8b\u4ef6",
+      "diff_field": null,
+      "company": null,
+      "agent": null,
+      "time_format": "yyyy-MM-dd-HH",
+      "diff_value": null,
+      "path": "all-event"
+    },
+    "model": "soc_ssa.secdatatag",
+    "pk": 4
+  },
+  {
+    "fields": {
+      "name": "\u4e8b\u4ef6",
+      "diff_field": null,
+      "company": null,
+      "agent": null,
+      "time_format": "yyyy-MM-dd-HH",
+      "diff_value": null,
+      "path": "all-event"
+    },
+    "model": "soc_ssa.secdatatag",
+    "pk": 5
+  },
+  {
+    "fields": {
+      "name": "\u4e8b\u4ef6",
+      "diff_field": null,
+      "company": null,
+      "agent": null,
+      "time_format": "yyyy-MM-dd-HH",
+      "diff_value": null,
+      "path": "all-event"
+    },
+    "model": "soc_ssa.secdatatag",
+    "pk": 6
+  },
+  {
+    "fields": {
+      "name": "\u4e8b\u4ef6",
+      "diff_field": null,
+      "company": null,
+      "agent": null,
+      "time_format": "yyyy-MM-dd-HH",
+      "diff_value": null,
+      "path": "all-event"
+    },
+    "model": "soc_ssa.secdatatag",
+    "pk": 7
+  },
+  {
+    "fields": {
+      "template_type": 2,
+      "name": "\u7ec8\u7aef\u5b89\u5168\u68c0\u67e5\u5206\u6790\u62a5\u544a\uff08\u65e5\u62a5\uff09",
+      "schedule_time": "02:00:00",
+      "schedule_days": 1,
+      "schedule_months": 1,
+      "agent": 1,
+      "schedule_type": 3,
+      "content": "",
+      "schedule_start_date": "2018-08-03",
+      "company": null,
+      "next_scan_time": "2018-09-11T18:00:00Z"
+    },
+    "model": "soc_ssa.ssareporttemplate",
+    "pk": 1
+  },
+  {
+    "fields": {
+      "template_type": 2,
+      "name": "\u7ec8\u7aef\u5b89\u5168\u68c0\u67e5\u5206\u6790\u62a5\u544a\uff08\u5468\u62a5\uff09",
+      "schedule_time": "02:00:00",
+      "schedule_days": 1,
+      "schedule_months": 1,
+      "agent": 1,
+      "schedule_type": 4,
+      "content": "",
+      "schedule_start_date": "2018-08-08",
+      "company": null,
+      "next_scan_time": "2018-09-16T18:00:00Z"
+    },
+    "model": "soc_ssa.ssareporttemplate",
+    "pk": 2
+  },
+  {
+    "fields": {
+      "template_type": 2,
+      "name": "\u7ec8\u7aef\u5b89\u5168\u68c0\u67e5\u5206\u6790\u62a5\u544a\uff08\u6708\u62a5\uff09",
+      "schedule_time": "02:00:00",
+      "schedule_days": 1,
+      "schedule_months": 1,
+      "agent": 1,
+      "schedule_type": 5,
+      "content": "",
+      "schedule_start_date": "2018-08-06",
+      "company": null,
+      "next_scan_time": "2018-09-30T18:00:00Z"
+    },
+    "model": "soc_ssa.ssareporttemplate",
+    "pk": 3
+  },
+  {
+    "fields": {
+      "template_type": 2,
+      "name": "\u7ec8\u7aef\u5b89\u5168\u68c0\u67e5\u5206\u6790\u62a5\u544a\uff08\u5b63\u62a5\uff09",
+      "schedule_time": "02:00:00",
+      "schedule_days": 1,
+      "schedule_months": 1,
+      "agent": 1,
+      "schedule_type": 6,
+      "content": "",
+      "schedule_start_date": "2018-08-06",
+      "company": null,
+      "next_scan_time": "2018-10-19T18:00:00Z"
+    },
+    "model": "soc_ssa.ssareporttemplate",
+    "pk": 4
+  },
+  {
+    "fields": {
+      "template_type": 2,
+      "name": "\u7ec8\u7aef\u5b89\u5168\u68c0\u67e5\u5206\u6790\u62a5\u544a\uff08\u5e74\u62a5\uff09",
+      "schedule_time": "02:00:00",
+      "schedule_days": 1,
+      "schedule_months": 1,
+      "agent": 1,
+      "schedule_type": 7,
+      "content": "",
+      "schedule_start_date": "2018-08-06",
+      "company": null,
+      "next_scan_time": "2019-01-19T18:00:00Z"
+    },
+    "model": "soc_ssa.ssareporttemplate",
+    "pk": 5
+  },
+  {
+    "fields": {
+      "template_type": 2,
+      "name": "\u5185\u7f51\u5b89\u5168\u7edf\u8ba1\u62a5\u8868\uff08\u65e5\u62a5\uff09",
+      "schedule_time": "02:00:00",
+      "schedule_days": 1,
+      "schedule_months": 1,
+      "agent": 1,
+      "schedule_type": 3,
+      "content": null,
+      "schedule_start_date": "2018-08-30",
+      "company": null,
+      "next_scan_time": "2018-09-11T18:00:00Z"
+    },
+    "model": "soc_ssa.ssareporttemplate",
+    "pk": 6
+  },
+  {
+    "fields": {
+      "template_type": 2,
+      "name": "\u5185\u7f51\u5b89\u5168\u7edf\u8ba1\u62a5\u8868\uff08\u5468\u62a5\uff09",
+      "schedule_time": "02:00:00",
+      "schedule_days": 1,
+      "schedule_months": 1,
+      "agent": 1,
+      "schedule_type": 4,
+      "content": "",
+      "schedule_start_date": "2018-08-16",
+      "company": null,
+      "next_scan_time": "2018-09-16T18:00:00Z"
+    },
+    "model": "soc_ssa.ssareporttemplate",
+    "pk": 7
+  },
+  {
+    "fields": {
+      "template_type": 2,
+      "name": "\u5185\u7f51\u5b89\u5168\u7edf\u8ba1\u62a5\u8868\uff08\u6708\u62a5\uff09",
+      "schedule_time": "02:00:00",
+      "schedule_days": 1,
+      "schedule_months": 1,
+      "agent": 1,
+      "schedule_type": 5,
+      "content": "",
+      "schedule_start_date": "2018-08-16",
+      "company": null,
+      "next_scan_time": "2018-09-30T18:00:00Z"
+    },
+    "model": "soc_ssa.ssareporttemplate",
+    "pk": 8
+  },
+  {
+    "fields": {
+      "template_type": 2,
+      "name": "\u5185\u7f51\u5b89\u5168\u7edf\u8ba1\u62a5\u8868\uff08\u5b63\u62a5\uff09",
+      "schedule_time": "02:00:00",
+      "schedule_days": 1,
+      "schedule_months": 1,
+      "agent": 1,
+      "schedule_type": 6,
+      "content": "",
+      "schedule_start_date": "2018-08-16",
+      "company": null,
+      "next_scan_time": "2018-10-19T18:00:00Z"
+    },
+    "model": "soc_ssa.ssareporttemplate",
+    "pk": 9
+  },
+  {
+    "fields": {
+      "template_type": 2,
+      "name": "\u5185\u7f51\u5b89\u5168\u7edf\u8ba1\u62a5\u8868\uff08\u5e74\u62a5\uff09",
+      "schedule_time": "02:00:00",
+      "schedule_days": 1,
+      "schedule_months": 1,
+      "agent": 1,
+      "schedule_type": 7,
+      "content": "",
+      "schedule_start_date": "2018-08-16",
+      "company": null,
+      "next_scan_time": "2019-01-19T18:00:00Z"
+    },
+    "model": "soc_ssa.ssareporttemplate",
+    "pk": 10
+  },
+  {
+    "fields": {
+      "template_type": 2,
+      "name": "\u7ec8\u7aef\u5b89\u5168\u68c0\u67e5\u5206\u6790\u62a5\u544a\uff08\u81ea\u5b9a\u4e49\uff09",
+      "schedule_time": "16:44:25",
+      "schedule_days": 1,
+      "schedule_months": 1,
+      "agent": 1,
+      "schedule_type": 1,
+      "content": "",
+      "schedule_start_date": "2018-09-05",
+      "company": null,
+      "next_scan_time": "2018-09-05T08:44:25Z"
+    },
+    "model": "soc_ssa.ssareporttemplate",
+    "pk": 11
+  },
+  {
+    "fields": {
+      "template_type": 2,
+      "name": "\u5185\u7f51\u5b89\u5168\u7edf\u8ba1\u62a5\u8868\uff08\u81ea\u5b9a\u4e49\uff09",
+      "schedule_time": "16:44:34",
+      "schedule_days": 1,
+      "schedule_months": 1,
+      "agent": 1,
+      "schedule_type": 1,
+      "content": "",
+      "schedule_start_date": "2018-09-05",
+      "company": null,
+      "next_scan_time": "2018-09-05T08:44:35Z"
+    },
+    "model": "soc_ssa.ssareporttemplate",
+    "pk": 12
+  },
+  {
+    "fields": {
+      "template_type": 1,
+      "name": "\u52ff\u5220-\u4e8b\u4ef6\u7edf\u8ba1\u5206\u6790",
+      "schedule_time": "17:41:09",
+      "schedule_days": 1,
+      "schedule_months": 1,
+      "agent": 1,
+      "schedule_type": 2,
+      "content": "[{\"params\": {\"title\": \"\\u5185\\u7f51\\u4e8b\\u4ef6\\u7edf\\u8ba1\", \"time\": \"2018-08-02\"}, \"type\": \"module\"}, {\"params\": {\"title\": \"1\\u3001\\u75c5\\u6bd2\\u60c5\\u51b5\"}, \"type\": \"title1\"}, {\"remark\": \"\", \"name\": \"360\\u75c5\\u6bd2-\\u7ec8\\u7aef\\u88ab\\u611f\\u67d3\\u6587\\u4ef6\\u6392\\u884c\", \"data_type\": 99, \"type\": \"echart\", \"top\": 5, \"chart_type\": \"bar_y\", \"report_type\": \"custom\", \"has_table\": 0, \"id\": 80, \"unit\": \"number\", \"cycle\": 1}, {\"remark\": \"\", \"name\": \"360\\u75c5\\u6bd2\\u7c7b\\u578b\\u5360\\u6bd4\", \"data_type\": 99, \"type\": \"echart\", \"top\": 5, \"chart_type\": \"pie\", \"report_type\": \"custom\", \"has_table\": 0, \"id\": 78, \"unit\": \"number\", \"cycle\": 1}, {\"params\": {\"title\": \"2\\u3001\\u7ec8\\u7aef\\u884c\\u4e3a\"}, \"type\": \"title1\"}, {\"params\": {\"title\": \"2.1 \\u5f00\\u5173\\u673a\\u7edf\\u8ba1\"}, \"type\": \"title2\"}, {\"remark\": \"\", \"name\": \"\\u7ec8\\u7aef\\u884c\\u4e3a\\u8be6\\u60c5\", \"data_type\": 3, \"type\": \"echart\", \"section\": [{\"id\": \"1\", \"name\": \"\\u9a7b\\u573a\\u529e\\u516c\\u5ba4\"}, {\"id\": \"5\", \"name\": \"\\u5211\\u4fa6\\u529e\\u516c\\u5ba4\"}, {\"id\": \"7\", \"name\": \"\\u8d22\\u52a1\\u529e\\u516c\\u5ba4\"}, {\"id\": \"3\", \"name\": \"\\u6280\\u672f\\u529e\\u516c\\u5ba4\"}, {\"id\": \"4\", \"name\": \"\\u7814\\u53d1\\u529e\\u516c\\u5ba4\"}, {\"id\": \"2\", \"name\": \"\\u4eba\\u4e8b\\u529e\\u516c\\u5ba4\"}], \"top\": 5, \"chart_type\": \"table\", \"report_type\": \"report\", \"has_table\": 0, \"id\": 7, \"unit\": \"number\", \"cycle\": 1}, {\"remark\": \"\", \"name\": \"\\u767b\\u5f55\\u5931\\u8d25\\u6b21\\u6570\\u7edf\\u8ba1\", \"data_type\": 3, \"type\": \"echart\", \"section\": [{\"id\": \"-1\", \"name\": \"\\u5168\\u90e8\\u90e8\\u95e8\"}], \"top\": 5, \"chart_type\": \"bar_x\", \"report_type\": \"report\", \"has_table\": 0, \"id\": 9, \"unit\": \"number\", \"cycle\": 1}, {\"params\": {\"title\": \"2.2\\u6253\\u5370\\u60c5\\u51b5\\u7edf\\u8ba1\"}, \"type\": \"title2\"}, {\"remark\": \"\", \"name\": \"\\u6253\\u5370\\u8be6\\u60c5\", \"data_type\": 3, \"type\": \"echart\", \"section\": [{\"id\": \"-1\", \"name\": \"\\u5168\\u90e8\\u90e8\\u95e8\"}], \"top\": 5, \"chart_type\": \"table\", \"report_type\": \"report\", \"has_table\": 0, \"id\": 12, \"unit\": \"number\", \"cycle\": 1}, {\"remark\": \"\", \"name\": \"\\u6253\\u5370\\u60c5\\u51b5\\u7edf\\u8ba1\", \"data_type\": 3, \"type\": \"echart\", \"section\": [{\"id\": \"-1\", \"name\": \"\\u5168\\u90e8\\u90e8\\u95e8\"}], \"top\": 5, \"chart_type\": \"bar_pile_y\", \"report_type\": \"report\", \"has_table\": 0, \"id\": 10, \"unit\": \"number\", \"cycle\": 1}, {\"remark\": \"\", \"name\": \"\\u4e0b\\u73ed\\u6253\\u5370\\u8be6\\u60c5\", \"data_type\": 3, \"type\": \"echart\", \"section\": [{\"id\": \"-1\", \"name\": \"\\u5168\\u90e8\\u90e8\\u95e8\"}], \"top\": 5, \"chart_type\": \"table\", \"report_type\": \"report\", \"has_table\": 0, \"id\": 14, \"unit\": \"number\", \"cycle\": 1}, {\"params\": {\"title\": \"2.3\\u79fb\\u52a8\\u786c\\u76d8\\u4f7f\\u7528\\u60c5\\u51b5\"}, \"type\": \"title2\"}, {\"remark\": \"\", \"name\": \"\\u79fb\\u52a8\\u76d8\\u4f7f\\u7528\\u7edf\\u8ba1\", \"data_type\": 3, \"type\": \"echart\", \"section\": [{\"id\": \"-1\", \"name\": \"\\u5168\\u90e8\\u90e8\\u95e8\"}], \"top\": 5, \"chart_type\": \"bar_pile_y\", \"report_type\": \"report\", \"has_table\": 0, \"id\": 15, \"unit\": \"number\", \"cycle\": 1}, {\"remark\": \"\", \"name\": \"\\u79fb\\u52a8\\u76d8\\u4f7f\\u7528\\u8be6\\u60c5\", \"data_type\": 3, \"type\": \"echart\", \"section\": [{\"id\": \"-1\", \"name\": \"\\u5168\\u90e8\\u90e8\\u95e8\"}], \"top\": 5, \"chart_type\": \"table\", \"report_type\": \"report\", \"has_table\": 0, \"id\": 17, \"unit\": \"number\", \"cycle\": 1}, {\"params\": {\"title\": \"2.4\\u660e\\u6587\\u5b58\\u50a8\\u60c5\\u51b5\"}, \"type\": \"title2\"}, {\"remark\": \"\", \"name\": \"\\u660e\\u6587\\u5b58\\u50a8\\u7edf\\u8ba1\", \"data_type\": 3, \"type\": \"echart\", \"section\": [{\"id\": \"-1\", \"name\": \"\\u5168\\u90e8\\u90e8\\u95e8\"}], \"top\": 5, \"chart_type\": \"bar_x\", \"report_type\": \"report\", \"has_table\": 0, \"id\": 50, \"unit\": \"number\", \"cycle\": 1}, {\"remark\": \"\", \"name\": \"\\u660e\\u6587\\u5b58\\u50a8\\u8be6\\u60c5\", \"data_type\": 3, \"type\": \"echart\", \"section\": [{\"id\": \"-1\", \"name\": \"\\u5168\\u90e8\\u90e8\\u95e8\"}], \"top\": 5, \"chart_type\": \"table\", \"report_type\": \"report\", \"has_table\": 0, \"id\": 51, \"unit\": \"number\", \"cycle\": 1}, {\"params\": {\"title\": \"3\\u3001\\u6570\\u636e\\u5e93\\u5ba1\\u8ba1\"}, \"type\": \"title1\"}, {\"remark\": \"\", \"name\": \"\\u6570\\u636e\\u5e93\\u8fdd\\u89c4\\u64cd\\u4f5c\\u7ec8\\u7aef\\u7edf\\u8ba1\", \"data_type\": 99, \"type\": \"echart\", \"top\": 5, \"chart_type\": \"bar_y\", \"report_type\": \"custom\", \"has_table\": 0, \"id\": 92, \"unit\": \"number\", \"cycle\": 1}, {\"remark\": \"\", \"name\": \"\\u6570\\u636e\\u5e93\\u8fdd\\u89c4\\u64cd\\u4f5c\\u89c4\\u5219\\u96c6\\u5360\\u6bd4\", \"data_type\": 99, \"type\": \"echart\", \"top\": 5, \"chart_type\": \"pie\", \"report_type\": \"custom\", \"has_table\": 0, \"id\": 91, \"unit\": \"number\", \"cycle\": 1}, {\"params\": {\"title\": \"4\\u3001\\u7f51\\u7edc\\u5ba1\\u8ba1\"}, \"type\": \"title1\"}, {\"params\": {\"title\": \"4.1\\u3001\\u9632\\u706b\\u5899\\u7edf\\u8ba1\"}, \"type\": \"title2\"}, {\"remark\": \"\", \"name\": \"\\u9632\\u706b\\u5899\\u6d41\\u91cf\\u7edf\\u8ba1\", \"data_type\": 4, \"type\": \"echart\", \"top\": 5, \"chart_type\": \"line\", \"report_type\": \"report\", \"has_table\": 0, \"id\": 18, \"unit\": \"band\", \"cycle\": 1}, {\"remark\": \"\", \"name\": \"\\u9632\\u706b\\u5899\\u4e8b\\u4ef6\\u8d8b\\u52bf\", \"data_type\": 99, \"type\": \"echart\", \"top\": 5, \"chart_type\": \"line\", \"report_type\": \"custom\", \"has_table\": 0, \"id\": 90, \"unit\": \"number\", \"cycle\": 1}, {\"remark\": \"\", \"name\": \"\\u9632\\u706b\\u5899\\u4e8b\\u4ef6\\u7c7b\\u578b\\u7edf\\u8ba1\", \"data_type\": 99, \"type\": \"echart\", \"top\": 5, \"chart_type\": \"pie\", \"report_type\": \"custom\", \"has_table\": 0, \"id\": 101, \"unit\": \"number\", \"cycle\": 1}, {\"remark\": \"\", \"name\": \"\\u9632\\u706b\\u5899\\u6e90IP\\u653b\\u51fb\\u6b21\\u6570\\u7edf\\u8ba1TOP10\", \"data_type\": 99, \"type\": \"echart\", \"top\": 5, \"chart_type\": \"bar_y\", \"report_type\": \"custom\", \"has_table\": 0, \"id\": 86, \"unit\": \"number\", \"cycle\": 1}, {\"remark\": \"\", \"name\": \"\\u9632\\u706b\\u5899\\u76ee\\u6807IP\\u88ab\\u653b\\u51fb\\u6b21\\u6570\\u7edf\\u8ba1TOP10\", \"data_type\": 99, \"type\": \"echart\", \"top\": 5, \"chart_type\": \"bar_y\", \"report_type\": \"custom\", \"has_table\": 0, \"id\": 87, \"unit\": \"number\", \"cycle\": 1}, {\"params\": {\"title\": \"4.2\\u3001\\u9694\\u79bb\\u8bbe\\u5907\\u7edf\\u8ba1\"}, \"type\": \"title2\"}, {\"remark\": \"\", \"name\": \"\\u9694\\u79bb\\u6d41\\u91cf\\u7edf\\u8ba1\", \"data_type\": 4, \"type\": \"echart\", \"top\": 5, \"chart_type\": \"line\", \"report_type\": \"report\", \"has_table\": 0, \"id\": 57, \"unit\": \"band\", \"cycle\": 1}, {\"remark\": \"\", \"name\": \"\\u9694\\u79bb\\u8bbe\\u5907\\u6e90IP\\u53d1\\u9001\\u6d41\\u91cf\\u7edf\\u8ba1TOP10\", \"data_type\": 99, \"type\": \"echart\", \"top\": 5, \"chart_type\": \"bar_y\", \"report_type\": \"custom\", \"has_table\": 0, \"id\": 63, \"unit\": \"band\", \"cycle\": 1}, {\"remark\": \"\", \"name\": \"\\u9694\\u79bb\\u4e8b\\u4ef6\\u6e90IP\\u7edf\\u8ba1TOP10\", \"data_type\": 99, \"type\": \"echart\", \"top\": 5, \"chart_type\": \"bar_y\", \"report_type\": \"custom\", \"has_table\": 0, \"id\": 99, \"unit\": \"number\", \"cycle\": 1}, {\"remark\": \"\", \"name\": \"\\u9694\\u79bb\\u4e8b\\u4ef6\\u7c7b\\u578b\\u7edf\\u8ba1\", \"data_type\": 99, \"type\": \"echart\", \"top\": 5, \"chart_type\": \"pie\", \"report_type\": \"custom\", \"has_table\": 0, \"id\": 104, \"unit\": \"number\", \"cycle\": 1}, {\"params\": {\"title\": \"5\\u3001\\u5165\\u4fb5\\u68c0\\u6d4b\\u4e8b\\u4ef6\\u7edf\\u8ba1\"}, \"type\": \"title1\"}, {\"remark\": \"\", \"name\": \"IDS\\u76d1\\u6d4b\\u4e8b\\u4ef6\\u540d\\u79f0\\u5360\\u6bd4\", \"data_type\": 99, \"type\": \"echart\", \"top\": 5, \"chart_type\": \"pie\", \"report_type\": \"custom\", \"has_table\": 0, \"id\": 82, \"unit\": \"number\", \"cycle\": 1}, {\"remark\": \"\", \"name\": \"IDS\\u76d1\\u6d4b\\u653b\\u51fb\\u6e90\\u653b\\u51fb\\u6b21\\u6570\\u7edf\\u8ba1TOP10\", \"data_type\": 99, \"type\": \"echart\", \"top\": 5, \"chart_type\": \"bar_y\", \"report_type\": \"custom\", \"has_table\": 0, \"id\": 84, \"unit\": \"number\", \"cycle\": 1}, {\"remark\": \"\", \"name\": \"IDS\\u76d1\\u6d4b\\u7ec8\\u7aef\\u88ab\\u653b\\u51fb\\u6b21\\u6570\\u7edf\\u8ba1TOP10\", \"data_type\": 99, \"type\": \"echart\", \"top\": 5, \"chart_type\": \"bar_y\", \"report_type\": \"custom\", \"has_table\": 0, \"id\": 83, \"unit\": \"number\", \"cycle\": 1}]",
+      "schedule_start_date": "2018-08-10",
+      "company": null,
+      "next_scan_time": "2117-08-22T09:41:00Z"
+    },
+    "model": "soc_ssa.ssareporttemplate",
+    "pk": 245
+  },
+  {
+    "fields": {
+      "template_type": 1,
+      "name": "\u52ff\u5220-\u5185\u7f51\u653b\u51fb\u60c5\u51b5",
+      "schedule_time": "09:52:07",
+      "schedule_days": 1,
+      "schedule_months": 1,
+      "agent": 1,
+      "schedule_type": 2,
+      "content": "[{\"params\": {\"title\": \"\\u5185\\u7f51\\u653b\\u51fb\\u60c5\\u51b5\\u7edf\\u8ba1\", \"time\": \"2018-08-03\"}, \"type\": \"module\"}, {\"params\": {\"title\": \"1\\u3001\\u5185\\u7f51\\u653b\\u51fb\\u8d8b\\u52bf\\u5206\\u6790\"}, \"type\": \"title1\"}, {\"params\": {\"title\": \"1.1\\u3001\\u653b\\u51fb\\u4e8b\\u4ef6\\u8d8b\\u52bf\\u5206\\u6790\"}, \"type\": \"title2\"}, {\"remark\": \"\", \"name\": \"\\u653b\\u51fb\\u4e8b\\u4ef6\\u7edf\\u8ba1\", \"data_type\": 5, \"type\": \"echart\", \"top\": 5, \"chart_type\": \"line\", \"report_type\": \"report\", \"has_table\": 0, \"id\": 30, \"unit\": \"number\", \"cycle\": 1}, {\"params\": {\"title\": \"1.2\\u3001\\u653b\\u51fb\\u7c7b\\u578b\\u8d8b\\u52bf\\u5206\\u6790\"}, \"type\": \"title2\"}, {\"remark\": \"\", \"name\": \"\\u5b89\\u5168\\u7c7b\\u578b\\u7edf\\u8ba1\", \"data_type\": 5, \"type\": \"echart\", \"top\": 5, \"chart_type\": \"line\", \"report_type\": \"report\", \"has_table\": 0, \"id\": 31, \"unit\": \"number\", \"cycle\": 1}, {\"params\": {\"title\": \"2\\u3001\\u653b\\u51fb\\u60c5\\u51b5\\u7edf\\u8ba1\"}, \"type\": \"title1\"}, {\"params\": {\"title\": \"2.1\\u3001\\u653b\\u51fb\\u4e8b\\u4ef6\\u98ce\\u9669\\u7ea7\\u522b\\u5360\\u6bd4\"}, \"type\": \"title2\"}, {\"remark\": \"\", \"name\": \"\\u653b\\u51fb\\u4e25\\u91cd\\u7b49\\u7ea7\\u4e8b\\u4ef6\\u6570\", \"data_type\": 5, \"type\": \"echart\", \"top\": 5, \"chart_type\": \"pie\", \"report_type\": \"report\", \"has_table\": 0, \"id\": 32, \"unit\": \"number\", \"cycle\": 1}, {\"params\": {\"title\": \"2.2\\u3001\\u653b\\u51fb\\u4e8b\\u4ef6\\u7c7b\\u578b\\u5360\\u6bd4\"}, \"type\": \"title2\"}, {\"remark\": \"\", \"name\": \"IDS\\u76d1\\u6d4b\\u4e8b\\u4ef6\\u540d\\u79f0\\u5360\\u6bd4\", \"data_type\": 99, \"type\": \"echart\", \"top\": 5, \"chart_type\": \"pie\", \"report_type\": \"custom\", \"has_table\": 0, \"id\": 82, \"unit\": \"number\", \"cycle\": 1}, {\"params\": {\"title\": \"2.3\\u3001\\u653b\\u51fb\\u6e90\\u653b\\u51fb\\u6b21\\u6570\\u7edf\\u8ba1\"}, \"type\": \"title2\"}, {\"remark\": \"\", \"name\": \"IDS\\u76d1\\u6d4b\\u653b\\u51fb\\u6e90\\u653b\\u51fb\\u6b21\\u6570\\u7edf\\u8ba1TOP10\", \"data_type\": 99, \"type\": \"echart\", \"top\": 5, \"chart_type\": \"bar_y\", \"report_type\": \"custom\", \"has_table\": 0, \"id\": 84, \"unit\": \"number\", \"cycle\": 1}, {\"params\": {\"title\": \"2.4\\u3001\\u5185\\u7f51\\u7ec8\\u7aef\\u88ab\\u653b\\u51fb\\u6b21\\u6570\\u7edf\\u8ba1\"}, \"type\": \"title2\"}, {\"remark\": \"\", \"name\": \"IDS\\u76d1\\u6d4b\\u7ec8\\u7aef\\u88ab\\u653b\\u51fb\\u6b21\\u6570\\u7edf\\u8ba1TOP10\", \"data_type\": 99, \"type\": \"echart\", \"top\": 5, \"chart_type\": \"bar_y\", \"report_type\": \"custom\", \"has_table\": 0, \"id\": 83, \"unit\": \"number\", \"cycle\": 1}]",
+      "schedule_start_date": "2018-08-06",
+      "company": null,
+      "next_scan_time": "2117-08-22T01:52:00Z"
+    },
+    "model": "soc_ssa.ssareporttemplate",
+    "pk": 248
+  },
+  {
+    "fields": {
+      "template_type": 1,
+      "name": "\u52ff\u5220-\u7f51\u7edc\u60c5\u51b5\u5206\u6790",
+      "schedule_time": "09:52:22",
+      "schedule_days": 1,
+      "schedule_months": 1,
+      "agent": 1,
+      "schedule_type": 2,
+      "content": "[{\"params\": {\"title\": \"\\u5185\\u7f51\\u7f51\\u7edc\\u60c5\\u51b5\\u5206\\u6790\", \"time\": \"2018-08-03\"}, \"type\": \"module\"}, {\"params\": {\"title\": \"1\\u3001\\u7f51\\u7edc\\u57fa\\u672c\\u60c5\\u51b5\"}, \"type\": \"title1\"}, {\"params\": {\"title\": \"1.1\\u3001\\u7f51\\u7edc\\u6d41\\u91cf\\u60c5\\u51b5\"}, \"type\": \"title2\"}, {\"remark\": \"\", \"name\": \"\\u9632\\u706b\\u5899\\u6d41\\u91cf\\u8d8b\\u52bf\", \"data_type\": 99, \"type\": \"echart\", \"top\": 5, \"chart_type\": \"line\", \"report_type\": \"custom\", \"has_table\": 0, \"id\": 52, \"unit\": \"band\", \"cycle\": 1}, {\"params\": {\"title\": \"1.2\\u3001\\u5404\\u534f\\u8bae\\u6d41\\u91cf\\u5360\\u6bd4\"}, \"type\": \"title2\"}, {\"remark\": \"\", \"name\": \"\\u9632\\u706b\\u5899\\u534f\\u8bae\\u7c7b\\u578b\\u5360\\u6bd4\", \"data_type\": 99, \"type\": \"echart\", \"top\": 5, \"chart_type\": \"pie\", \"report_type\": \"custom\", \"has_table\": 0, \"id\": 55, \"unit\": \"number\", \"cycle\": 1}, {\"params\": {\"title\": \"1.3\\u3001\\u5404\\u534f\\u8bae\\u6d41\\u91cf\\u8be6\\u60c5\"}, \"type\": \"title2\"}, {\"remark\": \"\", \"name\": \"\\u9632\\u706b\\u5899\\u5404\\u534f\\u8bae\\u6d41\\u91cf\\u7edf\\u8ba1\", \"data_type\": 99, \"type\": \"echart\", \"top\": 5, \"chart_type\": \"bar_y\", \"report_type\": \"custom\", \"has_table\": 0, \"id\": 56, \"unit\": \"band\", \"cycle\": 1}, {\"params\": {\"title\": \"2\\u3001\\u7f51\\u7edc\\u4e8b\\u4ef6\\u5206\\u6790\"}, \"type\": \"title1\"}, {\"params\": {\"title\": \"2.1\\u3001\\u7f51\\u7edc\\u4e8b\\u4ef6\\u7c7b\\u578b\\u5360\\u6bd4\"}, \"type\": \"title2\"}, {\"remark\": \"\", \"name\": \"\\u9694\\u79bb\\u4e8b\\u4ef6\\u7c7b\\u578b\\u7edf\\u8ba1\", \"data_type\": 99, \"type\": \"echart\", \"top\": 5, \"chart_type\": \"pie\", \"report_type\": \"custom\", \"has_table\": 0, \"id\": 104, \"unit\": \"number\", \"cycle\": 1}, {\"params\": {\"title\": \"2.2\\u3001\\u9632\\u706b\\u5899\\u76d1\\u6d4b\\u653b\\u51fb\\u6e90\\u653b\\u51fb\\u6b21\\u6570\\u6392\\u884c\"}, \"type\": \"title2\"}, {\"remark\": \"\", \"name\": \"\\u9632\\u706b\\u5899\\u6e90IP\\u653b\\u51fb\\u6b21\\u6570\\u7edf\\u8ba1TOP10\", \"data_type\": 99, \"type\": \"echart\", \"top\": 5, \"chart_type\": \"bar_y\", \"report_type\": \"custom\", \"has_table\": 0, \"id\": 86, \"unit\": \"number\", \"cycle\": 1}, {\"params\": {\"title\": \"2.3\\u3001\\u9632\\u706b\\u5899\\u76d1\\u6d4b\\u88ab\\u653b\\u51fb\\u7ec8\\u7aef\\u88ab\\u653b\\u51fb\\u6b21\\u6570\\u6392\\u884c\"}, \"type\": \"title2\"}, {\"remark\": \"\", \"name\": \"\\u9632\\u706b\\u5899\\u76ee\\u6807IP\\u88ab\\u653b\\u51fb\\u6b21\\u6570\\u7edf\\u8ba1TOP10\", \"data_type\": 99, \"type\": \"echart\", \"top\": 5, \"chart_type\": \"bar_y\", \"report_type\": \"custom\", \"has_table\": 0, \"id\": 87, \"unit\": \"number\", \"cycle\": 1}]",
+      "schedule_start_date": "2018-08-06",
+      "company": null,
+      "next_scan_time": "2117-08-22T01:52:00Z"
+    },
+    "model": "soc_ssa.ssareporttemplate",
+    "pk": 249
+  },
+  {
+    "fields": {
+      "template_type": 1,
+      "name": "\u52ff\u5220-\u8fdd\u89c4\u64cd\u4f5c\u60c5\u51b5\u5206\u6790",
+      "schedule_time": "09:19:35",
+      "schedule_days": 1,
+      "schedule_months": 1,
+      "agent": 1,
+      "schedule_type": 2,
+      "content": "[{\"params\": {\"time\": \"2018-08-03\", \"title\": \"\\u5185\\u7f51\\u8fdd\\u89c4\\u64cd\\u4f5c\\u60c5\\u51b5\\u5206\\u6790\"}, \"type\": \"module\"}, {\"params\": {\"title\": \"1\\u3001\\u7ec8\\u7aef\\u8fdd\\u89c4\\u64cd\\u4f5c\\u5206\\u6790\"}, \"type\": \"title1\"}, {\"params\": {\"title\": \"1.1\\u3001\\u767b\\u5f55\\u5931\\u8d25\\u60c5\\u51b5\"}, \"type\": \"title2\"}, {\"remark\": \"\", \"name\": \"\\u767b\\u5f55\\u5931\\u8d25\\u6b21\\u6570\\u7edf\\u8ba1\", \"data_type\": 3, \"type\": \"echart\", \"section\": [{\"id\": \"-1\", \"name\": \"\\u5168\\u90e8\\u90e8\\u95e8\"}], \"top\": 5, \"chart_type\": \"bar_y\", \"report_type\": \"report\", \"has_table\": 0, \"id\": 9, \"unit\": \"number\", \"cycle\": 1}, {\"params\": {\"title\": \"1.2\\u3001\\u975e\\u5de5\\u4f5c\\u65f6\\u95f4\\u64cd\\u4f5c\"}, \"type\": \"title2\"}, {\"remark\": \"\", \"name\": \"\\u4e0b\\u73ed\\u6253\\u5370\\u7edf\\u8ba1\", \"data_type\": 3, \"type\": \"echart\", \"section\": [{\"id\": \"-1\", \"name\": \"\\u5168\\u90e8\\u90e8\\u95e8\"}], \"top\": 5, \"chart_type\": \"bar_pile_x\", \"report_type\": \"report\", \"has_table\": 0, \"id\": 13, \"unit\": \"number\", \"cycle\": 1}, {\"remark\": \"\", \"name\": \"\\u4e0b\\u73ed\\u6253\\u5370\\u8be6\\u60c5\", \"data_type\": 3, \"type\": \"echart\", \"section\": [{\"id\": \"-1\", \"name\": \"\\u5168\\u90e8\\u90e8\\u95e8\"}], \"top\": 5, \"chart_type\": \"table\", \"report_type\": \"report\", \"has_table\": 0, \"id\": 14, \"unit\": \"number\", \"cycle\": 1}, {\"params\": {\"title\": \"1.3\\u3001\\u660e\\u6587\\u5b58\\u50a8\"}, \"type\": \"title2\"}, {\"remark\": \"\", \"name\": \"\\u660e\\u6587\\u5b58\\u50a8\\u7edf\\u8ba1\", \"data_type\": 3, \"type\": \"echart\", \"section\": [{\"id\": \"-1\", \"name\": \"\\u5168\\u90e8\\u90e8\\u95e8\"}], \"top\": 5, \"chart_type\": \"bar_x\", \"report_type\": \"report\", \"has_table\": 0, \"id\": 50, \"unit\": \"number\", \"cycle\": 1}, {\"remark\": \"\", \"name\": \"\\u660e\\u6587\\u5b58\\u50a8\\u8be6\\u60c5\", \"data_type\": 3, \"type\": \"echart\", \"section\": [{\"id\": \"-1\", \"name\": \"\\u5168\\u90e8\\u90e8\\u95e8\"}], \"top\": 5, \"chart_type\": \"table\", \"report_type\": \"report\", \"has_table\": 0, \"id\": 51, \"unit\": \"number\", \"cycle\": 1}, {\"params\": {\"title\": \"2\\u3001\\u6570\\u636e\\u5e93\\u8fdd\\u89c4\\u64cd\\u4f5c\\u5206\\u6790\"}, \"type\": \"title2\"}, {\"params\": {\"title\": \"2.1\\u3001\\u8fdd\\u89c4\\u64cd\\u4f5c\\u8d8b\\u52bf\\u5206\\u6790\"}, \"type\": \"title2\"}, {\"remark\": \"\", \"name\": \"\\u8fdd\\u89c4\\u64cd\\u4f5c\\u6570\\u636e\\u5e93\\u7c7b\\u578b\\u4e8b\\u4ef6\\u7edf\\u8ba1\", \"data_type\": 6, \"type\": \"echart\", \"top\": 5, \"chart_type\": \"line\", \"report_type\": \"report\", \"has_table\": 0, \"id\": 39, \"unit\": \"number\", \"cycle\": 1}, {\"params\": {\"title\": \"2.2\\u3001\\u7ec8\\u7aef\\u64cd\\u4f5c\\u8fdd\\u89c4\\u6b21\\u6570\\u7edf\\u8ba1\"}, \"type\": \"title2\"}, {\"remark\": \"\", \"name\": \"\\u6570\\u636e\\u5e93\\u8fdd\\u89c4\\u64cd\\u4f5c\\u7ec8\\u7aef\\u7edf\\u8ba1\", \"data_type\": 99, \"type\": \"echart\", \"top\": 5, \"chart_type\": \"bar_y\", \"report_type\": \"custom\", \"has_table\": 0, \"id\": 92, \"unit\": \"number\", \"cycle\": 1}, {\"params\": {\"title\": \"2.3\\u3001\\u64cd\\u4f5c\\u8fdd\\u89c4\\u7c7b\\u578b\\u5360\\u6bd4\"}, \"type\": \"title2\"}, {\"remark\": \"\", \"name\": \"\\u6570\\u636e\\u5e93\\u8fdd\\u89c4\\u64cd\\u4f5c\\u89c4\\u5219\\u96c6\\u5360\\u6bd4\", \"data_type\": 99, \"type\": \"echart\", \"top\": 5, \"chart_type\": \"pie\", \"report_type\": \"custom\", \"has_table\": 0, \"id\": 91, \"unit\": \"number\", \"cycle\": 1}]",
+      "schedule_start_date": "2018-08-09",
+      "company": null,
+      "next_scan_time": "2117-08-20T01:19:00Z"
+    },
+    "model": "soc_ssa.ssareporttemplate",
+    "pk": 250
+  },
+  {
+    "fields": {
+      "template_type": 1,
+      "name": "\u52ff\u5220-\u7ec8\u7aef\u4f7f\u7528\u60c5\u51b5\u5206\u6790",
+      "schedule_time": "16:12:13",
+      "schedule_days": 1,
+      "schedule_months": 1,
+      "agent": 1,
+      "schedule_type": 2,
+      "content": "[{\"params\": {\"title\": \"\\u7ec8\\u7aef\\u64cd\\u4f5c\\u60c5\\u51b5\\u5206\\u6790\", \"time\": \"2018-08-05\"}, \"type\": \"module\"}, {\"params\": {\"title\": \"1\\u3001\\u7ec8\\u7aef\\u767b\\u5f55\\u60c5\\u51b5\\u7edf\\u8ba1\"}, \"type\": \"title1\"}, {\"params\": {\"title\": \"1.1\\u3001\\u7ec8\\u7aef\\u767b\\u5f55\\u6b21\\u6570\\u7edf\\u8ba1TOP5\"}, \"type\": \"title2\"}, {\"remark\": \"\", \"name\": \"\\u767b\\u5f55\\u6b21\\u6570\\u7edf\\u8ba1\", \"data_type\": 3, \"type\": \"echart\", \"section\": [{\"id\": \"1\", \"name\": \"\\u9a7b\\u573a\\u529e\\u516c\\u5ba4\"}], \"top\": 5, \"chart_type\": \"bar_y\", \"report_type\": \"report\", \"has_table\": 0, \"id\": 8, \"unit\": \"number\", \"cycle\": 1}, {\"params\": {\"title\": \"1.2\\u3001\\u7ec8\\u7aef\\u767b\\u5f55\\u5931\\u8d25\\u6b21\\u6570\\u7edf\\u8ba1TOP5\"}, \"type\": \"title2\"}, {\"remark\": \"\", \"name\": \"\\u767b\\u5f55\\u5931\\u8d25\\u6b21\\u6570\\u7edf\\u8ba1\", \"data_type\": 3, \"type\": \"echart\", \"section\": [{\"id\": \"1\", \"name\": \"\\u9a7b\\u573a\\u529e\\u516c\\u5ba4\"}], \"top\": 5, \"chart_type\": \"bar_x\", \"report_type\": \"report\", \"has_table\": 0, \"id\": 9, \"unit\": \"number\", \"cycle\": 1}, {\"params\": {\"title\": \"1.3\\u3001\\u7ec8\\u7aef\\u767b\\u5f55\\u8be6\\u60c5\"}, \"type\": \"title2\"}, {\"remark\": \"\", \"name\": \"\\u7ec8\\u7aef\\u884c\\u4e3a\\u8be6\\u60c5\", \"data_type\": 3, \"type\": \"echart\", \"section\": [{\"id\": \"1\", \"name\": \"\\u9a7b\\u573a\\u529e\\u516c\\u5ba4\"}], \"top\": 5, \"chart_type\": \"table\", \"report_type\": \"report\", \"has_table\": 0, \"id\": 7, \"unit\": \"number\", \"cycle\": 1}, {\"params\": {\"title\": \"2\\u3001\\u7ec8\\u7aef\\u6253\\u5370\\u60c5\\u51b5\\u7edf\\u8ba1\"}, \"type\": \"title1\"}, {\"params\": {\"title\": \"2.1\\u3001\\u7ec8\\u7aef\\u6253\\u5370\\u6b21\\u6570\\u7edf\\u8ba1TOP5\"}, \"type\": \"title2\"}, {\"remark\": \"\", \"name\": \"\\u6253\\u5370\\u60c5\\u51b5\\u7edf\\u8ba1\", \"data_type\": 3, \"type\": \"echart\", \"section\": [{\"id\": \"1\", \"name\": \"\\u9a7b\\u573a\\u529e\\u516c\\u5ba4\"}], \"top\": 5, \"chart_type\": \"bar_pile_y\", \"report_type\": \"report\", \"has_table\": 0, \"id\": 10, \"unit\": \"number\", \"cycle\": 1}, {\"params\": {\"title\": \"2.2\\u3001\\u6253\\u5370\\u8be6\\u60c5\"}, \"type\": \"title2\"}, {\"remark\": \"\", \"name\": \"\\u6253\\u5370\\u8be6\\u60c5\", \"data_type\": 3, \"type\": \"echart\", \"section\": [{\"id\": \"1\", \"name\": \"\\u9a7b\\u573a\\u529e\\u516c\\u5ba4\"}], \"top\": 5, \"chart_type\": \"table\", \"report_type\": \"report\", \"has_table\": 0, \"id\": 12, \"unit\": \"number\", \"cycle\": 1}, {\"params\": {\"title\": \"2.3\\u3001\\u4e0b\\u73ed\\u6253\\u5370\\u60c5\\u51b5\\u7edf\\u8ba1\"}, \"type\": \"title2\"}, {\"remark\": \"\", \"name\": \"\\u4e0b\\u73ed\\u6253\\u5370\\u7edf\\u8ba1\", \"data_type\": 3, \"type\": \"echart\", \"section\": [{\"id\": \"1\", \"name\": \"\\u9a7b\\u573a\\u529e\\u516c\\u5ba4\"}], \"top\": 5, \"chart_type\": \"bar_y\", \"report_type\": \"report\", \"has_table\": 0, \"id\": 13, \"unit\": \"number\", \"cycle\": 1}, {\"params\": {\"title\": \"2.4\\u3001\\u4e0b\\u73ed\\u6253\\u5370\\u8be6\\u60c5\"}, \"type\": \"title2\"}, {\"remark\": \"\", \"name\": \"\\u4e0b\\u73ed\\u6253\\u5370\\u8be6\\u60c5\", \"data_type\": 3, \"type\": \"echart\", \"section\": [{\"id\": \"1\", \"name\": \"\\u9a7b\\u573a\\u529e\\u516c\\u5ba4\"}], \"top\": 5, \"chart_type\": \"table\", \"report_type\": \"report\", \"has_table\": 0, \"id\": 14, \"unit\": \"number\", \"cycle\": 1}, {\"params\": {\"title\": \"3\\u3001\\u79fb\\u52a8\\u76d8\\u4f7f\\u7528\\u60c5\\u51b5\"}, \"type\": \"title1\"}, {\"remark\": \"\", \"name\": \"\\u79fb\\u52a8\\u76d8\\u4f7f\\u7528\\u7edf\\u8ba1\", \"data_type\": 3, \"type\": \"echart\", \"section\": [{\"id\": \"1\", \"name\": \"\\u9a7b\\u573a\\u529e\\u516c\\u5ba4\"}], \"top\": 5, \"chart_type\": \"bar_pile_x\", \"report_type\": \"report\", \"has_table\": 0, \"id\": 15, \"unit\": \"number\", \"cycle\": 1}, {\"remark\": \"\", \"name\": \"\\u79fb\\u52a8\\u76d8\\u4f7f\\u7528\\u8be6\\u60c5\", \"data_type\": 3, \"type\": \"echart\", \"section\": [{\"id\": \"1\", \"name\": \"\\u9a7b\\u573a\\u529e\\u516c\\u5ba4\"}], \"top\": 5, \"chart_type\": \"table\", \"report_type\": \"report\", \"has_table\": 0, \"id\": 17, \"unit\": \"number\", \"cycle\": 1}, {\"params\": {\"title\": \"4\\u3001\\u523b\\u5f55\\u60c5\\u51b5\\u7edf\\u8ba1\"}, \"type\": \"title1\"}, {\"params\": {\"title\": \"4.1\\u3001\\u7ec8\\u7aef\\u523b\\u5f55\\u6b21\\u6570\\u7edf\\u8ba1TOP5\"}, \"type\": \"title2\"}, {\"remark\": \"\", \"name\": \"\\u523b\\u5f55\\u60c5\\u51b5\\u7edf\\u8ba1\", \"data_type\": 3, \"type\": \"echart\", \"section\": [{\"id\": \"1\", \"name\": \"\\u9a7b\\u573a\\u529e\\u516c\\u5ba4\"}], \"top\": 5, \"chart_type\": \"bar_pile_y\", \"report_type\": \"report\", \"has_table\": 0, \"id\": 48, \"unit\": \"number\", \"cycle\": 1}, {\"params\": {\"title\": \"4.2\\u3001\\u7ec8\\u7aef\\u523b\\u5f55\\u8be6\\u60c5\"}, \"type\": \"title2\"}, {\"remark\": \"\", \"name\": \"\\u523b\\u5f55\\u4f7f\\u7528\\u8be6\\u60c5\", \"data_type\": 3, \"type\": \"echart\", \"section\": [{\"id\": \"1\", \"name\": \"\\u9a7b\\u573a\\u529e\\u516c\\u5ba4\"}], \"top\": 5, \"chart_type\": \"table\", \"report_type\": \"report\", \"has_table\": 0, \"id\": 49, \"unit\": \"number\", \"cycle\": 1}, {\"params\": {\"title\": \"5\\u3001\\u5916\\u8bbe\\u64cd\\u4f5c\\u8be6\\u60c5\"}, \"type\": \"title1\"}, {\"params\": {\"title\": \"5.1\\u3001\\u5916\\u90e8\\u63a5\\u53e3\\u8fde\\u63a5\\u6b21\\u6570\\u7edf\\u8ba1TOP5\"}, \"type\": \"title2\"}, {\"remark\": \"\", \"name\": \"\\u5916\\u8054\\u63a5\\u53e3\\u7edf\\u8ba1\", \"data_type\": 3, \"type\": \"echart\", \"section\": [{\"id\": \"1\", \"name\": \"\\u9a7b\\u573a\\u529e\\u516c\\u5ba4\"}], \"top\": 5, \"chart_type\": \"bar_pile_y\", \"report_type\": \"report\", \"has_table\": 0, \"id\": 52, \"unit\": \"number\", \"cycle\": 1}, {\"params\": {\"title\": \"5.2\\u3001\\u624b\\u673a\\u5145\\u7535\\u60c5\\u51b5\\u7edf\\u8ba1\"}, \"type\": \"title2\"}, {\"remark\": \"\", \"name\": \"\\u624b\\u673a\\u5145\\u7535\\u60c5\\u51b5\\u7edf\\u8ba1\", \"data_type\": 3, \"type\": \"echart\", \"section\": [{\"id\": \"1\", \"name\": \"\\u9a7b\\u573a\\u529e\\u516c\\u5ba4\"}], \"top\": 5, \"chart_type\": \"bar_pile_x\", \"report_type\": \"report\", \"has_table\": 0, \"id\": 53, \"unit\": \"number\", \"cycle\": 1}, {\"remark\": \"\", \"name\": \"\\u624b\\u673a\\u5145\\u7535\\u8be6\\u60c5\", \"data_type\": 3, \"type\": \"echart\", \"section\": [{\"id\": \"1\", \"name\": \"\\u9a7b\\u573a\\u529e\\u516c\\u5ba4\"}], \"top\": 5, \"chart_type\": \"table\", \"report_type\": \"report\", \"has_table\": 0, \"id\": 54, \"unit\": \"number\", \"cycle\": 1}, {\"params\": {\"title\": \"6\\u3001TMS\\u5b89\\u88c5\\u5378\\u8f7d\\u60c5\\u51b5\\u7edf\\u8ba1\"}, \"type\": \"title1\"}, {\"params\": {\"title\": \"6.1\\u3001TMS\\u5b89\\u88c5\\u5378\\u8f7d\\u6b21\\u6570\\u7edf\\u8ba1TOP5\"}, \"type\": \"title2\"}, {\"remark\": \"\", \"name\": \"TMS\\u5b89\\u88c5\\u5378\\u8f7d\\u7edf\\u8ba1\", \"data_type\": 3, \"type\": \"echart\", \"section\": [{\"id\": \"1\", \"name\": \"\\u9a7b\\u573a\\u529e\\u516c\\u5ba4\"}], \"top\": 5, \"chart_type\": \"bar_pile_y\", \"report_type\": \"report\", \"has_table\": 0, \"id\": 55, \"unit\": \"number\", \"cycle\": 1}, {\"params\": {\"title\": \"6.2\\u3001TMS\\u5b89\\u88c5\\u5378\\u8f7d\\u8be6\\u60c5\"}, \"type\": \"title2\"}, {\"remark\": \"\", \"name\": \"TMS\\u5b89\\u88c5\\u5378\\u8f7d\\u8be6\\u60c5\", \"data_type\": 3, \"type\": \"echart\", \"section\": [{\"id\": \"1\", \"name\": \"\\u9a7b\\u573a\\u529e\\u516c\\u5ba4\"}], \"top\": 5, \"chart_type\": \"table\", \"report_type\": \"report\", \"has_table\": 0, \"id\": 56, \"unit\": \"number\", \"cycle\": 1}, {\"params\": {\"title\": \"7\\u3001\\u7ec8\\u7aef\\u660e\\u6587\\u5b58\\u50a8\\u7edf\\u8ba1\"}, \"type\": \"title1\"}, {\"remark\": \"\", \"name\": \"\\u660e\\u6587\\u5b58\\u50a8\\u8be6\\u60c5\", \"data_type\": 3, \"type\": \"echart\", \"section\": [{\"id\": \"1\", \"name\": \"\\u9a7b\\u573a\\u529e\\u516c\\u5ba4\"}], \"top\": 5, \"chart_type\": \"table\", \"report_type\": \"report\", \"has_table\": 0, \"id\": 51, \"unit\": \"number\", \"cycle\": 1}]",
+      "schedule_start_date": "2018-08-06",
+      "company": null,
+      "next_scan_time": "2117-08-22T08:12:00Z"
+    },
+    "model": "soc_ssa.ssareporttemplate",
+    "pk": 261
+  },
+
+  {
+    "fields": {
+      "default_chart": "line",
+      "data_key": "asset_total_data",
+      "name": "\u8d44\u4ea7\u603b\u6570\u7edf\u8ba1",
+      "data_type": 1,
+      "description": ""
+    },
+    "model": "soc_ssa.ssareportcell",
+    "pk": 1
+  },
+  {
+    "fields": {
+      "default_chart": "line",
+      "data_key": "asset_add_total_data",
+      "name": "\u65b0\u589e\u8d44\u4ea7\u6570\u7edf\u8ba1",
+      "data_type": 1,
+      "description": ""
+    },
+    "model": "soc_ssa.ssareportcell",
+    "pk": 2
+  },
+  {
+    "fields": {
+      "default_chart": "bar_x",
+      "data_key": "asset_type_data",
+      "name": "\u8d44\u4ea7\u7c7b\u578b\u5360\u6bd4",
+      "data_type": 1,
+      "description": ""
+    },
+    "model": "soc_ssa.ssareportcell",
+    "pk": 3
+  },
+  {
+    "fields": {
+      "default_chart": "line",
+      "data_key": "event_all_count_data",
+      "name": "\u4e8b\u4ef6\u7edf\u8ba1",
+      "data_type": 2,
+      "description": ""
+    },
+    "model": "soc_ssa.ssareportcell",
+    "pk": 4
+  },
+  {
+    "fields": {
+      "default_chart": "bar_x",
+      "data_key": "event_type_count_data",
+      "name": "\u4e8b\u4ef6\u7c7b\u578b\u7edf\u8ba1",
+      "data_type": 2,
+      "description": ""
+    },
+    "model": "soc_ssa.ssareportcell",
+    "pk": 5
+  },
+  {
+    "fields": {
+      "default_chart": "line",
+      "data_key": "event_source_type_data",
+      "name": "\u4e8b\u4ef6\u6765\u6e90\u7edf\u8ba1",
+      "data_type": 2,
+      "description": ""
+    },
+    "model": "soc_ssa.ssareportcell",
+    "pk": 6
+  },
+  {
+    "fields": {
+      "default_chart": "table",
+      "data_key": "terminal_detail_data",
+      "name": "\u7ec8\u7aef\u884c\u4e3a\u8be6\u60c5",
+      "data_type": 3,
+      "description": ""
+    },
+    "model": "soc_ssa.ssareportcell",
+    "pk": 7
+  },
+  {
+    "fields": {
+      "default_chart": "bar_x",
+      "data_key": "terminal_login_nums_data",
+      "name": "\u767b\u5f55\u6b21\u6570\u7edf\u8ba1",
+      "data_type": 3,
+      "description": ""
+    },
+    "model": "soc_ssa.ssareportcell",
+    "pk": 8
+  },
+  {
+    "fields": {
+      "default_chart": "bar_x",
+      "data_key": "terminal_fail_login_nums_data",
+      "name": "\u767b\u5f55\u5931\u8d25\u6b21\u6570\u7edf\u8ba1",
+      "data_type": 3,
+      "description": ""
+    },
+    "model": "soc_ssa.ssareportcell",
+    "pk": 9
+  },
+  {
+    "fields": {
+      "default_chart": "bar_pile_x",
+      "data_key": "out_print_data",
+      "name": "\u6253\u5370\u60c5\u51b5\u7edf\u8ba1",
+      "data_type": 3,
+      "description": ""
+    },
+    "model": "soc_ssa.ssareportcell",
+    "pk": 10
+  },
+  {
+    "fields": {
+      "default_chart": "table",
+      "data_key": "out_line_print_table_data",
+      "name": "\u6253\u5370\u8be6\u60c5",
+      "data_type": 3,
+      "description": ""
+    },
+    "model": "soc_ssa.ssareportcell",
+    "pk": 12
+  },
+  {
+    "fields": {
+      "default_chart": "bar_pile_x",
+      "data_key": "go_work_data",
+      "name": "\u4e0b\u73ed\u6253\u5370\u7edf\u8ba1",
+      "data_type": 3,
+      "description": ""
+    },
+    "model": "soc_ssa.ssareportcell",
+    "pk": 13
+  },
+  {
+    "fields": {
+      "default_chart": "table",
+      "data_key": "go_work_table_data",
+      "name": "\u4e0b\u73ed\u6253\u5370\u8be6\u60c5",
+      "data_type": 3,
+      "description": ""
+    },
+    "model": "soc_ssa.ssareportcell",
+    "pk": 14
+  },
+  {
+    "fields": {
+      "default_chart": "bar_pile_x",
+      "data_key": "disk_data",
+      "name": "\u79fb\u52a8\u76d8\u4f7f\u7528\u7edf\u8ba1",
+      "data_type": 3,
+      "description": ""
+    },
+    "model": "soc_ssa.ssareportcell",
+    "pk": 15
+  },
+  {
+    "fields": {
+      "default_chart": "table",
+      "data_key": "disk_table_data",
+      "name": "\u79fb\u52a8\u76d8\u4f7f\u7528\u8be6\u60c5",
+      "data_type": 3,
+      "description": ""
+    },
+    "model": "soc_ssa.ssareportcell",
+    "pk": 17
+  },
+  {
+    "fields": {
+      "default_chart": "line",
+      "data_key": "firewall_flow_data",
+      "name": "\u9632\u706b\u5899\u6d41\u91cf\u7edf\u8ba1",
+      "data_type": 4,
+      "description": ""
+    },
+    "model": "soc_ssa.ssareportcell",
+    "pk": 18
+  },
+  {
+    "fields": {
+      "default_chart": "bar_x",
+      "data_key": "firewall_src_ip_flow_data",
+      "name": "\u9632\u706b\u5899\u6e90IP\u6d41\u91cf\u7edf\u8ba1",
+      "data_type": 4,
+      "description": ""
+    },
+    "model": "soc_ssa.ssareportcell",
+    "pk": 19
+  },
+  {
+    "fields": {
+      "default_chart": "bar_x",
+      "data_key": "firewall_dst_ip_flow_data",
+      "name": "\u9632\u706b\u5899\u76ee\u7684IP\u6d41\u91cf\u7edf\u8ba1",
+      "data_type": 4,
+      "description": ""
+    },
+    "model": "soc_ssa.ssareportcell",
+    "pk": 20
+  },
+  {
+    "fields": {
+      "default_chart": "line",
+      "data_key": "firewall_pro_flow_data",
+      "name": "\u534f\u8bae\u6d41\u91cf\u7edf\u8ba1",
+      "data_type": 4,
+      "description": ""
+    },
+    "model": "soc_ssa.ssareportcell",
+    "pk": 21
+  },
+  {
+    "fields": {
+      "default_chart": "line",
+      "data_key": "con_refuse_data",
+      "name": "\u4f1a\u8bdd\u62d2\u7edd\u7edf\u8ba1",
+      "data_type": 4,
+      "description": ""
+    },
+    "model": "soc_ssa.ssareportcell",
+    "pk": 22
+  },
+  {
+    "fields": {
+      "default_chart": "line",
+      "data_key": "attack_event_count_data",
+      "name": "\u653b\u51fb\u4e8b\u4ef6\u7edf\u8ba1",
+      "data_type": 5,
+      "description": ""
+    },
+    "model": "soc_ssa.ssareportcell",
+    "pk": 30
+  },
+  {
+    "fields": {
+      "default_chart": "line",
+      "data_key": "security_type_data",
+      "name": "\u5b89\u5168\u7c7b\u578b\u7edf\u8ba1",
+      "data_type": 5,
+      "description": ""
+    },
+    "model": "soc_ssa.ssareportcell",
+    "pk": 31
+  },
+  {
+    "fields": {
+      "default_chart": "bar_x",
+      "data_key": "attack_level_count_data",
+      "name": "\u653b\u51fb\u4e25\u91cd\u7b49\u7ea7\u4e8b\u4ef6\u6570",
+      "data_type": 5,
+      "description": ""
+    },
+    "model": "soc_ssa.ssareportcell",
+    "pk": 32
+  },
+  {
+    "fields": {
+      "default_chart": "bar_x",
+      "data_key": "attack_src_ip_count_data",
+      "name": "\u653b\u51fb\u6e90IP\u7edf\u8ba1",
+      "data_type": 5,
+      "description": ""
+    },
+    "model": "soc_ssa.ssareportcell",
+    "pk": 33
+  },
+  {
+    "fields": {
+      "default_chart": "bar_x",
+      "data_key": "attack_dst_ip_count_data",
+      "name": "\u653b\u51fb\u76ee\u6807IP\u7edf\u8ba1",
+      "data_type": 5,
+      "description": ""
+    },
+    "model": "soc_ssa.ssareportcell",
+    "pk": 34
+  },
+  {
+    "fields": {
+      "default_chart": "line",
+      "data_key": "violation_event_count_data",
+      "name": "\u8fdd\u89c4\u4e8b\u4ef6\u7edf\u8ba1",
+      "data_type": 6,
+      "description": ""
+    },
+    "model": "soc_ssa.ssareportcell",
+    "pk": 35
+  },
+  {
+    "fields": {
+      "default_chart": "line",
+      "data_key": "violation_type_count_data",
+      "name": "\u7ec8\u7aef\u8fdd\u89c4\u7c7b\u578b\u7edf\u8ba1",
+      "data_type": 6,
+      "description": ""
+    },
+    "model": "soc_ssa.ssareportcell",
+    "pk": 36
+  },
+  {
+    "fields": {
+      "default_chart": "bar_x",
+      "data_key": "term_violation_event_count_data",
+      "name": "\u7ec8\u7aef\u8fdd\u89c4\u4e8b\u4ef6\u7edf\u8ba1",
+      "data_type": 6,
+      "description": ""
+    },
+    "model": "soc_ssa.ssareportcell",
+    "pk": 37
+  },
+  {
+    "fields": {
+      "default_chart": "line",
+      "data_key": "db_violation_event_count_data",
+      "name": "\u6570\u636e\u5e93\u8fdd\u89c4\u4e8b\u4ef6\u7edf\u8ba1",
+      "data_type": 6,
+      "description": ""
+    },
+    "model": "soc_ssa.ssareportcell",
+    "pk": 38
+  },
+  {
+    "fields": {
+      "default_chart": "line",
+      "data_key": "db_violation_type_count_data",
+      "name": "\u8fdd\u89c4\u64cd\u4f5c\u6570\u636e\u5e93\u7c7b\u578b\u4e8b\u4ef6\u7edf\u8ba1",
+      "data_type": 6,
+      "description": ""
+    },
+    "model": "soc_ssa.ssareportcell",
+    "pk": 39
+  },
+  {
+    "fields": {
+      "default_chart": "bar_x",
+      "data_key": "db_violation_pro_count_data",
+      "name": "\u6570\u636e\u5e93\u64cd\u4f5c\u534f\u8bae\u7edf\u8ba1",
+      "data_type": 6,
+      "description": ""
+    },
+    "model": "soc_ssa.ssareportcell",
+    "pk": 40
+  },
+  {
+    "fields": {
+      "default_chart": "bar_x",
+      "data_key": "db_violation_level_count_data",
+      "name": "\u6570\u636e\u5e93\u64cd\u4f5c\u4e25\u91cd\u7b49\u7ea7\u4e8b\u4ef6\u6570\u7edf\u8ba1",
+      "data_type": 6,
+      "description": ""
+    },
+    "model": "soc_ssa.ssareportcell",
+    "pk": 41
+  },
+  {
+    "fields": {
+      "default_chart": "line",
+      "data_key": "virus_event_count_data",
+      "name": "\u75c5\u6bd2\u4e8b\u4ef6\u7edf\u8ba1",
+      "data_type": 7,
+      "description": ""
+    },
+    "model": "soc_ssa.ssareportcell",
+    "pk": 42
+  },
+  {
+    "fields": {
+      "default_chart": "line",
+      "data_key": "virus_event_type_count_data",
+      "name": "\u75c5\u6bd2\u7c7b\u578b\u7edf\u8ba1",
+      "data_type": 7,
+      "description": ""
+    },
+    "model": "soc_ssa.ssareportcell",
+    "pk": 43
+  },
+  {
+    "fields": {
+      "default_chart": "bar_x",
+      "data_key": "virus_ip_count_data",
+      "name": "\u75c5\u6bd2IP\u7edf\u8ba1",
+      "data_type": 7,
+      "description": ""
+    },
+    "model": "soc_ssa.ssareportcell",
+    "pk": 44
+  },
+  {
+    "fields": {
+      "default_chart": "bar_x",
+      "data_key": "attack_event_type_count_data",
+      "name": "\u653b\u51fb\u4e8b\u4ef6\u7c7b\u578b\u7edf\u8ba1",
+      "data_type": 2,
+      "description": ""
+    },
+    "model": "soc_ssa.ssareportcell",
+    "pk": 46
+  },
+  {
+    "fields": {
+      "default_chart": "bar_x",
+      "data_key": "virus_all_event_type_count_data",
+      "name": "\u75c5\u6bd2\u4e8b\u4ef6\u7c7b\u578b\u7edf\u8ba1",
+      "data_type": 2,
+      "description": ""
+    },
+    "model": "soc_ssa.ssareportcell",
+    "pk": 47
+  },
+  {
+    "fields": {
+      "default_chart": "bar_pile_x",
+      "data_key": "record_count_data",
+      "name": "\u523b\u5f55\u60c5\u51b5\u7edf\u8ba1",
+      "data_type": 3,
+      "description": ""
+    },
+    "model": "soc_ssa.ssareportcell",
+    "pk": 48
+  },
+  {
+    "fields": {
+      "default_chart": "table",
+      "data_key": "record_table_data",
+      "name": "\u523b\u5f55\u4f7f\u7528\u8be6\u60c5",
+      "data_type": 3,
+      "description": ""
+    },
+    "model": "soc_ssa.ssareportcell",
+    "pk": 49
+  },
+  {
+    "fields": {
+      "default_chart": "bar_x",
+      "data_key": "plaintext_save_count_data",
+      "name": "\u660e\u6587\u5b58\u50a8\u7edf\u8ba1",
+      "data_type": 3,
+      "description": ""
+    },
+    "model": "soc_ssa.ssareportcell",
+    "pk": 50
+  },
+  {
+    "fields": {
+      "default_chart": "table",
+      "data_key": "plaintext_save_table_data",
+      "name": "\u660e\u6587\u5b58\u50a8\u8be6\u60c5",
+      "data_type": 3,
+      "description": ""
+    },
+    "model": "soc_ssa.ssareportcell",
+    "pk": 51
+  },
+  {
+    "fields": {
+      "default_chart": "bar_pile_x",
+      "data_key": "outreach_count_data",
+      "name": "\u5916\u8054\u63a5\u53e3\u7edf\u8ba1",
+      "data_type": 3,
+      "description": ""
+    },
+    "model": "soc_ssa.ssareportcell",
+    "pk": 52
+  },
+  {
+    "fields": {
+      "default_chart": "bar_pile_x",
+      "data_key": "phone_charge_count_data",
+      "name": "\u624b\u673a\u5145\u7535\u60c5\u51b5\u7edf\u8ba1",
+      "data_type": 3,
+      "description": ""
+    },
+    "model": "soc_ssa.ssareportcell",
+    "pk": 53
+  },
+  {
+    "fields": {
+      "default_chart": "table",
+      "data_key": "phone_charge_table_data",
+      "name": "\u624b\u673a\u5145\u7535\u8be6\u60c5",
+      "data_type": 3,
+      "description": ""
+    },
+    "model": "soc_ssa.ssareportcell",
+    "pk": 54
+  },
+  {
+    "fields": {
+      "default_chart": "bar_pile_x",
+      "data_key": "tms_install_count_data",
+      "name": "TMS\u5b89\u88c5\u5378\u8f7d\u7edf\u8ba1",
+      "data_type": 3,
+      "description": ""
+    },
+    "model": "soc_ssa.ssareportcell",
+    "pk": 55
+  },
+  {
+    "fields": {
+      "default_chart": "table",
+      "data_key": "tms_install_table_data",
+      "name": "TMS\u5b89\u88c5\u5378\u8f7d\u8be6\u60c5",
+      "data_type": 3,
+      "description": ""
+    },
+    "model": "soc_ssa.ssareportcell",
+    "pk": 56
+  },
+  {
+    "fields": {
+      "default_chart": "line",
+      "data_key": "isolation_flow_count_data",
+      "name": "\u9694\u79bb\u6d41\u91cf\u7edf\u8ba1",
+      "data_type": 4,
+      "description": ""
+    },
+    "model": "soc_ssa.ssareportcell",
+    "pk": 57
+  },
+  {
+    "fields": {
+      "default_chart": "bar_x",
+      "data_key": "isolation_src_flow_count_data",
+      "name": "\u9694\u79bb-\u6e90IP\u6d41\u91cf\u7edf\u8ba1",
+      "data_type": 4,
+      "description": ""
+    },
+    "model": "soc_ssa.ssareportcell",
+    "pk": 58
+  },
+  {
+    "fields": {
+      "default_chart": "bar_x",
+      "data_key": "isolation_dst_flow_count_data",
+      "name": "\u9694\u79bb-\u76ee\u7684IP\u6d41\u91cf\u7edf\u8ba1",
+      "data_type": 4,
+      "description": ""
+    },
+    "model": "soc_ssa.ssareportcell",
+    "pk": 59
+  },
+  {
+    "fields": {
+      "default_chart": "bar_pile_x",
+      "data_key": "out_line_disk_data",
+      "name": "\u79fb\u52a8\u76d8\u8fdd\u89c4\u4f7f\u7528\u7edf\u8ba1",
+      "data_type": 3,
+      "description": " "
+    },
+    "model": "soc_ssa.ssareportcell",
+    "pk": 60
+  },
+  {
+    "fields": {
+      "default_chart": "table",
+      "data_key": "out_line_disk_table_data",
+      "name": "\u79fb\u52a8\u76d8\u8fdd\u89c4\u4f7f\u7528\u8be6\u60c5",
+      "data_type": 3,
+      "description": " "
+    },
+    "model": "soc_ssa.ssareportcell",
+    "pk": 61
+  },
+
+  {
+    "fields": {
+      "name": "\u6f0f\u6d1e\u603b\u6570",
+      "conf_type": 1,
+      "alarm": 500,
+      "warning": 300,
+      "key": "vul_count",
+      "message": null,
+      "expression": ">=",
+      "unit": null
+    },
+    "model": "soc_ssa.ssaalarmcell",
+    "pk": 1
+  },
+  {
+    "fields": {
+      "name": "\u9ad8\u5371\u6f0f\u6d1e\u5360\u6bd4",
+      "conf_type": 1,
+      "alarm": 75,
+      "warning": 40,
+      "key": "vul_level_high_rate",
+      "message": null,
+      "expression": ">=",
+      "unit": "\uff05"
+    },
+    "model": "soc_ssa.ssaalarmcell",
+    "pk": 2
+  },
+  {
+    "fields": {
+      "name": "\u6f0f\u6d1e\u8d44\u4ea7\u5360\u6bd4",
+      "conf_type": 1,
+      "alarm": 75,
+      "warning": 30,
+      "key": "vul_asset_rate",
+      "message": null,
+      "expression": ">=",
+      "unit": "\uff05"
+    },
+    "model": "soc_ssa.ssaalarmcell",
+    "pk": 3
+  },
+  {
+    "fields": {
+      "name": "\u5355IP\u6f0f\u6d1e\u6570",
+      "conf_type": 1,
+      "alarm": 100,
+      "warning": 10,
+      "key": "vul_single_ip_count",
+      "message": null,
+      "expression": ">=",
+      "unit": ""
+    },
+    "model": "soc_ssa.ssaalarmcell",
+    "pk": 4
+  },
+  {
+    "fields": {
+      "name": "\u5355\u4f4d\u6f0f\u6d1e\u6570",
+      "conf_type": 1,
+      "alarm": 100,
+      "warning": 10,
+      "key": "vul_localtion_count",
+      "message": null,
+      "expression": ">=",
+      "unit": ""
+    },
+    "model": "soc_ssa.ssaalarmcell",
+    "pk": 5
+  },
+  {
+    "fields": {
+      "name": "\u653b\u51fb\u4e8b\u4ef6\u6570",
+      "conf_type": 2,
+      "alarm": 100,
+      "warning": 30,
+      "key": "attack_count",
+      "message": null,
+      "expression": ">=",
+      "unit": ""
+    },
+    "model": "soc_ssa.ssaalarmcell",
+    "pk": 6
+  },
+  {
+    "fields": {
+      "name": "\u4e25\u91cd\u4e8b\u4ef6\u6570",
+      "conf_type": 2,
+      "alarm": 50,
+      "warning": 20,
+      "key": "attack_level_high_count",
+      "message": null,
+      "expression": ">=",
+      "unit": ""
+    },
+    "model": "soc_ssa.ssaalarmcell",
+    "pk": 7
+  },
+  {
+    "fields": {
+      "name": "\u4e25\u91cd\u4e8b\u4ef6\u5360\u6bd4",
+      "conf_type": 2,
+      "alarm": 75,
+      "warning": 30,
+      "key": "attack_level_high_rate",
+      "message": null,
+      "expression": ">=",
+      "unit": "\uff05"
+    },
+    "model": "soc_ssa.ssaalarmcell",
+    "pk": 8
+  },
+  {
+    "fields": {
+      "name": "\u5355IP\u653b\u51fb\u4e8b\u4ef6\u6570",
+      "conf_type": 2,
+      "alarm": 20,
+      "warning": 10,
+      "key": "attack_single_ip_count",
+      "message": null,
+      "expression": ">=",
+      "unit": ""
+    },
+    "model": "soc_ssa.ssaalarmcell",
+    "pk": 9
+  },
+  {
+    "fields": {
+      "name": "\u5f02\u5e38\u6d41\u91cf\u5cf0\u503c",
+      "conf_type": 2,
+      "alarm": 1000,
+      "warning": 100,
+      "key": "attack_abnormal_throughput_peak",
+      "message": null,
+      "expression": ">=",
+      "unit": "Mbps"
+    },
+    "model": "soc_ssa.ssaalarmcell",
+    "pk": 10
+  },
+  {
+    "fields": {
+      "name": "\u5355\u670d\u52a14xx\u6b21\u6570",
+      "conf_type": 3,
+      "alarm": 100,
+      "warning": 30,
+      "key": "web_status_4xx",
+      "message": null,
+      "expression": ">=",
+      "unit": ""
+    },
+    "model": "soc_ssa.ssaalarmcell",
+    "pk": 11
+  },
+  {
+    "fields": {
+      "name": "\u5355\u670d\u52a15xx\u6b21\u6570",
+      "conf_type": 3,
+      "alarm": 50,
+      "warning": 20,
+      "key": "web_status_5xx",
+      "message": null,
+      "expression": ">=",
+      "unit": ""
+    },
+    "model": "soc_ssa.ssaalarmcell",
+    "pk": 12
+  },
+  {
+    "fields": {
+      "name": "\u8bbf\u95ee\u6d41\u91cf\u5cf0\u503c",
+      "conf_type": 3,
+      "alarm": 20,
+      "warning": 10,
+      "key": "web_throughput_peak",
+      "message": null,
+      "expression": ">=",
+      "unit": "Mbps"
+    },
+    "model": "soc_ssa.ssaalarmcell",
+    "pk": 13
+  },
+  {
+    "fields": {
+      "name": "\u50f5\u6728\u8815\u611f\u67d3\u6570",
+      "conf_type": 4,
+      "alarm": 100,
+      "warning": 30,
+      "key": "virus_btw_count",
+      "message": null,
+      "expression": ">=",
+      "unit": ""
+    },
+    "model": "soc_ssa.ssaalarmcell",
+    "pk": 14
+  },
+  {
+    "fields": {
+      "name": "\u611f\u67d3\u8d44\u4ea7\u6570",
+      "conf_type": 4,
+      "alarm": 50,
+      "warning": 20,
+      "key": "virus_asset_count",
+      "message": null,
+      "expression": ">=",
+      "unit": ""
+    },
+    "model": "soc_ssa.ssaalarmcell",
+    "pk": 15
+  },
+  {
+    "fields": {
+      "name": "\u5355IP\u611f\u67d3\u6570",
+      "conf_type": 4,
+      "alarm": 20,
+      "warning": 10,
+      "key": "virus_single_ip_count",
+      "message": null,
+      "expression": ">=",
+      "unit": ""
+    },
+    "model": "soc_ssa.ssaalarmcell",
+    "pk": 16
+  },
+  {
+    "fields": {
+      "name": "\u67e5\u6740\u7387",
+      "conf_type": 4,
+      "alarm": 30,
+      "warning": 60,
+      "key": "virus_btw_cleared_rate",
+      "message": null,
+      "expression": "<=",
+      "unit": "\uff05"
+    },
+    "model": "soc_ssa.ssaalarmcell",
+    "pk": 17
+  },
+  {
+    "fields": {
+      "styles": "{\"unit\": \"band\"}",
+      "query_time": 7,
+      "name": "\u9632\u706b\u5899\u6d41\u91cf\u8d8b\u52bf",
+      "data_type": 1,
+      "company": null,
+      "cache": null,
+      "remark": "",
+      "agent": 1,
+      "data_tag": 3,
+      "limit": 7,
+      "chart_type": "line",
+      "x": "[{\"type\": \"date\", \"value\": \"day\"}]",
+      "y": "[{\"aggregator\": \"SUM\", \"order\": \"\", \"value\": \"flow\"}]",
+      "map_type": null,
+      "type": "2",
+      "description": ""
+    },
+    "model": "soc_ssa.ssachart",
+    "pk": 52
+  },
+  {
+    "fields": {
+      "styles": "{\"unit\": \"number\"}",
+      "query_time": 7,
+      "name": "\u9632\u706b\u5899\u534f\u8bae\u7c7b\u578b\u5360\u6bd4",
+      "data_type": 1,
+      "company": null,
+      "cache": null,
+      "remark": "",
+      "agent": 1,
+      "data_tag": 3,
+      "limit": 7,
+      "chart_type": "pie",
+      "x": "[{\"type\": \"key\", \"order\": \"\", \"value\": \"protocol\"}]",
+      "y": "[{\"aggregator\": \"COUNT\", \"order\": \"\", \"value\": \"protocol\"}]",
+      "map_type": null,
+      "type": "1",
+      "description": ""
+    },
+    "model": "soc_ssa.ssachart",
+    "pk": 55
+  },
+  {
+    "fields": {
+      "styles": "{\"unit\": \"band\"}",
+      "query_time": 7,
+      "name": "\u9632\u706b\u5899\u5404\u534f\u8bae\u6d41\u91cf\u7edf\u8ba1",
+      "data_type": 1,
+      "company": null,
+      "cache": null,
+      "remark": "",
+      "agent": 1,
+      "data_tag": 3,
+      "limit": 7,
+      "chart_type": "bar_y",
+      "x": "[{\"type\": \"key\", \"order\": \"\", \"value\": \"protocol\"}]",
+      "y": "[{\"aggregator\": \"SUM\", \"order\": \"\", \"value\": \"flow\"}]",
+      "map_type": null,
+      "type": "1",
+      "description": ""
+    },
+    "model": "soc_ssa.ssachart",
+    "pk": 56
+  },
+  {
+    "fields": {
+      "styles": "{\"unit\": \"band\"}",
+      "query_time": 7,
+      "name": "\u9632\u706b\u5899\u6e90IP\u6d41\u91cf\u6392\u884cTOP10",
+      "data_type": 1,
+      "company": null,
+      "cache": null,
+      "remark": "",
+      "agent": 1,
+      "data_tag": 3,
+      "limit": 10,
+      "chart_type": "bar_y",
+      "x": "[{\"type\": \"key\", \"order\": \"desc\", \"value\": \"src_ip\"}]",
+      "y": "[{\"aggregator\": \"SUM\", \"order\": \"desc\", \"value\": \"flow\"}]",
+      "map_type": null,
+      "type": "1",
+      "description": ""
+    },
+    "model": "soc_ssa.ssachart",
+    "pk": 57
+  },
+  {
+    "fields": {
+      "styles": "{\"unit\": \"band\"}",
+      "query_time": 7,
+      "name": "\u9632\u706b\u5899\u76ee\u6807IP\u6d41\u91cf\u6392\u884cTOP10",
+      "data_type": 1,
+      "company": null,
+      "cache": null,
+      "remark": "",
+      "agent": 1,
+      "data_tag": 3,
+      "limit": 10,
+      "chart_type": "bar_y",
+      "x": "[{\"type\": \"key\", \"order\": \"\", \"value\": \"dst_ip\"}]",
+      "y": "[{\"aggregator\": \"SUM\", \"order\": \"desc\", \"value\": \"flow\"}]",
+      "map_type": null,
+      "type": "1",
+      "description": ""
+    },
+    "model": "soc_ssa.ssachart",
+    "pk": 58
+  },
+  {
+    "fields": {
+      "styles": "{\"unit\": \"band\"}",
+      "query_time": 7,
+      "name": "\u9632\u706b\u5899\u76ee\u6807\u7aef\u53e3\u6d41\u91cf\u7edf\u8ba1TOP10",
+      "data_type": 1,
+      "company": null,
+      "cache": null,
+      "remark": "",
+      "agent": 1,
+      "data_tag": 3,
+      "limit": 10,
+      "chart_type": "bar_y",
+      "x": "[{\"type\": \"key\", \"order\": \"\", \"value\": \"dst_port\"}]",
+      "y": "[{\"aggregator\": \"SUM\", \"order\": \"desc\", \"value\": \"flow\"}]",
+      "map_type": null,
+      "type": "1",
+      "description": ""
+    },
+    "model": "soc_ssa.ssachart",
+    "pk": 59
+  },
+  {
+    "fields": {
+      "styles": "{\"unit\": \"band\"}",
+      "query_time": 7,
+      "name": "\u9632\u706b\u5899\u6e90\u7aef\u53e3\u6d41\u91cf\u7edf\u8ba1TOP10",
+      "data_type": 1,
+      "company": null,
+      "cache": null,
+      "remark": "",
+      "agent": 1,
+      "data_tag": 3,
+      "limit": 10,
+      "chart_type": "bar_y",
+      "x": "[{\"type\": \"key\", \"order\": \"\", \"value\": \"src_port\"}]",
+      "y": "[{\"aggregator\": \"SUM\", \"order\": \"desc\", \"value\": \"flow\"}]",
+      "map_type": null,
+      "type": "1",
+      "description": ""
+    },
+    "model": "soc_ssa.ssachart",
+    "pk": 60
+  },
+  {
+    "fields": {
+      "styles": "{\"unit\": \"band\"}",
+      "query_time": 7,
+      "name": "\u9694\u79bb\u53d1\u9001\u6d41\u91cf\u8d8b\u52bf",
+      "data_type": 1,
+      "company": null,
+      "cache": null,
+      "remark": "",
+      "agent": 1,
+      "data_tag": 11,
+      "limit": 7,
+      "chart_type": "line",
+      "x": "[{\"type\": \"date\", \"value\": \"day\"}]",
+      "y": "[{\"aggregator\": \"SUM\", \"order\": \"\", \"value\": \"send_flow_statis\"}]",
+      "map_type": null,
+      "type": "1",
+      "description": ""
+    },
+    "model": "soc_ssa.ssachart",
+    "pk": 61
+  },
+  {
+    "fields": {
+      "styles": "{\"unit\": \"band\"}",
+      "query_time": 7,
+      "name": "\u9694\u79bb\u63a5\u6536\u6d41\u91cf\u8d8b\u52bf",
+      "data_type": 1,
+      "company": null,
+      "cache": null,
+      "remark": "",
+      "agent": 1,
+      "data_tag": 11,
+      "limit": 7,
+      "chart_type": "line",
+      "x": "[{\"type\": \"date\", \"value\": \"day\"}]",
+      "y": "[{\"aggregator\": \"SUM\", \"order\": \"\", \"value\": \"recv_flow_statis\"}]",
+      "map_type": null,
+      "type": "1",
+      "description": ""
+    },
+    "model": "soc_ssa.ssachart",
+    "pk": 62
+  },
+  {
+    "fields": {
+      "styles": "{\"unit\": \"band\"}",
+      "query_time": 7,
+      "name": "\u9694\u79bb\u8bbe\u5907\u6e90IP\u53d1\u9001\u6d41\u91cf\u7edf\u8ba1TOP10",
+      "data_type": 1,
+      "company": null,
+      "cache": null,
+      "remark": "",
+      "agent": 1,
+      "data_tag": 11,
+      "limit": 10,
+      "chart_type": "bar_y",
+      "x": "[{\"type\": \"key\", \"order\": \"\", \"value\": \"src_ip\"}]",
+      "y": "[{\"aggregator\": \"SUM\", \"order\": \"desc\", \"value\": \"send_flow_statis\"}]",
+      "map_type": null,
+      "type": "1",
+      "description": ""
+    },
+    "model": "soc_ssa.ssachart",
+    "pk": 63
+  },
+  {
+    "fields": {
+      "styles": "{\"unit\": \"band\"}",
+      "query_time": 7,
+      "name": "\u9694\u79bb\u8bbe\u5907\u76ee\u6807IP\u63a5\u6536\u6d41\u91cf\u7edf\u8ba1TOP10",
+      "data_type": 1,
+      "company": null,
+      "cache": null,
+      "remark": "",
+      "agent": 1,
+      "data_tag": 11,
+      "limit": 10,
+      "chart_type": "bar_y",
+      "x": "[{\"type\": \"key\", \"order\": \"\", \"value\": \"dst_ip\"}]",
+      "y": "[{\"aggregator\": \"SUM\", \"order\": \"desc\", \"value\": \"recv_flow_statis\"}]",
+      "map_type": null,
+      "type": "1",
+      "description": ""
+    },
+    "model": "soc_ssa.ssachart",
+    "pk": 64
+  },
+  {
+    "fields": {
+      "styles": "{\"unit\": \"band\"}",
+      "query_time": 7,
+      "name": "\u9694\u79bb\u8bbe\u5907\u6e90\u7aef\u53e3\u53d1\u9001\u6d41\u91cf\u7edf\u8ba1TOP10",
+      "data_type": 1,
+      "company": null,
+      "cache": null,
+      "remark": "",
+      "agent": 1,
+      "data_tag": 11,
+      "limit": 10,
+      "chart_type": "bar_y",
+      "x": "[{\"type\": \"key\", \"order\": \"\", \"value\": \"src_port\"}]",
+      "y": "[{\"aggregator\": \"SUM\", \"order\": \"desc\", \"value\": \"send_flow_statis\"}]",
+      "map_type": null,
+      "type": "1",
+      "description": ""
+    },
+    "model": "soc_ssa.ssachart",
+    "pk": 65
+  },
+  {
+    "fields": {
+      "styles": "{\"unit\": \"band\"}",
+      "query_time": 7,
+      "name": "\u9694\u79bb\u8bbe\u5907\u76ee\u7684\u7aef\u53e3\u63a5\u6536\u6d41\u91cf\u7edf\u8ba1TOP10",
+      "data_type": 1,
+      "company": null,
+      "cache": null,
+      "remark": "",
+      "agent": 1,
+      "data_tag": 11,
+      "limit": 10,
+      "chart_type": "bar_y",
+      "x": "[{\"type\": \"key\", \"order\": \"\", \"value\": \"dst_port\"}]",
+      "y": "[{\"aggregator\": \"SUM\", \"order\": \"desc\", \"value\": \"recv_flow_statis\"}]",
+      "map_type": null,
+      "type": "1",
+      "description": ""
+    },
+    "model": "soc_ssa.ssachart",
+    "pk": 66
+  },
+  {
+    "fields": {
+      "styles": "{\"unit\": \"band\"}",
+      "query_time": 7,
+      "name": "\u9694\u79bb\u8bbe\u5907\u63a5\u6536\u53d1\u9001\u6d41\u91cf\u8d8b\u52bf",
+      "data_type": 1,
+      "company": null,
+      "cache": null,
+      "remark": "",
+      "agent": 1,
+      "data_tag": 11,
+      "limit": 7,
+      "chart_type": "line",
+      "x": "[{\"type\": \"date\", \"value\": \"day\"}]",
+      "y": "[{\"aggregator\": \"SUM\", \"order\": \"\", \"value\": \"recv_flow_statis\"}, {\"aggregator\": \"SUM\", \"order\": \"\", \"value\": \"send_flow_statis\"}]",
+      "map_type": null,
+      "type": "1",
+      "description": ""
+    },
+    "model": "soc_ssa.ssachart",
+    "pk": 67
+  },
+  {
+    "fields": {
+      "styles": "{\"unit\": \"number\"}",
+      "query_time": 7,
+      "name": "\u6446\u6e21\u8bbe\u5907\u4f20\u8f93\u91cf\u7edf\u8ba1",
+      "data_type": 1,
+      "company": null,
+      "cache": null,
+      "remark": "",
+      "agent": 1,
+      "data_tag": 12,
+      "limit": 7,
+      "chart_type": "line",
+      "x": "[{\"type\": \"date\", \"value\": \"day\"}]",
+      "y": "[{\"aggregator\": \"SUM\", \"order\": \"\", \"value\": \"file_size\"}]",
+      "map_type": null,
+      "type": "1",
+      "description": ""
+    },
+    "model": "soc_ssa.ssachart",
+    "pk": 68
+  },
+  {
+    "fields": {
+      "styles": "{\"unit\": \"number\"}",
+      "query_time": 7,
+      "name": "\u6446\u6e21\u8bbe\u5907\u4f20\u8f93\u6587\u4ef6\u6570\u91cf\u7edf\u8ba1",
+      "data_type": 1,
+      "company": null,
+      "cache": null,
+      "remark": "",
+      "agent": 1,
+      "data_tag": 12,
+      "limit": 7,
+      "chart_type": "line",
+      "x": "[{\"type\": \"date\", \"value\": \"day\"}]",
+      "y": "[{\"aggregator\": \"COUNT\", \"order\": \"\", \"value\": \"file_name\"}]",
+      "map_type": null,
+      "type": "1",
+      "description": ""
+    },
+    "model": "soc_ssa.ssachart",
+    "pk": 69
+  },
+  {
+    "fields": {
+      "styles": "{\"unit\": \"number\"}",
+      "query_time": 7,
+      "name": "\u6446\u6e21\u8bbe\u5907\u6e90IP\u4f20\u8f93\u6587\u4ef6\u91cfTOP10",
+      "data_type": 1,
+      "company": null,
+      "cache": null,
+      "remark": "",
+      "agent": 1,
+      "data_tag": 12,
+      "limit": 10,
+      "chart_type": "bar_y",
+      "x": "[{\"type\": \"key\", \"order\": \"\", \"value\": \"src_ip\"}]",
+      "y": "[{\"aggregator\": \"COUNT\", \"order\": \"\", \"value\": \"file_name\"}]",
+      "map_type": null,
+      "type": "1",
+      "description": ""
+    },
+    "model": "soc_ssa.ssachart",
+    "pk": 70
+  },
+  {
+    "fields": {
+      "styles": "{\"unit\": \"number\"}",
+      "query_time": 7,
+      "name": "\u6446\u6e21\u8bbe\u5907\u76ee\u6807IP\u63a5\u6536\u6587\u4ef6\u91cfTOP10",
+      "data_type": 1,
+      "company": null,
+      "cache": null,
+      "remark": "",
+      "agent": 1,
+      "data_tag": 12,
+      "limit": 10,
+      "chart_type": "bar_y",
+      "x": "[{\"type\": \"key\", \"order\": \"\", \"value\": \"dst_ip\"}]",
+      "y": "[{\"aggregator\": \"COUNT\", \"order\": \"\", \"value\": \"file_name\"}]",
+      "map_type": null,
+      "type": "1",
+      "description": ""
+    },
+    "model": "soc_ssa.ssachart",
+    "pk": 71
+  },
+  {
+    "fields": {
+      "styles": "{\"unit\": \"number\"}",
+      "query_time": 1,
+      "name": "\u8fc7\u53bb24\u5c0f\u65f6\u7ec8\u7aef\u767b\u5f55\u60c5\u51b5",
+      "data_type": 1,
+      "company": null,
+      "cache": null,
+      "remark": "",
+      "agent": 1,
+      "data_tag": 13,
+      "limit": 30,
+      "chart_type": "line",
+      "x": "[{\"type\": \"key\", \"order\": \"\", \"value\": \"act_time\"}]",
+      "y": "[{\"aggregator\": \"COUNT\", \"order\": \"\", \"value\": \"os_username\"}]",
+      "map_type": null,
+      "type": "1",
+      "description": ""
+    },
+    "model": "soc_ssa.ssachart",
+    "pk": 72
+  },
+  {
+    "fields": {
+      "styles": "{\"unit\": \"number\"}",
+      "query_time": 1,
+      "name": "\u8fc7\u53bb24\u5c0f\u65f6\u7ec8\u7aef\u64cd\u4f5c\u5ba1\u6279\u7c7b\u578b\u7edf\u8ba1",
+      "data_type": 1,
+      "company": null,
+      "cache": null,
+      "remark": "",
+      "agent": 1,
+      "data_tag": 13,
+      "limit": 10,
+      "chart_type": "pie",
+      "x": "[{\"type\": \"key\", \"order\": \"\", \"value\": \"act_type\"}]",
+      "y": "[{\"aggregator\": \"COUNT\", \"order\": \"\", \"value\": \"act_type\"}]",
+      "map_type": null,
+      "type": "1",
+      "description": ""
+    },
+    "model": "soc_ssa.ssachart",
+    "pk": 73
+  },
+  {
+    "fields": {
+      "styles": "{\"unit\": \"number\"}",
+      "query_time": 1,
+      "name": "\u8fc7\u53bb24\u5c0f\u65f6\u7ec8\u7aef\u64cd\u4f5c\u7c7b\u578b\u7edf\u8ba1",
+      "data_type": 1,
+      "company": null,
+      "cache": null,
+      "remark": "",
+      "agent": 1,
+      "data_tag": 13,
+      "limit": 10,
+      "chart_type": "pie",
+      "x": "[{\"type\": \"key\", \"order\": \"\", \"value\": \"request_type\"}]",
+      "y": "[{\"aggregator\": \"SUM\", \"order\": \"\", \"value\": \"request_type\"}]",
+      "map_type": null,
+      "type": "1",
+      "description": ""
+    },
+    "model": "soc_ssa.ssachart",
+    "pk": 74
+  },
+  {
+    "fields": {
+      "styles": "{\"unit\": \"number\"}",
+      "query_time": 1,
+      "name": "\u8fc7\u53bb24\u5c0f\u65f6\u7ec8\u7aef\u767b\u5f55\u7528\u6237\u6b21\u6570\u7edf\u8ba1",
+      "data_type": 1,
+      "company": null,
+      "cache": null,
+      "remark": "",
+      "agent": 1,
+      "data_tag": 13,
+      "limit": 2,
+      "chart_type": "bar_y",
+      "x": "[{\"type\": \"key\", \"order\": \"\", \"value\": \"os_username\"}]",
+      "y": "[{\"aggregator\": \"COUNT\", \"order\": \"\", \"value\": \"os_username\"}]",
+      "map_type": null,
+      "type": "1",
+      "description": ""
+    },
+    "model": "soc_ssa.ssachart",
+    "pk": 75
+  },
+  {
+    "fields": {
+      "styles": "{\"unit\": \"number\"}",
+      "query_time": 7,
+      "name": "360\u75c5\u6bd2\u6392\u884c",
+      "data_type": 1,
+      "company": null,
+      "cache": null,
+      "remark": "",
+      "agent": 1,
+      "data_tag": 20,
+      "limit": 2,
+      "chart_type": "bar_y",
+      "x": "[{\"type\": \"key\", \"order\": \"\", \"value\": \"virusname\"}]",
+      "y": "[{\"aggregator\": \"COUNT\", \"order\": \"\", \"value\": \"virusname\"}]",
+      "map_type": null,
+      "type": "1",
+      "description": ""
+    },
+    "model": "soc_ssa.ssachart",
+    "pk": 77
+  },
+  {
+    "fields": {
+      "styles": "{\"unit\": \"number\"}",
+      "query_time": 7,
+      "name": "360\u75c5\u6bd2\u7c7b\u578b\u5360\u6bd4",
+      "data_type": 1,
+      "company": null,
+      "cache": null,
+      "remark": "",
+      "agent": 1,
+      "data_tag": 20,
+      "limit": 4,
+      "chart_type": "pie",
+      "x": "[{\"type\": \"key\", \"order\": \"\", \"value\": \"virustype\"}]",
+      "y": "[{\"aggregator\": \"COUNT\", \"order\": \"\", \"value\": \"virustype\"}]",
+      "map_type": null,
+      "type": "1",
+      "description": ""
+    },
+    "model": "soc_ssa.ssachart",
+    "pk": 78
+  },
+  {
+    "fields": {
+      "styles": "{\"unit\": \"number\"}",
+      "query_time": 7,
+      "name": "360\u75c5\u6bd2\u611f\u67d3\u6587\u4ef6\u8d8b\u52bf",
+      "data_type": 1,
+      "company": null,
+      "cache": null,
+      "remark": "",
+      "agent": 1,
+      "data_tag": 20,
+      "limit": 7,
+      "chart_type": "line",
+      "x": "[{\"type\": \"date\", \"value\": \"day\"}]",
+      "y": "[{\"aggregator\": \"SUM\", \"order\": \"\", \"value\": \"infectedfilenumber\"}]",
+      "map_type": null,
+      "type": "1",
+      "description": ""
+    },
+    "model": "soc_ssa.ssachart",
+    "pk": 79
+  },
+  {
+    "fields": {
+      "styles": "{\"unit\": \"number\"}",
+      "query_time": 7,
+      "name": "360\u75c5\u6bd2-\u7ec8\u7aef\u88ab\u611f\u67d3\u6587\u4ef6\u6392\u884c",
+      "data_type": 1,
+      "company": null,
+      "cache": null,
+      "remark": "",
+      "agent": 1,
+      "data_tag": 20,
+      "limit": 8,
+      "chart_type": "bar_y",
+      "x": "[{\"type\": \"key\", \"order\": \"\", \"value\": \"host_ip\"}]",
+      "y": "[{\"aggregator\": \"COUNT\", \"order\": \"desc\", \"value\": \"infectedfilenumber\"}]",
+      "map_type": null,
+      "type": "1",
+      "description": ""
+    },
+    "model": "soc_ssa.ssachart",
+    "pk": 80
+  },
+  {
+    "fields": {
+      "styles": "{\"unit\": \"number\"}",
+      "query_time": 7,
+      "name": "IDS\u76d1\u6d4b\u653b\u51fb\u8d8b\u52bf",
+      "data_type": 1,
+      "company": null,
+      "cache": null,
+      "remark": "",
+      "agent": 1,
+      "data_tag": 22,
+      "limit": 8,
+      "chart_type": "line",
+      "x": "[{\"type\": \"date\", \"value\": \"day\"}]",
+      "y": "[{\"aggregator\": \"SUM\", \"order\": \"\", \"value\": \"event_count\"}]",
+      "map_type": null,
+      "type": "2",
+      "description": ""
+    },
+    "model": "soc_ssa.ssachart",
+    "pk": 81
+  },
+  {
+    "fields": {
+      "styles": "{\"unit\": \"number\"}",
+      "query_time": 7,
+      "name": "IDS\u76d1\u6d4b\u4e8b\u4ef6\u540d\u79f0\u5360\u6bd4",
+      "data_type": 1,
+      "company": null,
+      "cache": null,
+      "remark": "",
+      "agent": 1,
+      "data_tag": 22,
+      "limit": 2,
+      "chart_type": "pie",
+      "x": "[{\"type\": \"key\", \"order\": \"\", \"value\": \"event_name\"}]",
+      "y": "[{\"aggregator\": \"COUNT\", \"order\": \"\", \"value\": \"event_name\"}]",
+      "map_type": null,
+      "type": "2",
+      "description": ""
+    },
+    "model": "soc_ssa.ssachart",
+    "pk": 82
+  },
+  {
+    "fields": {
+      "styles": "{\"unit\": \"number\"}",
+      "query_time": 7,
+      "name": "IDS\u76d1\u6d4b\u7ec8\u7aef\u88ab\u653b\u51fb\u6b21\u6570\u7edf\u8ba1TOP10",
+      "data_type": 1,
+      "company": null,
+      "cache": null,
+      "remark": "",
+      "agent": 1,
+      "data_tag": 22,
+      "limit": 10,
+      "chart_type": "bar_y",
+      "x": "[{\"type\": \"key\", \"order\": \"\", \"value\": \"src_ip\"}]",
+      "y": "[{\"aggregator\": \"SUM\", \"order\": \"desc\", \"value\": \"event_count\"}]",
+      "map_type": null,
+      "type": "2",
+      "description": ""
+    },
+    "model": "soc_ssa.ssachart",
+    "pk": 83
+  },
+  {
+    "fields": {
+      "styles": "{\"unit\": \"number\"}",
+      "query_time": 7,
+      "name": "IDS\u76d1\u6d4b\u653b\u51fb\u6e90\u653b\u51fb\u6b21\u6570\u7edf\u8ba1TOP10",
+      "data_type": 1,
+      "company": null,
+      "cache": null,
+      "remark": "",
+      "agent": 1,
+      "data_tag": 22,
+      "limit": 10,
+      "chart_type": "bar_y",
+      "x": "[{\"type\": \"key\", \"order\": \"\", \"value\": \"source\"}]",
+      "y": "[{\"aggregator\": \"SUM\", \"order\": \"desc\", \"value\": \"event_count\"}]",
+      "map_type": null,
+      "type": "2",
+      "description": ""
+    },
+    "model": "soc_ssa.ssachart",
+    "pk": 84
+  },
+  {
+    "fields": {
+      "styles": "{\"unit\": \"number\"}",
+      "query_time": 7,
+      "name": "IDS\u76d1\u6d4b\u653b\u51fb\u4e8b\u4ef6\u7ea7\u522b\u5360\u6bd4",
+      "data_type": 1,
+      "company": null,
+      "cache": null,
+      "remark": "",
+      "agent": 1,
+      "data_tag": 22,
+      "limit": 4,
+      "chart_type": "pie",
+      "x": "[{\"type\": \"key\", \"order\": \"\", \"value\": \"level\"}]",
+      "y": "[{\"aggregator\": \"COUNT\", \"order\": \"\", \"value\": \"level\"}]",
+      "map_type": null,
+      "type": "2",
+      "description": ""
+    },
+    "model": "soc_ssa.ssachart",
+    "pk": 85
+  },
+  {
+    "fields": {
+      "styles": "{\"unit\": \"number\"}",
+      "query_time": 7,
+      "name": "\u9632\u706b\u5899\u6e90IP\u653b\u51fb\u6b21\u6570\u7edf\u8ba1TOP10",
+      "data_type": 2,
+      "company": null,
+      "cache": null,
+      "remark": "",
+      "agent": 1,
+      "data_tag": 1,
+      "limit": 10,
+      "chart_type": "bar_y",
+      "x": "[{\"type\": \"key\", \"order\": \"\", \"value\": \"src_ip\"}]",
+      "y": "[{\"aggregator\": \"COUNT\", \"order\": \"desc\", \"value\": \"event_two_type\"}]",
+      "map_type": null,
+      "type": "2",
+      "description": ""
+    },
+    "model": "soc_ssa.ssachart",
+    "pk": 86
+  },
+  {
+    "fields": {
+      "styles": "{\"unit\": \"number\"}",
+      "query_time": 7,
+      "name": "\u9632\u706b\u5899\u76ee\u6807IP\u88ab\u653b\u51fb\u6b21\u6570\u7edf\u8ba1TOP10",
+      "data_type": 2,
+      "company": null,
+      "cache": null,
+      "remark": "",
+      "agent": 1,
+      "data_tag": 1,
+      "limit": 10,
+      "chart_type": "bar_y",
+      "x": "[{\"type\": \"key\", \"order\": \"\", \"value\": \"dst_ip\"}]",
+      "y": "[{\"aggregator\": \"COUNT\", \"order\": \"\", \"value\": \"event_one_type\"}]",
+      "map_type": null,
+      "type": "2",
+      "description": ""
+    },
+    "model": "soc_ssa.ssachart",
+    "pk": 87
+  },
+  {
+    "fields": {
+      "styles": "{\"unit\": \"number\"}",
+      "query_time": 7,
+      "name": "\u9632\u706b\u5899\u5404\u534f\u8bae\u7c7b\u578b\u653b\u51fb\u6b21\u6570\u5360\u6bd4",
+      "data_type": 2,
+      "company": null,
+      "cache": null,
+      "remark": "",
+      "agent": 1,
+      "data_tag": 1,
+      "limit": 7,
+      "chart_type": "pie",
+      "x": "[{\"type\": \"key\", \"order\": \"\", \"value\": \"tran_protocol\"}]",
+      "y": "[{\"aggregator\": \"COUNT\", \"order\": \"\", \"value\": \"event_one_type\"}]",
+      "map_type": null,
+      "type": "2",
+      "description": ""
+    },
+    "model": "soc_ssa.ssachart",
+    "pk": 88
+  },
+  {
+    "fields": {
+      "styles": "{\"unit\": \"number\"}",
+      "query_time": 7,
+      "name": "\u9632\u706b\u5899\u4e8b\u4ef6\u7ea7\u522b\u5360\u6bd4",
+      "data_type": 2,
+      "company": null,
+      "cache": null,
+      "remark": "",
+      "agent": 1,
+      "data_tag": 1,
+      "limit": 3,
+      "chart_type": "pie",
+      "x": "[{\"type\": \"key\", \"order\": \"\", \"value\": \"event_level\"}]",
+      "y": "[{\"aggregator\": \"COUNT\", \"order\": \"\", \"value\": \"event_level\"}]",
+      "map_type": null,
+      "type": "2",
+      "description": ""
+    },
+    "model": "soc_ssa.ssachart",
+    "pk": 89
+  },
+  {
+    "fields": {
+      "styles": "{\"unit\": \"number\"}",
+      "query_time": 7,
+      "name": "\u9632\u706b\u5899\u4e8b\u4ef6\u8d8b\u52bf",
+      "data_type": 2,
+      "company": null,
+      "cache": null,
+      "remark": "",
+      "agent": 1,
+      "data_tag": 1,
+      "limit": 7,
+      "chart_type": "line",
+      "x": "[{\"type\": \"date\", \"value\": \"day\"}]",
+      "y": "[{\"aggregator\": \"SUM\", \"order\": \"\", \"value\": \"event_total\"}]",
+      "map_type": null,
+      "type": "2",
+      "description": ""
+    },
+    "model": "soc_ssa.ssachart",
+    "pk": 90
+  },
+  {
+    "fields": {
+      "styles": "{\"unit\": \"number\"}",
+      "query_time": 7,
+      "name": "\u6570\u636e\u5e93\u8fdd\u89c4\u64cd\u4f5c\u89c4\u5219\u96c6\u5360\u6bd4",
+      "data_type": 2,
+      "company": null,
+      "cache": null,
+      "remark": "",
+      "agent": 1,
+      "data_tag": 3,
+      "limit": 10,
+      "chart_type": "pie",
+      "x": "[{\"type\": \"key\", \"order\": \"\", \"value\": \"event_two_type\"}]",
+      "y": "[{\"aggregator\": \"COUNT\", \"order\": \"\", \"value\": \"event_two_type\"}]",
+      "map_type": null,
+      "type": "2",
+      "description": ""
+    },
+    "model": "soc_ssa.ssachart",
+    "pk": 91
+  },
+  {
+    "fields": {
+      "styles": "{\"unit\": \"number\"}",
+      "query_time": 7,
+      "name": "\u6570\u636e\u5e93\u8fdd\u89c4\u64cd\u4f5c\u7ec8\u7aef\u7edf\u8ba1",
+      "data_type": 2,
+      "company": null,
+      "cache": null,
+      "remark": "",
+      "agent": 1,
+      "data_tag": 3,
+      "limit": 10,
+      "chart_type": "bar_y",
+      "x": "[{\"type\": \"key\", \"order\": \"\", \"value\": \"src_ip\"}]",
+      "y": "[{\"aggregator\": \"SUM\", \"order\": \"\", \"value\": \"event_total\"}]",
+      "map_type": null,
+      "type": "2",
+      "description": ""
+    },
+    "model": "soc_ssa.ssachart",
+    "pk": 92
+  },
+  {
+    "fields": {
+      "styles": "{\"unit\": \"number\"}",
+      "query_time": 7,
+      "name": "\u6570\u636e\u5e93\u670d\u52a1\u5668\u88ab\u8fdd\u89c4\u64cd\u4f5c\u7edf\u8ba1",
+      "data_type": 2,
+      "company": null,
+      "cache": null,
+      "remark": "",
+      "agent": 1,
+      "data_tag": 3,
+      "limit": 10,
+      "chart_type": "bar_y",
+      "x": "[{\"type\": \"key\", \"order\": \"\", \"value\": \"dst_ip\"}]",
+      "y": "[{\"aggregator\": \"SUM\", \"order\": \"\", \"value\": \"event_total\"}]",
+      "map_type": null,
+      "type": "2",
+      "description": ""
+    },
+    "model": "soc_ssa.ssachart",
+    "pk": 93
+  },
+  {
+    "fields": {
+      "styles": "{\"unit\": \"number\"}",
+      "query_time": 7,
+      "name": "\u6570\u636e\u5e93\u8fdd\u89c4\u64cd\u4f5c\u98ce\u9669\u5360\u6bd4",
+      "data_type": 2,
+      "company": null,
+      "cache": null,
+      "remark": "",
+      "agent": 1,
+      "data_tag": 3,
+      "limit": 3,
+      "chart_type": "pie",
+      "x": "[{\"type\": \"key\", \"order\": \"\", \"value\": \"event_level\"}]",
+      "y": "[{\"aggregator\": \"COUNT\", \"order\": \"\", \"value\": \"event_level\"}]",
+      "map_type": null,
+      "type": "2",
+      "description": ""
+    },
+    "model": "soc_ssa.ssachart",
+    "pk": 94
+  },
+  {
+    "fields": {
+      "styles": "{\"unit\": \"number\"}",
+      "query_time": 7,
+      "name": "\u6446\u6e21\u4e8b\u4ef6\u7ec8\u7aef\u7edf\u8ba1TOP10",
+      "data_type": 2,
+      "company": null,
+      "cache": null,
+      "remark": "",
+      "agent": 1,
+      "data_tag": 4,
+      "limit": 10,
+      "chart_type": "bar_y",
+      "x": "[{\"type\": \"key\", \"order\": \"\", \"value\": \"src_ip\"}]",
+      "y": "[{\"aggregator\": \"SUM\", \"order\": \"\", \"value\": \"event_total\"}]",
+      "map_type": null,
+      "type": "2",
+      "description": ""
+    },
+    "model": "soc_ssa.ssachart",
+    "pk": 95
+  },
+  {
+    "fields": {
+      "styles": "{\"unit\": \"number\"}",
+      "query_time": 7,
+      "name": "\u6446\u6e21\u4e8b\u4ef6\u7ea7\u522b\u5360\u6bd4",
+      "data_type": 2,
+      "company": null,
+      "cache": null,
+      "remark": "",
+      "agent": 1,
+      "data_tag": 4,
+      "limit": 1,
+      "chart_type": "pie",
+      "x": "[{\"type\": \"key\", \"order\": \"\", \"value\": \"event_level\"}]",
+      "y": "[{\"aggregator\": \"COUNT\", \"order\": \"\", \"value\": \"event_level\"}]",
+      "map_type": null,
+      "type": "2",
+      "description": ""
+    },
+    "model": "soc_ssa.ssachart",
+    "pk": 96
+  },
+  {
+    "fields": {
+      "styles": "{\"unit\": \"number\"}",
+      "query_time": 7,
+      "name": "\u9694\u79bb\u4e8b\u4ef6\u7ea7\u522b\u5360\u6bd4",
+      "data_type": 2,
+      "company": null,
+      "cache": null,
+      "remark": "",
+      "agent": 1,
+      "data_tag": 5,
+      "limit": 1,
+      "chart_type": "pie",
+      "x": "[{\"type\": \"key\", \"order\": \"\", \"value\": \"event_level\"}]",
+      "y": "[{\"aggregator\": \"COUNT\", \"order\": \"\", \"value\": \"event_level\"}]",
+      "map_type": null,
+      "type": "2",
+      "description": ""
+    },
+    "model": "soc_ssa.ssachart",
+    "pk": 97
+  },
+  {
+    "fields": {
+      "styles": "{\"unit\": \"number\"}",
+      "query_time": 7,
+      "name": "\u9694\u79bb\u4e8b\u4ef6\u6e90IP\u7edf\u8ba1TOP10",
+      "data_type": 2,
+      "company": null,
+      "cache": null,
+      "remark": "",
+      "agent": 1,
+      "data_tag": 5,
+      "limit": 10,
+      "chart_type": "bar_y",
+      "x": "[{\"type\": \"key\", \"order\": \"\", \"value\": \"src_ip\"}]",
+      "y": "[{\"aggregator\": \"SUM\", \"order\": \"\", \"value\": \"event_total\"}]",
+      "map_type": null,
+      "type": "2",
+      "description": ""
+    },
+    "model": "soc_ssa.ssachart",
+    "pk": 99
+  },
+  {
+    "fields": {
+      "styles": "{\"unit\": \"number\"}",
+      "query_time": 7,
+      "name": "\u9632\u706b\u5899\u4e8b\u4ef6\u7c7b\u578b\u7edf\u8ba1",
+      "data_type": 2,
+      "company": null,
+      "cache": null,
+      "remark": "",
+      "agent": 1,
+      "data_tag": 1,
+      "limit": 3,
+      "chart_type": "pie",
+      "x": "[{\"type\": \"key\", \"order\": \"\", \"value\": \"event_three_type\"}]",
+      "y": "[{\"aggregator\": \"COUNT\", \"order\": \"\", \"value\": \"event_three_type\"}]",
+      "map_type": null,
+      "type": "2",
+      "description": ""
+    },
+    "model": "soc_ssa.ssachart",
+    "pk": 101
+  },
+  {
+    "fields": {
+      "styles": "{\"unit\": \"number\"}",
+      "query_time": 30,
+      "name": "\u6570\u636e\u5e93\u4e8b\u4ef6\u7c7b\u578b\u7edf\u8ba1",
+      "data_type": 2,
+      "company": null,
+      "cache": null,
+      "remark": "",
+      "agent": 1,
+      "data_tag": 3,
+      "limit": 10,
+      "chart_type": "pie",
+      "x": "[{\"type\": \"key\", \"order\": \"\", \"value\": \"event_three_type\"}]",
+      "y": "[{\"aggregator\": \"COUNT\", \"order\": \"\", \"value\": \"event_total\"}]",
+      "map_type": null,
+      "type": "2",
+      "description": ""
+    },
+    "model": "soc_ssa.ssachart",
+    "pk": 102
+  },
+  {
+    "fields": {
+      "styles": "{\"unit\": \"number\"}",
+      "query_time": 7,
+      "name": "\u6446\u6e21\u4e8b\u4ef6\u7c7b\u578b\u7edf\u8ba1",
+      "data_type": 2,
+      "company": null,
+      "cache": null,
+      "remark": "",
+      "agent": 1,
+      "data_tag": 4,
+      "limit": 5,
+      "chart_type": "pie",
+      "x": "[{\"type\": \"key\", \"order\": \"\", \"value\": \"event_three_type\"}]",
+      "y": "[{\"aggregator\": \"COUNT\", \"order\": \"\", \"value\": \"event_total\"}]",
+      "map_type": null,
+      "type": "2",
+      "description": ""
+    },
+    "model": "soc_ssa.ssachart",
+    "pk": 103
+  },
+  {
+    "fields": {
+      "styles": "{\"unit\": \"number\"}",
+      "query_time": 7,
+      "name": "\u9694\u79bb\u4e8b\u4ef6\u7c7b\u578b\u7edf\u8ba1",
+      "data_type": 2,
+      "company": null,
+      "cache": null,
+      "remark": "",
+      "agent": 1,
+      "data_tag": 5,
+      "limit": 5,
+      "chart_type": "pie",
+      "x": "[{\"type\": \"key\", \"order\": \"\", \"value\": \"event_three_type\"}]",
+      "y": "[{\"aggregator\": \"COUNT\", \"order\": \"\", \"value\": \"event_total\"}]",
+      "map_type": null,
+      "type": "2",
+      "description": ""
+    },
+    "model": "soc_ssa.ssachart",
+    "pk": 104
+  },
+  {
+    "fields": {
+      "styles": "{\"unit\": \"number\"}",
+      "query_time": 7,
+      "name": "360\u4e8b\u4ef6\u7c7b\u578b\u7edf\u8ba1",
+      "data_type": 2,
+      "company": null,
+      "cache": null,
+      "remark": "",
+      "agent": 1,
+      "data_tag": 6,
+      "limit": 4,
+      "chart_type": "pie",
+      "x": "[{\"type\": \"key\", \"order\": \"\", \"value\": \"event_three_type\"}]",
+      "y": "[{\"aggregator\": \"SUM\", \"order\": \"\", \"value\": \"event_total\"}]",
+      "map_type": null,
+      "type": "2",
+      "description": ""
+    },
+    "model": "soc_ssa.ssachart",
+    "pk": 105
+  },
+  {
+    "fields": {
+      "styles": "{\"unit\": \"number\"}",
+      "query_time": 7,
+      "name": "360\u7ec8\u7aef\u75c5\u6bd2\u4e8b\u4ef6\u7edf\u8ba1",
+      "data_type": 2,
+      "company": null,
+      "cache": null,
+      "remark": "",
+      "agent": 1,
+      "data_tag": 6,
+      "limit": 8,
+      "chart_type": "bar_y",
+      "x": "[{\"type\": \"key\", \"order\": \"\", \"value\": \"src_ip\"}]",
+      "y": "[{\"aggregator\": \"SUM\", \"order\": \"desc\", \"value\": \"event_total\"}]",
+      "map_type": null,
+      "type": "2",
+      "description": ""
+    },
+    "model": "soc_ssa.ssachart",
+    "pk": 106
+  },
+  {
+    "fields": {
+      "styles": "{\"unit\": \"number\"}",
+      "query_time": 7,
+      "name": "\u7ec8\u7aef\u8fdd\u89c4\u4e8b\u4ef6\u7edf\u8ba1TOP10",
+      "data_type": 2,
+      "company": null,
+      "cache": null,
+      "remark": "",
+      "agent": 1,
+      "data_tag": 7,
+      "limit": 10,
+      "chart_type": "bar_y",
+      "x": "[{\"type\": \"key\", \"order\": \"\", \"value\": \"src_ip\"}]",
+      "y": "[{\"aggregator\": \"SUM\", \"order\": \"\", \"value\": \"event_total\"}]",
+      "map_type": null,
+      "type": "2",
+      "description": ""
+    },
+    "model": "soc_ssa.ssachart",
+    "pk": 107
+  },
+  {
+    "fields": {
+      "styles": "{\"unit\": \"number\"}",
+      "query_time": 7,
+      "name": "360\u4e8b\u4ef6\u6d4b\u8bd5",
+      "data_type": 2,
+      "company": null,
+      "cache": null,
+      "remark": "",
+      "agent": 1,
+      "data_tag": 6,
+      "limit": 4,
+      "chart_type": "pie",
+      "x": "[{\"type\": \"key\", \"order\": \"\", \"value\": \"event_three_type\"}]",
+      "y": "[{\"aggregator\": \"SUM\", \"order\": \"\", \"value\": \"event_total\"}]",
+      "map_type": null,
+      "type": "1",
+      "description": ""
+    },
+    "model": "soc_ssa.ssachart",
+    "pk": 109
+  },
+  {
+    "fields": {
+      "styles": "{\"unit\": \"band\"}",
+      "query_time": 30,
+      "name": "\u6d4b\u8bd5\u9694\u79bb\u8bbe\u5907",
+      "data_type": 1,
+      "company": null,
+      "cache": null,
+      "remark": "",
+      "agent": 1,
+      "data_tag": 11,
+      "limit": 9,
+      "chart_type": "line",
+      "x": "[{\"type\": \"date\", \"value\": \"day\"}]",
+      "y": "[{\"aggregator\": \"SUM\", \"order\": \"\", \"value\": \"recv_flow_statis\"}]",
+      "map_type": null,
+      "type": "1",
+      "description": ""
+    },
+    "model": "soc_ssa.ssachart",
+    "pk": 113
+  },
+  {
+    "fields": {
+      "company": null,
+      "query_time": 7,
+      "type": "1",
+      "name": "\u8d44\u6e90",
+      "agent": null
+    },
+    "model": "soc_ssa.ssadashborad",
+    "pk": 1
+  },
+  {
+    "fields": {
+      "company": null,
+      "query_time": 7,
+      "type": "2",
+      "name": "\u4e1a\u52a1",
+      "agent": null
+    },
+    "model": "soc_ssa.ssadashborad",
+    "pk": 2
+  },
+  {
+    "fields": {
+      "company": null,
+      "query_time": 7,
+      "type": "3",
+      "name": "\u5b89\u5168",
+      "agent": null
+    },
+    "model": "soc_ssa.ssadashborad",
+    "pk": 3
+  },
+  {
+    "fields": {
+      "company": null,
+      "query_time": 1,
+      "type": "1",
+      "name": "\u8d44\u6e90",
+      "agent": null
+    },
+    "model": "soc_ssa.ssadashborad",
+    "pk": 4
+  },
+  {
+    "fields": {
+      "company": null,
+      "query_time": 1,
+      "type": "2",
+      "name": "\u4e1a\u52a1",
+      "agent": null
+    },
+    "model": "soc_ssa.ssadashborad",
+    "pk": 5
+  },
+  {
+    "fields": {
+      "company": null,
+      "query_time": 1,
+      "type": "3",
+      "name": "\u5b89\u5168",
+      "agent": null
+    },
+    "model": "soc_ssa.ssadashborad",
+    "pk": 6
+  },
+  {
+    "fields": {
+      "company": null,
+      "query_time": 1,
+      "type": "1",
+      "name": "\u8d44\u6e90",
+      "agent": 1
+    },
+    "model": "soc_ssa.ssadashborad",
+    "pk": 7
+  },
+  {
+    "fields": {
+      "company": null,
+      "query_time": 1,
+      "type": "3",
+      "name": "\u5b89\u5168",
+      "agent": 1
+    },
+    "model": "soc_ssa.ssadashborad",
+    "pk": 8
+  },
+  {
+    "fields": {
+      "company": null,
+      "order": 1,
+      "chart": 52,
+      "agent": 1,
+      "dashboard": 8
+    },
+    "model": "soc_ssa.ssadashboradcell",
+    "pk": 2
+  },
+  {
+    "fields": {
+      "company": null,
+      "order": 1,
+      "chart": 57,
+      "agent": 1,
+      "dashboard": 7
+    },
+    "model": "soc_ssa.ssadashboradcell",
+    "pk": 3
+  },
+  {
+    "fields": {
+      "company": null,
+      "order": 1,
+      "chart": 52,
+      "agent": 1,
+      "dashboard": 8
+    },
+    "model": "soc_ssa.ssadashboradcell",
+    "pk": 4
+  },
+  {
+    "fields": {
+      "company": null,
+      "order": 2,
+      "chart": 81,
+      "agent": 1,
+      "dashboard": 8
+    },
+    "model": "soc_ssa.ssadashboradcell",
+    "pk": 5
+  },
+  {
+    "fields": {
+      "company": null,
+      "order": 6,
+      "chart": 103,
+      "agent": 1,
+      "dashboard": 8
+    },
+    "model": "soc_ssa.ssadashboradcell",
+    "pk": 6
+  },
+  {
+    "fields": {
+      "company": null,
+      "order": 8,
+      "chart": 95,
+      "agent": 1,
+      "dashboard": 8
+    },
+    "model": "soc_ssa.ssadashboradcell",
+    "pk": 7
+  },
+  {
+    "fields": {
+      "company": null,
+      "order": 2,
+      "chart": 55,
+      "agent": 1,
+      "dashboard": 7
+    },
+    "model": "soc_ssa.ssadashboradcell",
+    "pk": 8
+  },
+  {
+    "fields": {
+      "company": null,
+      "order": 4,
+      "chart": 68,
+      "agent": 1,
+      "dashboard": 7
+    },
+    "model": "soc_ssa.ssadashboradcell",
+    "pk": 9
+  },
+  {
+    "fields": {
+      "company": null,
+      "order": 5,
+      "chart": 62,
+      "agent": 1,
+      "dashboard": 7
+    },
+    "model": "soc_ssa.ssadashboradcell",
+    "pk": 10
+  },
+  {
+    "fields": {
+      "company": null,
+      "order": 6,
+      "chart": 74,
+      "agent": 1,
+      "dashboard": 7
+    },
+    "model": "soc_ssa.ssadashboradcell",
+    "pk": 11
+  },
+  {
+    "fields": {
+      "company": null,
+      "order": 7,
+      "chart": 72,
+      "agent": 1,
+      "dashboard": 7
+    },
+    "model": "soc_ssa.ssadashboradcell",
+    "pk": 12
+  },
+  {
+    "fields": {
+      "company": null,
+      "order": 8,
+      "chart": 73,
+      "agent": 1,
+      "dashboard": 7
+    },
+    "model": "soc_ssa.ssadashboradcell",
+    "pk": 13
+  },
+  {
+    "fields": {
+      "company": null,
+      "order": 9,
+      "chart": 85,
+      "agent": 1,
+      "dashboard": 7
+    },
+    "model": "soc_ssa.ssadashboradcell",
+    "pk": 14
+  },
+  {
+    "fields": {
+      "company": null,
+      "order": 4,
+      "chart": 101,
+      "agent": 1,
+      "dashboard": 8
+    },
+    "model": "soc_ssa.ssadashboradcell",
+    "pk": 15
+  },
+  {
+    "fields": {
+      "company": null,
+      "order": 5,
+      "chart": 97,
+      "agent": 1,
+      "dashboard": 8
+    },
+    "model": "soc_ssa.ssadashboradcell",
+    "pk": 16
+  },
+  {
+    "fields": {
+      "company": null,
+      "order": 7,
+      "chart": 107,
+      "agent": 1,
+      "dashboard": 8
+    },
+    "model": "soc_ssa.ssadashboradcell",
+    "pk": 17
+  },
+  {
+    "fields": {
+      "company": null,
+      "order": 9,
+      "chart": 92,
+      "agent": 1,
+      "dashboard": 8
+    },
+    "model": "soc_ssa.ssadashboradcell",
+    "pk": 18
+  },
+  {
+    "fields": {
+      "company": null,
+      "order": 7,
+      "chart": 74,
+      "agent": 1,
+      "dashboard": 7
+    },
+    "model": "soc_ssa.ssadashboradcell",
+    "pk": 19
+  },
+  {
+    "fields": {
+      "company": null,
+      "order": 6,
+      "chart": 75,
+      "agent": 1,
+      "dashboard": 7
+    },
+    "model": "soc_ssa.ssadashboradcell",
+    "pk": 20
+  },
+  {
+    "fields": {
+      "items": "[]",
+      "precedence": 0,
+      "name": "\u7528\u6237\u540d",
+      "key": "username",
+      "data_tag": 3
+    },
+    "model": "soc_ssa.ssafieldmap",
+    "pk": 3
+  },
+  {
+    "fields": {
+      "items": "[{\"id\": 1, \"name\": \"\u662f\"}, {\"id\": 0, \"name\": \"\u5426\"}]",
+      "precedence": 6,
+      "name": "\u662f\u5426\u963b\u65ad",
+      "key": "result",
+      "data_tag": 3
+    },
+    "model": "soc_ssa.ssafieldmap",
+    "pk": 12
+  },
+  {
+    "fields": {
+      "items": "[]",
+      "precedence": 5,
+      "name": "\u7c7b\u578b",
+      "key": "event_type",
+      "data_tag": 3
+    },
+    "model": "soc_ssa.ssafieldmap",
+    "pk": 31
+  },
+  {
+    "fields": {
+      "items": "[]",
+      "precedence": 4,
+      "name": "\u963b\u65ad\u539f\u56e0",
+      "key": "deny_re",
+      "data_tag": 3
+    },
+    "model": "soc_ssa.ssafieldmap",
+    "pk": 32
+  },
+  {
+    "fields": {
+      "items": "[]",
+      "precedence": 0,
+      "name": "\u7528\u6237ID",
+      "key": "user_id",
+      "data_tag": null
+    },
+    "model": "soc_ssa.ssafieldmap",
+    "pk": 34
+  },
+  {
+    "fields": {
+      "items": "[]",
+      "precedence": 8,
+      "name": "\u7528\u6237\u540d\u79f0",
+      "key": "user_name",
+      "data_tag": null
+    },
+    "model": "soc_ssa.ssafieldmap",
+    "pk": 35
+  },
+  {
+    "fields": {
+      "items": "[]",
+      "precedence": 0,
+      "name": "\u9519\u8bef\u7801",
+      "key": "error_code",
+      "data_tag": null
+    },
+    "model": "soc_ssa.ssafieldmap",
+    "pk": 36
+  },
+  {
+    "fields": {
+      "items": "[]",
+      "precedence": 8,
+      "name": "\u64cd\u4f5c\u7c7b\u578b",
+      "key": "operate_type",
+      "data_tag": null
+    },
+    "model": "soc_ssa.ssafieldmap",
+    "pk": 37
+  },
+  {
+    "fields": {
+      "items": "[]",
+      "precedence": 8,
+      "name": "\u64cd\u4f5c\u540d\u79f0",
+      "key": "operate_name",
+      "data_tag": null
+    },
+    "model": "soc_ssa.ssafieldmap",
+    "pk": 38
+  },
+  {
+    "fields": {
+      "items": "[]",
+      "precedence": 0,
+      "name": "\u7ec4\u7ec7ID",
+      "key": "organization_id",
+      "data_tag": null
+    },
+    "model": "soc_ssa.ssafieldmap",
+    "pk": 39
+  },
+  {
+    "fields": {
+      "items": "[]",
+      "precedence": 0,
+      "name": "\u6570\u5b57ID",
+      "key": "num_id",
+      "data_tag": null
+    },
+    "model": "soc_ssa.ssafieldmap",
+    "pk": 40
+  },
+  {
+    "fields": {
+      "items": "[]",
+      "precedence": 0,
+      "name": "\u7ec8\u7aefID",
+      "key": "terminal_id",
+      "data_tag": null
+    },
+    "model": "soc_ssa.ssafieldmap",
+    "pk": 41
+  },
+  {
+    "fields": {
+      "items": "[]",
+      "precedence": 0,
+      "name": "\u64cd\u4f5c\u65f6\u95f4",
+      "key": "operate_time",
+      "data_tag": null
+    },
+    "model": "soc_ssa.ssafieldmap",
+    "pk": 42
+  },
+  {
+    "fields": {
+      "items": "[{\"id\": 1, \"name\": \"\u6210\u529f\"}, {\"id\": 0, \"name\": \"\u5931\u8d25\"}]",
+      "precedence": 0,
+      "name": "\u64cd\u4f5c\u7ed3\u679c",
+      "key": "operate_result",
+      "data_tag": null
+    },
+    "model": "soc_ssa.ssafieldmap",
+    "pk": 43
+  },
+  {
+    "fields": {
+      "items": "[]",
+      "precedence": 0,
+      "name": "\u534f\u8bae",
+      "key": "protocol",
+      "data_tag": 3
+    },
+    "model": "soc_ssa.ssafieldmap",
+    "pk": 55
+  },
+  {
+    "fields": {
+      "items": "[]",
+      "precedence": 0,
+      "name": "\u76ee\u6807IP\u5730\u533a",
+      "key": "dst_ip_location",
+      "data_tag": 3
+    },
+    "model": "soc_ssa.ssafieldmap",
+    "pk": 57
+  },
+  {
+    "fields": {
+      "items": "[]",
+      "precedence": 0,
+      "name": "\u8bbe\u5907\u7c7b\u578b",
+      "key": "device_type",
+      "data_tag": 3
+    },
+    "model": "soc_ssa.ssafieldmap",
+    "pk": 58
+  },
+  {
+    "fields": {
+      "items": "[]",
+      "precedence": 8,
+      "name": "\u6e90\u7aef\u53e3",
+      "key": "src_port",
+      "data_tag": 3
+    },
+    "model": "soc_ssa.ssafieldmap",
+    "pk": 59
+  },
+  {
+    "fields": {
+      "items": "[ {\"id\": 1, \"name\": \"\u4f4e\"}, {\"id\": 2, \"name\": \"\u4e2d\"}, {\"id\": 3, \"name\": \"\u9ad8\"}]",
+      "precedence": 7,
+      "name": "\u7ea7\u522b",
+      "key": "level",
+      "data_tag": 3
+    },
+    "model": "soc_ssa.ssafieldmap",
+    "pk": 60
+  },
+  {
+    "fields": {
+      "items": "[]",
+      "precedence": 9,
+      "name": "\u6e90IP\u5730\u5740",
+      "key": "src_ip",
+      "data_tag": 3
+    },
+    "model": "soc_ssa.ssafieldmap",
+    "pk": 61
+  },
+  {
+    "fields": {
+      "items": "[]",
+      "precedence": 1,
+      "name": "\u76ee\u6807\u7aef\u53e3",
+      "key": "dst_port",
+      "data_tag": 3
+    },
+    "model": "soc_ssa.ssafieldmap",
+    "pk": 62
+  },
+  {
+    "fields": {
+      "items": "[]",
+      "precedence": 3,
+      "name": "\u65f6\u95f4",
+      "key": "time",
+      "data_tag": 3
+    },
+    "model": "soc_ssa.ssafieldmap",
+    "pk": 63
+  },
+  {
+    "fields": {
+      "items": "[]",
+      "precedence": 2,
+      "name": "\u76ee\u6807IP\u5730\u5740",
+      "key": "dst_ip",
+      "data_tag": 3
+    },
+    "model": "soc_ssa.ssafieldmap",
+    "pk": 64
+  },
+  {
+    "fields": {
+      "items": "[]",
+      "precedence": 0,
+      "name": "\u6e90IP\u5730\u533a",
+      "key": "src_ip_location",
+      "data_tag": 3
+    },
+    "model": "soc_ssa.ssafieldmap",
+    "pk": 65
+  },
+  {
+    "fields": {
+      "items": "[]",
+      "precedence": 0,
+      "name": "\u53d1\u9001\u8bbe\u5907IP",
+      "key": "comp_ip",
+      "data_tag": 11
+    },
+    "model": "soc_ssa.ssafieldmap",
+    "pk": 152
+  },
+  {
+    "fields": {
+      "items": "[]",
+      "precedence": 0,
+      "name": "\u4efb\u52a1\u53f7",
+      "key": "task_id",
+      "data_tag": 11
+    },
+    "model": "soc_ssa.ssafieldmap",
+    "pk": 153
+  },
+  {
+    "fields": {
+      "items": "[{\"id\": 6, \"name\": \"TCP\"}, {\"id\":17, \"name\": \"UDP\"}]",
+      "precedence": 7,
+      "name": "\u4f20\u8f93\u5c42\u534f\u8bae",
+      "key": "proto",
+      "data_tag": 11
+    },
+    "model": "soc_ssa.ssafieldmap",
+    "pk": 155
+  },
+  {
+    "fields": {
+      "items": "[]",
+      "precedence": 9,
+      "name": "\u6e90IP",
+      "key": "src_ip",
+      "data_tag": 11
+    },
+    "model": "soc_ssa.ssafieldmap",
+    "pk": 156
+  },
+  {
+    "fields": {
+      "items": "[]",
+      "precedence": 8,
+      "name": "\u6e90\u7aef\u53e3",
+      "key": "src_port",
+      "data_tag": 11
+    },
+    "model": "soc_ssa.ssafieldmap",
+    "pk": 157
+  },
+  {
+    "fields": {
+      "items": "[]",
+      "precedence": 2,
+      "name": "\u76ee\u7684IP",
+      "key": "dst_ip",
+      "data_tag": 11
+    },
+    "model": "soc_ssa.ssafieldmap",
+    "pk": 158
+  },
+  {
+    "fields": {
+      "items": "[]",
+      "precedence": 1,
+      "name": "\u76ee\u7684\u7aef\u53e3",
+      "key": "dst_port",
+      "data_tag": 11
+    },
+    "model": "soc_ssa.ssafieldmap",
+    "pk": 159
+  },
+  {
+    "fields": {
+      "items": "[]",
+      "precedence": 5,
+      "name": "\u53d1\u9001\u7684\u6d41\u91cf",
+      "key": "send_flow_statis",
+      "data_tag": 11
+    },
+    "model": "soc_ssa.ssafieldmap",
+    "pk": 160
+  },
+  {
+    "fields": {
+      "items": "[]",
+      "precedence": 4,
+      "name": "\u63a5\u6536\u7684\u6d41\u91cf",
+      "key": "recv_flow_statis",
+      "data_tag": 11
+    },
+    "model": "soc_ssa.ssafieldmap",
+    "pk": 161
+  },
+  {
+    "fields": {
+      "items": "[{\"id\": 1, \"name\": \"\u6b63\u5e38\"}, {\"id\": 0, \"name\": \"\u5f02\u5e38\"}]",
+      "precedence": 0,
+      "name": "\u8fde\u63a5\u662f\u5426\u6b63\u5e38",
+      "key": "is_normal",
+      "data_tag": 11
+    },
+    "model": "soc_ssa.ssafieldmap",
+    "pk": 162
+  },
+  {
+    "fields": {
+      "items": "[]",
+      "precedence": 3,
+      "name": "\u5f00\u59cb\u65f6\u95f4",
+      "key": "starttime",
+      "data_tag": 11
+    },
+    "model": "soc_ssa.ssafieldmap",
+    "pk": 163
+  },
+  {
+    "fields": {
+      "items": "[]",
+      "precedence": 0,
+      "name": "\u7ed3\u675f\u65f6\u95f4",
+      "key": "endtime",
+      "data_tag": 11
+    },
+    "model": "soc_ssa.ssafieldmap",
+    "pk": 164
+  },
+  {
+    "fields": {
+      "items": "[]",
+      "precedence": 0,
+      "name": "\u5907\u6ce8",
+      "key": "note",
+      "data_tag": 11
+    },
+    "model": "soc_ssa.ssafieldmap",
+    "pk": 165
+  },
+  {
+    "fields": {
+      "items": "[]",
+      "precedence": 0,
+      "name": "\u53d1\u9001\u8bbe\u5907IP",
+      "key": "comp_ip",
+      "data_tag": 12
+    },
+    "model": "soc_ssa.ssafieldmap",
+    "pk": 166
+  },
+  {
+    "fields": {
+      "items": "[]",
+      "precedence": 0,
+      "name": "\u4efb\u52a1\u53f7",
+      "key": "task_id",
+      "data_tag": 12
+    },
+    "model": "soc_ssa.ssafieldmap",
+    "pk": 167
+  },
+  {
+    "fields": {
+      "items": "[]",
+      "precedence": 9,
+      "name": "\u6e90IP",
+      "key": "src_ip",
+      "data_tag": 12
+    },
+    "model": "soc_ssa.ssafieldmap",
+    "pk": 168
+  },
+  {
+    "fields": {
+      "items": "[]",
+      "precedence": 8,
+      "name": "\u6e90\u7aef\u53e3",
+      "key": "src_port",
+      "data_tag": 12
+    },
+    "model": "soc_ssa.ssafieldmap",
+    "pk": 169
+  },
+  {
+    "fields": {
+      "items": "[]",
+      "precedence": 2,
+      "name": "\u76ee\u7684IP",
+      "key": "dst_ip",
+      "data_tag": 12
+    },
+    "model": "soc_ssa.ssafieldmap",
+    "pk": 170
+  },
+  {
+    "fields": {
+      "items": "[]",
+      "precedence": 1,
+      "name": "\u76ee\u7684\u7aef\u53e3",
+      "key": "dst_port",
+      "data_tag": 12
+    },
+    "model": "soc_ssa.ssafieldmap",
+    "pk": 171
+  },
+  {
+    "fields": {
+      "items": "[]",
+      "precedence": 7,
+      "name": "\u6587\u4ef6\u540d",
+      "key": "file_name",
+      "data_tag": 12
+    },
+    "model": "soc_ssa.ssafieldmap",
+    "pk": 172
+  },
+  {
+    "fields": {
+      "items": "[]",
+      "precedence": 6,
+      "name": "\u6587\u4ef6\u5927\u5c0f",
+      "key": "file_size",
+      "data_tag": 12
+    },
+    "model": "soc_ssa.ssafieldmap",
+    "pk": 173
+  },
+  {
+    "fields": {
+      "items": "[{\"id\": 0, \"name\": \"\\u5931\\u8d25\"}, {\"id\": 1, \"name\": \"\\u6210\\u529f\"}]",
+      "precedence": 0,
+      "name": "\u662f\u5426\u6210\u529f",
+      "key": "is_success",
+      "data_tag": 12
+    },
+    "model": "soc_ssa.ssafieldmap",
+    "pk": 174
+  },
+  {
+    "fields": {
+      "items": "[]",
+      "precedence": 5,
+      "name": "\u5f00\u59cb\u65f6\u95f4",
+      "key": "starttime",
+      "data_tag": 12
+    },
+    "model": "soc_ssa.ssafieldmap",
+    "pk": 175
+  },
+  {
+    "fields": {
+      "items": "[]",
+      "precedence": 4,
+      "name": "\u7ed3\u675f\u65f6\u95f4",
+      "key": "endtime",
+      "data_tag": 12
+    },
+    "model": "soc_ssa.ssafieldmap",
+    "pk": 176
+  },
+  {
+    "fields": {
+      "items": "[]",
+      "precedence": 0,
+      "name": "\u5907\u6ce8",
+      "key": "note",
+      "data_tag": 12
+    },
+    "model": "soc_ssa.ssafieldmap",
+    "pk": 177
+  },
+  {
+    "fields": {
+      "items": "[]",
+      "precedence": 0,
+      "name": "\u7a0b\u5e8f",
+      "key": "program",
+      "data_tag": 3
+    },
+    "model": "soc_ssa.ssafieldmap",
+    "pk": 207
+  },
+  {
+    "fields": {
+      "items": "[]",
+      "precedence": 0,
+      "name": "\u9644\u52a0\u6d88\u606f",
+      "key": "msg",
+      "data_tag": 3
+    },
+    "model": "soc_ssa.ssafieldmap",
+    "pk": 208
+  },
+  {
+    "fields": {
+      "items": "[]",
+      "precedence": 0,
+      "name": "\u4e8b\u4ef6\u540d\u79f0",
+      "key": "event_name",
+      "data_tag": 3
+    },
+    "model": "soc_ssa.ssafieldmap",
+    "pk": 209
+  },
+  {
+    "fields": {
+      "items": "[]",
+      "precedence": 0,
+      "name": "\u64cd\u4f5c",
+      "key": "operation",
+      "data_tag": 3
+    },
+    "model": "soc_ssa.ssafieldmap",
+    "pk": 210
+  },
+  {
+    "fields": {
+      "items": "[]",
+      "precedence": 0,
+      "name": "\u54cd\u5e94",
+      "key": "response",
+      "data_tag": 3
+    },
+    "model": "soc_ssa.ssafieldmap",
+    "pk": 211
+  },
+  {
+    "fields": {
+      "items": "[]",
+      "precedence": 0,
+      "name": "\u8bbe\u5907\u6807\u8bc6",
+      "key": "device_name",
+      "data_tag": 3
+    },
+    "model": "soc_ssa.ssafieldmap",
+    "pk": 212
+  },
+  {
+    "fields": {
+      "items": "[]",
+      "precedence": 0,
+      "name": "\u6e90MAC\u5730\u5740",
+      "key": "src_mac",
+      "data_tag": 3
+    },
+    "model": "soc_ssa.ssafieldmap",
+    "pk": 213
+  },
+  {
+    "fields": {
+      "items": "[]",
+      "precedence": 0,
+      "name": "\u5382\u5546\u8bc6\u522b\u7b26\u53f7",
+      "key": "provider_id",
+      "data_tag": 3
+    },
+    "model": "soc_ssa.ssafieldmap",
+    "pk": 214
+  },
+  {
+    "fields": {
+      "items": "[]",
+      "precedence": 0,
+      "name": "\u4e8b\u4ef6\u6458\u8981",
+      "key": "event_digest",
+      "data_tag": 3
+    },
+    "model": "soc_ssa.ssafieldmap",
+    "pk": 215
+  },
+  {
+    "fields": {
+      "items": "[]",
+      "precedence": 0,
+      "name": "\u5bf9\u8c61",
+      "key": "object",
+      "data_tag": 3
+    },
+    "model": "soc_ssa.ssafieldmap",
+    "pk": 216
+  },
+  {
+    "fields": {
+      "items": "[]",
+      "precedence": 0,
+      "name": "\u76ee\u6807MAC\u5730\u5740",
+      "key": "dst_mac",
+      "data_tag": 3
+    },
+    "model": "soc_ssa.ssafieldmap",
+    "pk": 217
+  },
+  {
+    "fields": {
+      "items": "[]",
+      "precedence": 3,
+      "name": "\u6d41\u91cf",
+      "key": "flow",
+      "data_tag": 3
+    },
+    "model": "soc_ssa.ssafieldmap",
+    "pk": 218
+  },
+  {
+    "fields": {
+      "items": "[]",
+      "precedence": 0,
+      "name": "\u7ec8\u7aef\u552f\u4e00\u6807\u8bc6",
+      "key": "agent_id",
+      "data_tag": 13
+    },
+    "model": "soc_ssa.ssafieldmap",
+    "pk": 219
+  },
+  {
+    "fields": {
+      "items": "[]",
+      "precedence": 8,
+      "name": "\u7ec8\u7aefIP",
+      "key": "term_ip",
+      "data_tag": 13
+    },
+    "model": "soc_ssa.ssafieldmap",
+    "pk": 220
+  },
+  {
+    "fields": {
+      "items": "[]",
+      "precedence": 7,
+      "name": "\u7ec8\u7aef\u8d23\u4efb\u4eba",
+      "key": "term_duty",
+      "data_tag": 13
+    },
+    "model": "soc_ssa.ssafieldmap",
+    "pk": 221
+  },
+  {
+    "fields": {
+      "items": "[]",
+      "precedence": 0,
+      "name": "\u7ec8\u7aef\u6240\u5728\u7ec4\u7f16\u7801",
+      "key": "term_group_id",
+      "data_tag": 13
+    },
+    "model": "soc_ssa.ssafieldmap",
+    "pk": 222
+  },
+  {
+    "fields": {
+      "items": "[]",
+      "precedence": 6,
+      "name": "\u7ec8\u7aef\u6240\u5728\u7ec4\u540d\u79f0",
+      "key": "term_group_name",
+      "data_tag": 13
+    },
+    "model": "soc_ssa.ssafieldmap",
+    "pk": 223
+  },
+  {
+    "fields": {
+      "items": "[]",
+      "precedence": 0,
+      "name": "\u7f51\u7edc\u5e8fIP\u5730\u5740",
+      "key": "act_ip",
+      "data_tag": 13
+    },
+    "model": "soc_ssa.ssafieldmap",
+    "pk": 224
+  },
+  {
+    "fields": {
+      "items": "[]",
+      "precedence": 1,
+      "name": "\u64cd\u4f5c\u65f6\u95f4",
+      "key": "act_time",
+      "data_tag": 13
+    },
+    "model": "soc_ssa.ssafieldmap",
+    "pk": 225
+  },
+  {
+    "fields": {
+      "items": "[{ \"id\" : 0 , \"name\" : \"\u62d2\u7edd\u6253\u5370\" }, { \"id\" : 1 , \"name\" : \"\u540c\u610f\u6253\u5370\" }, { \"id\" : 2 , \"name\" : \"\u6253\u5370\u5ba1\u8ba1\" }, { \"id\" : 3 , \"name\" : \"\u5f3a\u5236\u4f7f\u7528\" }, { \"id\" : 4 , \"name\" : \"\u81ea\u884c\u53d6\u6d88\" }, { \"id\" : 5 , \"name\" : \"\u4e2d\u5fc3\u8d85\u65f6\u53d6\u6d88\" },{\"id\": 6, \"name\": \"\u5176\u4ed6\"}, { \"id\" : 7 , \"name\" : \"\u79bb\u7ebf\u4f7f\u7528\" }, { \"id\" : 8 , \"name\" : \"\u62d2\u7edd\" }, { \"id\" : 9 , \"name\" : \"\u540c\u610f\" }, { \"id\" : 10 , \"name\" : \"\u7981\u7528\" }, { \"id\" : 11 , \"name\" : \"\u63d2\u5165\" }, { \"id\" : 12 , \"name\" : \"\u62d4\u51fa\" }, { \"id\" : 13 , \"name\" : \"\u53d1\u73b0\u63a5\u53e3\" }, { \"id\" : 14 , \"name\" : \"\u7981\u7528\u63a5\u53e3\" }, { \"id\" : 15 , \"name\" : \"\u63d2\u5165\u624b\u673a\" }, { \"id\" : 16 , \"name\" : \"\u62d4\u51fa\u624b\u673a\" }, { \"id\" : 17 , \"name\" : \"\u589e\u52a0\u6587\u4ef6\" }, { \"id\" : 18 , \"name\" : \"\u4fee\u6539\u6587\u4ef6\u540d\" }, { \"id\" : 19 , \"name\" : \"\u5220\u9664\u6587\u4ef6\" }, { \"id\" : 20 , \"name\" : \"\u8fd0\u884c\u7a0b\u5e8f\" }, { \"id\" : 21 , \"name\" : \"\u5173\u95ed\u7a0b\u5e8f\" }, { \"id\" : 22 , \"name\" : \"\u8bd5\u56fe\u8fd0\u884c\" }]",
+      "precedence": 0,
+      "name": "\u64cd\u4f5c\u7c7b\u578b",
+      "key": "act_type",
+      "data_tag": 13
+    },
+    "model": "soc_ssa.ssafieldmap",
+    "pk": 226
+  },
+  {
+    "fields": {
+      "items": "[]",
+      "precedence": 0,
+      "name": "\u7a0b\u5e8f\u8def\u5f84",
+      "key": "app_path",
+      "data_tag": 13
+    },
+    "model": "soc_ssa.ssafieldmap",
+    "pk": 227
+  },
+  {
+    "fields": {
+      "items": "[]",
+      "precedence": 0,
+      "name": "\u7a0b\u5e8f\u540d\u79f0",
+      "key": "app_name",
+      "data_tag": 13
+    },
+    "model": "soc_ssa.ssafieldmap",
+    "pk": 228
+  },
+  {
+    "fields": {
+      "items": "[]",
+      "precedence": 0,
+      "name": " \u7ec8\u7aef\u7cfb\u7edf\u540d\u79f0",
+      "key": "term_computer_name",
+      "data_tag": 13
+    },
+    "model": "soc_ssa.ssafieldmap",
+    "pk": 263
+  },
+  {
+    "fields": {
+      "items": "[]",
+      "precedence": 9,
+      "name": "\u5ba2\u6237\u7aefIP",
+      "key": "host_ip",
+      "data_tag": 20
+    },
+    "model": "soc_ssa.ssafieldmap",
+    "pk": 296
+  },
+  {
+    "fields": {
+      "items": "[]",
+      "precedence": 0,
+      "name": "\u8ba1\u7b97\u673a\u540d",
+      "key": "computer_name",
+      "data_tag": 20
+    },
+    "model": "soc_ssa.ssafieldmap",
+    "pk": 297
+  },
+  {
+    "fields": {
+      "items": "[]",
+      "precedence": 0,
+      "name": "\u5382\u5546\u8bc6\u522b\u53f7",
+      "key": "provider_id",
+      "data_tag": 20
+    },
+    "model": "soc_ssa.ssafieldmap",
+    "pk": 298
+  },
+  {
+    "fields": {
+      "items": "[]",
+      "precedence": 8,
+      "name": "\u75c5\u6bd2\u540d",
+      "key": "virusname",
+      "data_tag": 20
+    },
+    "model": "soc_ssa.ssafieldmap",
+    "pk": 299
+  },
+  {
+    "fields": {
+      "items": "[{ \"id\" : 0 , \"name\" : \"\u5b8f\u75c5\u6bd2\" }, { \"id\" : 1 , \"name\" : \"\u611f\u67d3\u578b\u75c5\u6bd2\" }, { \"id\" : 2 , \"name\" : \"\u540e\u95e8\u7a0b\u5e8f\" }, { \"id\" : 3 , \"name\" : \"\u6728\u9a6c\u7a0b\u5e8f\" }, { \"id\" : 4 , \"name\" : \"\u6076\u610f\u7a0b\u5e8f\" }, { \"id\" : 5 , \"name\" : \"\u8815\u866b\" }, { \"id\" : 6 , \"name\" : \"\u5176\u5b83\" }]",
+      "precedence": 8,
+      "name": "\u75c5\u6bd2\u7c7b\u578b",
+      "key": "virustype",
+      "data_tag": 20
+    },
+    "model": "soc_ssa.ssafieldmap",
+    "pk": 300
+  },
+  {
+    "fields": {
+      "items": "[]",
+      "precedence": 0,
+      "name": "\u75c5\u6bd2\u6587\u4ef6\u7684md5",
+      "key": "virusfingerprint",
+      "data_tag": 20
+    },
+    "model": "soc_ssa.ssafieldmap",
+    "pk": 301
+  },
+  {
+    "fields": {
+      "items": "[]",
+      "precedence": 8,
+      "name": "\u611f\u67d3\u6587\u4ef6\u6570\u91cf",
+      "key": "infectedfilenumber",
+      "data_tag": 20
+    },
+    "model": "soc_ssa.ssafieldmap",
+    "pk": 302
+  },
+  {
+    "fields": {
+      "items": "[]",
+      "precedence": 7,
+      "name": "\u4f20\u8f93\u5c42\u534f\u8bae",
+      "key": "transport_protocol",
+      "data_tag": 21
+    },
+    "model": "soc_ssa.ssafieldmap",
+    "pk": 303
+  },
+  {
+    "fields": {
+      "items": "[{\"id\": \"urgent\", \"name\": \"\u7d27\u6025\"}, {\"id\": \"High\", \"name\": \"\u9ad8\"}, {\"id\": \"middle\", \"name\": \"\u4e2d\"}, {\"id\": \"low\", \"name\": \"\u4f4e\"}]",
+      "precedence": 5,
+      "name": "\u4e8b\u4ef6\u7ea7\u522b",
+      "key": "level",
+      "data_tag": 21
+    },
+    "model": "soc_ssa.ssafieldmap",
+    "pk": 304
+  },
+  {
+    "fields": {
+      "items": "[]",
+      "precedence": 9,
+      "name": "\u670d\u52a1\u5668IP",
+      "key": "server_ip",
+      "data_tag": 21
+    },
+    "model": "soc_ssa.ssafieldmap",
+    "pk": 305
+  },
+  {
+    "fields": {
+      "items": "[]",
+      "precedence": 8,
+      "name": "\u5ba2\u6237\u7aefIP",
+      "key": "client_ip",
+      "data_tag": 21
+    },
+    "model": "soc_ssa.ssafieldmap",
+    "pk": 306
+  },
+  {
+    "fields": {
+      "items": "[]",
+      "precedence": 0,
+      "name": "\u670d\u52a1\u5668mac\u5730\u5740",
+      "key": "server_mac",
+      "data_tag": 21
+    },
+    "model": "soc_ssa.ssafieldmap",
+    "pk": 307
+  },
+  {
+    "fields": {
+      "items": "[]",
+      "precedence": 0,
+      "name": "\u5ba2\u6237\u7aefmac\u5730\u5740",
+      "key": "client_mac",
+      "data_tag": 21
+    },
+    "model": "soc_ssa.ssafieldmap",
+    "pk": 308
+  },
+  {
+    "fields": {
+      "items": "[]",
+      "precedence": 0,
+      "name": "\u89c4\u5219\u96c6\u540d",
+      "key": "ruleset_name",
+      "data_tag": 21
+    },
+    "model": "soc_ssa.ssafieldmap",
+    "pk": 309
+  },
+  {
+    "fields": {
+      "items": "[]",
+      "precedence": 0,
+      "name": "\u89c4\u5219\u540d",
+      "key": "rule_name",
+      "data_tag": 21
+    },
+    "model": "soc_ssa.ssafieldmap",
+    "pk": 310
+  },
+  {
+    "fields": {
+      "items": "[]",
+      "precedence": 0,
+      "name": "\u8868\u540d",
+      "key": "table_name",
+      "data_tag": 21
+    },
+    "model": "soc_ssa.ssafieldmap",
+    "pk": 311
+  },
+  {
+    "fields": {
+      "items": "[]",
+      "precedence": 0,
+      "name": "\u6570\u636e\u5e93\u540d",
+      "key": "db_name",
+      "data_tag": 21
+    },
+    "model": "soc_ssa.ssafieldmap",
+    "pk": 312
+  },
+  {
+    "fields": {
+      "items": "[]",
+      "precedence": 0,
+      "name": "\u5b50\u547d\u4ee4",
+      "key": "subcmd",
+      "data_tag": 21
+    },
+    "model": "soc_ssa.ssafieldmap",
+    "pk": 313
+  },
+  {
+    "fields": {
+      "items": "[]",
+      "precedence": 6,
+      "name": "sql\u8bed\u53e5",
+      "key": "sql",
+      "data_tag": 21
+    },
+    "model": "soc_ssa.ssafieldmap",
+    "pk": 314
+  },
+  {
+    "fields": {
+      "items": "[]",
+      "precedence": 0,
+      "name": "\u89c4\u5219\u540d",
+      "key": "rule_name",
+      "data_tag": 21
+    },
+    "model": "soc_ssa.ssafieldmap",
+    "pk": 315
+  },
+  {
+    "fields": {
+      "items": "[]",
+      "precedence": 0,
+      "name": "\u5f71\u54cd\u884c\u6570",
+      "key": "record_rows",
+      "data_tag": 21
+    },
+    "model": "soc_ssa.ssafieldmap",
+    "pk": 316
+  },
+  {
+    "fields": {
+      "items": "[]",
+      "precedence": 0,
+      "name": "\u89c4\u5219\u540d",
+      "key": "rule_name",
+      "data_tag": 21
+    },
+    "model": "soc_ssa.ssafieldmap",
+    "pk": 317
+  },
+  {
+    "fields": {
+      "items": "[]",
+      "precedence": 0,
+      "name": "\u65b9\u5411",
+      "key": "direction",
+      "data_tag": 21
+    },
+    "model": "soc_ssa.ssafieldmap",
+    "pk": 318
+  },
+  {
+    "fields": {
+      "items": "[{\"id\": \"yes\", \"name\": \"\u662f\"}, {\"id\": \"no\", \"name\": \"\u5426\"}]",
+      "precedence": 4,
+      "name": "\u662f\u5426\u963b\u65ad",
+      "key": "block",
+      "data_tag": 21
+    },
+    "model": "soc_ssa.ssafieldmap",
+    "pk": 319
+  },
+  {
+    "fields": {
+      "items": "[]",
+      "precedence": 0,
+      "name": "\u54cd\u5e94\u65f6\u95f4",
+      "key": "response_time",
+      "data_tag": 21
+    },
+    "model": "soc_ssa.ssafieldmap",
+    "pk": 320
+  },
+  {
+    "fields": {
+      "items": "[]",
+      "precedence": 0,
+      "name": "\u547d\u4ee4",
+      "key": "cmd",
+      "data_tag": 21
+    },
+    "model": "soc_ssa.ssafieldmap",
+    "pk": 321
+  },
+  {
+    "fields": {
+      "items": "[]",
+      "precedence": 0,
+      "name": "\u5bf9\u8c61\u540d",
+      "key": "object_name",
+      "data_tag": 21
+    },
+    "model": "soc_ssa.ssafieldmap",
+    "pk": 322
+  },
+  {
+    "fields": {
+      "items": "[]",
+      "precedence": 3,
+      "name": "\u8fde\u63a5\u65b9\u5f0f",
+      "key": "library",
+      "data_tag": 21
+    },
+    "model": "soc_ssa.ssafieldmap",
+    "pk": 323
+  },
+  {
+    "fields": {
+      "items": "[]",
+      "precedence": 0,
+      "name": "\u6e90\u4e3b\u673a\u540d\u79f0",
+      "key": "client_host",
+      "data_tag": 21
+    },
+    "model": "soc_ssa.ssafieldmap",
+    "pk": 324
+  },
+  {
+    "fields": {
+      "items": "[]",
+      "precedence": 0,
+      "name": "\u76ee\u7684\u4e3b\u673a\u540d\u79f0",
+      "key": "server_host",
+      "data_tag": 21
+    },
+    "model": "soc_ssa.ssafieldmap",
+    "pk": 325
+  },
+  {
+    "fields": {
+      "items": "[]",
+      "precedence": 0,
+      "name": "\u5b9e\u4f8b\u540d",
+      "key": "instance_name",
+      "data_tag": 21
+    },
+    "model": "soc_ssa.ssafieldmap",
+    "pk": 326
+  },
+  {
+    "fields": {
+      "items": "[]",
+      "precedence": 0,
+      "name": "\u8ba4\u8bc1\u8d26\u53f7",
+      "key": "auth_account",
+      "data_tag": 21
+    },
+    "model": "soc_ssa.ssafieldmap",
+    "pk": 327
+  },
+  {
+    "fields": {
+      "items": "[]",
+      "precedence": 0,
+      "name": "\u8d44\u6e90\u8d26\u53f7",
+      "key": "bizaccout",
+      "data_tag": 21
+    },
+    "model": "soc_ssa.ssafieldmap",
+    "pk": 328
+  },
+  {
+    "fields": {
+      "items": "[]",
+      "precedence": 0,
+      "name": "\u5f15\u64ceIP",
+      "key": "dev_ip",
+      "data_tag": 21
+    },
+    "model": "soc_ssa.ssafieldmap",
+    "pk": 329
+  },
+  {
+    "fields": {
+      "items": "[]",
+      "precedence": 0,
+      "name": "\u5e94\u7528\u5c42\u534f\u8bae",
+      "key": "app_protocol",
+      "data_tag": 21
+    },
+    "model": "soc_ssa.ssafieldmap",
+    "pk": 330
+  },
+  {
+    "fields": {
+      "items": "[]",
+      "precedence": 0,
+      "name": "\u670d\u52a1\u5668\u7aef\u53e3\u53f7",
+      "key": "server_port",
+      "data_tag": 21
+    },
+    "model": "soc_ssa.ssafieldmap",
+    "pk": 331
+  },
+  {
+    "fields": {
+      "items": "[]",
+      "precedence": 0,
+      "name": "\u91cd\u5b9a\u5411\u7aef\u53e3\u53f7",
+      "key": "redirect_port",
+      "data_tag": 21
+    },
+    "model": "soc_ssa.ssafieldmap",
+    "pk": 332
+  },
+  {
+    "fields": {
+      "items": "[]",
+      "precedence": 0,
+      "name": "\u5ba2\u6237\u7aef\u7aef\u53e3\u53f7",
+      "key": "client_port",
+      "data_tag": 21
+    },
+    "model": "soc_ssa.ssafieldmap",
+    "pk": 333
+  },
+  {
+    "fields": {
+      "items": "[]",
+      "precedence": 0,
+      "name": "\u5f15\u64ce\u53d1\u51fasyslog\u65e5\u5fd7\u7684\u65f6\u95f4",
+      "key": "gen_time",
+      "data_tag": 21
+    },
+    "model": "soc_ssa.ssafieldmap",
+    "pk": 334
+  },
+  {
+    "fields": {
+      "items": "[]",
+      "precedence": 5,
+      "name": "\u534f\u8bae",
+      "key": "protocol",
+      "data_tag": 22
+    },
+    "model": "soc_ssa.ssafieldmap",
+    "pk": 335
+  },
+  {
+    "fields": {
+      "items": "[]",
+      "precedence": 4,
+      "name": "\u53d1\u751f\u65f6\u95f4",
+      "key": "time",
+      "data_tag": 22
+    },
+    "model": "soc_ssa.ssafieldmap",
+    "pk": 336
+  },
+  {
+    "fields": {
+      "items": "[{ \"id\":10,\"name\":\"\u975e\u653b\u51fb\u4e8b\u4ef6\"},{ \"id\":20,\"name\":\"\u4f4e\u7ea7\u4e8b\u4ef6\"},{\"id\":30,\"name\":\"\u4e2d\u7ea7\u4e8b\u4ef6\"},{\"id\":40,\"name\":\"\u9ad8\u7ea7\u4e8b\u4ef6\"}]",
+      "precedence": 6,
+      "name": "\u4e8b\u4ef6\u7ea7\u522b",
+      "key": "level",
+      "data_tag": 22
+    },
+    "model": "soc_ssa.ssafieldmap",
+    "pk": 337
+  },
+  {
+    "fields": {
+      "items": "[]",
+      "precedence": 7,
+      "name": "\u4e8b\u4ef6\u540d\u79f0",
+      "key": "event_name",
+      "data_tag": 22
+    },
+    "model": "soc_ssa.ssafieldmap",
+    "pk": 338
+  },
+  {
+    "fields": {
+      "items": "[]",
+      "precedence": 9,
+      "name": "\u4e8b\u4ef6\u5408\u5e76\u6b21\u6570",
+      "key": "event_count",
+      "data_tag": 22
+    },
+    "model": "soc_ssa.ssafieldmap",
+    "pk": 339
+  },
+  {
+    "fields": {
+      "items": "[]",
+      "precedence": 9,
+      "name": "\u6e90IP",
+      "key": "src_ip",
+      "data_tag": 22
+    },
+    "model": "soc_ssa.ssafieldmap",
+    "pk": 340
+  },
+  {
+    "fields": {
+      "items": "[]",
+      "precedence": 0,
+      "name": "\u6e90\u7aef\u53e3",
+      "key": "src_port",
+      "data_tag": 22
+    },
+    "model": "soc_ssa.ssafieldmap",
+    "pk": 341
+  },
+  {
+    "fields": {
+      "items": "[]",
+      "precedence": 8,
+      "name": "\u76ee\u7684IP",
+      "key": "dst_ip",
+      "data_tag": 22
+    },
+    "model": "soc_ssa.ssafieldmap",
+    "pk": 342
+  },
+  {
+    "fields": {
+      "items": "[]",
+      "precedence": 0,
+      "name": "\u76ee\u7684\u7aef\u53e3",
+      "key": "dst_port",
+      "data_tag": 22
+    },
+    "model": "soc_ssa.ssafieldmap",
+    "pk": 343
+  },
+  {
+    "fields": {
+      "items": "[]",
+      "precedence": 0,
+      "name": "\u670d\u52a1\u5668mac\u5730\u5740",
+      "key": "src_mac",
+      "data_tag": 22
+    },
+    "model": "soc_ssa.ssafieldmap",
+    "pk": 344
+  },
+  {
+    "fields": {
+      "items": "[{ \"id\" : 1 , \"name\" : \"\u7a0b\u5e8f\u65e5\u5fd7\" }, { \"id\" : 2 , \"name\" : \"\u767b\u5f55\u65e5\u5fd7\" }, { \"id\" : 3 , \"name\" : \"\u6d4f\u89c8\u7f51\u9875\u65e5\u5fd7\" }, { \"id\" : 4 , \"name\" : \"\u5386\u53f2\u6587\u4ef6\u65e5\u5fd7\" }, { \"id\" : 5 , \"name\" : \"\u8bbe\u5907\u5ba1\u6279\u4f7f\u7528\u65e5\u5fd7\" }, { \"id\" : 6 , \"name\" : \"\u523b\u5f55\u6587\u4ef6\u65e5\u5fd7\" }, { \"id\" : 7 , \"name\" : \"\u79fb\u52a8\u76d8\u62f7\u8d1d\u6587\u4ef6\u65e5\u5fd7\" }]",
+      "precedence": 9,
+      "name": "\u65e5\u5fd7\u7c7b\u578b",
+      "key": "log_type",
+      "data_tag": 13
+    },
+    "model": "soc_ssa.ssafieldmap",
+    "pk": 345
+  },
+  {
+    "fields": {
+      "items": "[]",
+      "precedence": 0,
+      "name": "\u767b\u5f55IP",
+      "key": "login_ip",
+      "data_tag": 13
+    },
+    "model": "soc_ssa.ssafieldmap",
+    "pk": 346
+  },
+  {
+    "fields": {
+      "items": "[]",
+      "precedence": 0,
+      "name": "\u767b\u5f55\u540d",
+      "key": "login_name",
+      "data_tag": 13
+    },
+    "model": "soc_ssa.ssafieldmap",
+    "pk": 347
+  },
+  {
+    "fields": {
+      "items": "[]",
+      "precedence": 0,
+      "name": "\u767b\u5f55\u7528\u6237\u540d",
+      "key": "os_username",
+      "data_tag": 13
+    },
+    "model": "soc_ssa.ssafieldmap",
+    "pk": 348
+  },
+  {
+    "fields": {
+      "items": "[{ \"id\" : 1 , \"name\" : \"\u672c\u5730\u767b\u5f55\" }, { \"id\" : 2 , \"name\" : \"\u7f51\u7edc\u767b\u5f55\" }, { \"id\" : 3 , \"name\" : \"API\u767b\u5f55\" }, { \"id\" : 4 , \"name\" : \"\u5f00\u673a\" }, { \"id\" : 5 , \"name\" : \"\u5173\u673a\" }, { \"id\" : 6 , \"name\" : \"TMS\u5b89\u88c5\" }, { \"id\" : 7 , \"name\" : \"TMS\u5378\u8f7d\" }]",
+      "precedence": 0,
+      "name": "\u767b\u5f55\u7c7b\u578b",
+      "key": "login_type",
+      "data_tag": 13
+    },
+    "model": "soc_ssa.ssafieldmap",
+    "pk": 349
+  },
+  {
+    "fields": {
+      "items": "[{ \"id\" : 0 , \"name\" : \"\u5931\u8d25\" }, { \"id\" : 1 , \"name\" : \"\u6210\u529f\" }]",
+      "precedence": 0,
+      "name": "\u767b\u5f55\u7ed3\u679c",
+      "key": "login_result",
+      "data_tag": 13
+    },
+    "model": "soc_ssa.ssafieldmap",
+    "pk": 350
+  },
+  {
+    "fields": {
+      "items": "[]",
+      "precedence": 4,
+      "name": "\u64cd\u4f5c\u6587\u4ef6/URL",
+      "key": "file_name",
+      "data_tag": 13
+    },
+    "model": "soc_ssa.ssafieldmap",
+    "pk": 352
+  },
+  {
+    "fields": {
+      "items": "[{ \"id\" : 1 , \"name\" : \"\u6253\u5370\" }, { \"id\" : 2 , \"name\" : \"\u79fb\u52a8\u76d8\" }, { \"id\" : 3 , \"name\" : \"\u523b\u5f55\" }, { \"id\" : 4 , \"name\" : \"\u7ea2\u5916\" }, { \"id\" : 5 , \"name\" : \"\u84dd\u7259\" }, { \"id\" : 6 , \"name\" : \"1394\" }, { \"id\" : 7 , \"name\" : \"Modem\" }, { \"id\" : 8 , \"name\" : \"802.1x\" }, { \"id\" : 9 , \"name\" : \"PCMCIA\" }, { \"id\" : 10 , \"name\" : \"\u624b\u673a\u5145\u7535\" }]",
+      "precedence": 5,
+      "name": "\u5ba1\u6279\u7c7b\u578b",
+      "key": "request_type",
+      "data_tag": 13
+    },
+    "model": "soc_ssa.ssafieldmap",
+    "pk": 355
+  },
+  {
+    "fields": {
+      "items": "[]",
+      "precedence": 0,
+      "name": "\u64cd\u4f5c\u540d\u79f0",
+      "key": "request_name",
+      "data_tag": 13
+    },
+    "model": "soc_ssa.ssafieldmap",
+    "pk": 356
+  },
+  {
+    "fields": {
+      "items": "[]",
+      "precedence": 0,
+      "name": "\u64cd\u4f5c\u65f6\u95f4",
+      "key": "request_time",
+      "data_tag": 13
+    },
+    "model": "soc_ssa.ssafieldmap",
+    "pk": 357
+  },
+  {
+    "fields": {
+      "items": "[]",
+      "precedence": 0,
+      "name": "\u5ba1\u6279\u4eba\u540d",
+      "key": "approver_name",
+      "data_tag": 13
+    },
+    "model": "soc_ssa.ssafieldmap",
+    "pk": 358
+  },
+  {
+    "fields": {
+      "items": "[]",
+      "precedence": 0,
+      "name": "\u5ba1\u6279\u65f6\u95f4",
+      "key": "approve_time",
+      "data_tag": 13
+    },
+    "model": "soc_ssa.ssafieldmap",
+    "pk": 359
+  },
+  {
+    "fields": {
+      "items": "[]",
+      "precedence": 0,
+      "name": "\u8bbe\u5907\u540d\u79f0",
+      "key": "dev_name",
+      "data_tag": 13
+    },
+    "model": "soc_ssa.ssafieldmap",
+    "pk": 360
+  },
+  {
+    "fields": {
+      "items": "[]",
+      "precedence": 0,
+      "name": "\u6e05\u9664\u75c5\u6bd2\u6587\u4ef6\u6570\u91cf",
+      "key": "clearedfilenumber",
+      "data_tag": 20
+    },
+    "model": "soc_ssa.ssafieldmap",
+    "pk": 364
+  },
+  {
+    "fields": {
+      "items": "[]",
+      "precedence": 0,
+      "name": "\u5a92\u4f53\u7c7b\u578b",
+      "key": "mediatype",
+      "data_tag": 20
+    },
+    "model": "soc_ssa.ssafieldmap",
+    "pk": 365
+  },
+  {
+    "fields": {
+      "items": "[]",
+      "precedence": 0,
+      "name": "\u5ba2\u6237\u7aef\u5a92\u4f53\u7c7b\u578b",
+      "key": "custommediatype",
+      "data_tag": 20
+    },
+    "model": "soc_ssa.ssafieldmap",
+    "pk": 366
+  },
+  {
+    "fields": {
+      "items": "[]",
+      "precedence": 0,
+      "name": "\u6587\u4ef6\u75c5\u6bd2\u662f\u5426\u6e05\u9664",
+      "key": "infectedfileinfo_cleared",
+      "data_tag": null
+    },
+    "model": "soc_ssa.ssafieldmap",
+    "pk": 367
+  },
+  {
+    "fields": {
+      "items": "[{ \"id\" : 0 , \"name\" : \"\u5426\" }, { \"id\" : 1 , \"name\" : \"\u662f\" }]",
+      "precedence": 7,
+      "name": "\u6587\u4ef6\u75c5\u6bd2\u662f\u5426\u6e05\u9664",
+      "key": "infectedfileinfo_cleared",
+      "data_tag": 20
+    },
+    "model": "soc_ssa.ssafieldmap",
+    "pk": 368
+  },
+  {
+    "fields": {
+      "items": "[]",
+      "precedence": 6,
+      "name": "\u88ab\u611f\u67d3\u6587\u4ef6\u8def\u5f84",
+      "key": "infectedfileinfo_filepath",
+      "data_tag": 20
+    },
+    "model": "soc_ssa.ssafieldmap",
+    "pk": 369
+  },
+  {
+    "fields": {
+      "items": "[ { \"id\" : 1 , \"name\" : \"\u672c\u5730\u78c1\u76d8\" }, { \"id\" : 2 , \"name\" : \"\u7f51\u7edc\u78c1\u76d8\" }, { \"id\" : 4 , \"name\" : \"\u90ae\u4ef6\u9644\u4ef6\" }, { \"id\" : 8 , \"name\" : \"U\u76d8\" }, { \"id\" : 16 , \"name\" : \"\u5149\u76d8\" }, { \"id\" : 32 , \"name\" : \"\u5176\u5b83\" }]",
+      "precedence": 0,
+      "name": "\u88ab\u611f\u67d3\u6587\u4ef6\u6240\u5728\u5a92\u4ecb\u7c7b\u578b",
+      "key": "infectedfileinfo_custommediatype",
+      "data_tag": 20
+    },
+    "model": "soc_ssa.ssafieldmap",
+    "pk": 370
+  },
+  {
+    "fields": {
+      "items": "[]",
+      "precedence": 5,
+      "name": "\u53d1\u73b0\u65e5\u671f",
+      "key": "time",
+      "data_tag": 20
+    },
+    "model": "soc_ssa.ssafieldmap",
+    "pk": 371
+  },
+  {
+    "fields": {
+      "items": "[]",
+      "precedence": 9,
+      "name": "\u6765\u6e90IP",
+      "key": "source",
+      "data_tag": 22
+    },
+    "model": "soc_ssa.ssafieldmap",
+    "pk": 372
+  },
+  {
+    "fields": {
+      "items": "[]",
+      "precedence": 0,
+      "name": "\u6dfb\u52a0\u65f6\u95f4",
+      "key": "@timestamp",
+      "data_tag": 22
+    },
+    "model": "soc_ssa.ssafieldmap",
+    "pk": 373
+  },
+  {
+    "fields": {
+      "items": "[]",
+      "precedence": 0,
+      "name": "\u76ee\u7684\u7aefmac\u5730\u5740",
+      "key": "dst_mac",
+      "data_tag": 22
+    },
+    "model": "soc_ssa.ssafieldmap",
+    "pk": 374
+  },
+  {
+    "fields": {
+      "items": "[]",
+      "precedence": 0,
+      "name": "\u6dfb\u52a0\u65f6\u95f4",
+      "key": "@timestamp",
+      "data_tag": 11
+    },
+    "model": "soc_ssa.ssafieldmap",
+    "pk": 375
+  },
+  {
+    "fields": {
+      "items": "[]",
+      "precedence": 0,
+      "name": "\u6dfb\u52a0\u65f6\u95f4",
+      "key": "@timestamp",
+      "data_tag": 13
+    },
+    "model": "soc_ssa.ssafieldmap",
+    "pk": 377
+  },
+  {
+    "fields": {
+      "items": "[]",
+      "precedence": 0,
+      "name": "\u5382\u5546\u8bc6\u522b\u7b26\u53f7",
+      "key": "provider_id",
+      "data_tag": 22
+    },
+    "model": "soc_ssa.ssafieldmap",
+    "pk": 378
+  },
+  {
+    "fields": {
+      "items": "[]",
+      "precedence": 0,
+      "name": "\u63cf\u8ff0",
+      "key": "description",
+      "data_tag": 22
+    },
+    "model": "soc_ssa.ssafieldmap",
+    "pk": 379
+  },
+  {
+    "fields": {
+      "items": "[]",
+      "precedence": 0,
+      "name": "\u5382\u5546\u5185\u90e8\u89c4\u5219\u7f16\u53f7",
+      "key": "internal_id",
+      "data_tag": 22
+    },
+    "model": "soc_ssa.ssafieldmap",
+    "pk": 380
+  },
+  {
+    "fields": {
+      "items": "[]",
+      "precedence": 0,
+      "name": "\u653b\u51fbid",
+      "key": "attackid",
+      "data_tag": 22
+    },
+    "model": "soc_ssa.ssafieldmap",
+    "pk": 381
+  },
+  {
+    "fields": {
+      "items": "[]",
+      "precedence": 0,
+      "name": "\u4e8b\u4ef6\u7c7b\u578b\u8bc6\u522b\u7801",
+      "key": "type_id",
+      "data_tag": 22
+    },
+    "model": "soc_ssa.ssafieldmap",
+    "pk": 382
+  },
+  {
+    "fields": {
+      "items": "[]",
+      "precedence": 0,
+      "name": "CVE\u7f16\u53f7",
+      "key": "cve_id",
+      "data_tag": 22
+    },
+    "model": "soc_ssa.ssafieldmap",
+    "pk": 383
+  },
+  {
+    "fields": {
+      "items": "[]",
+      "precedence": 0,
+      "name": "\u6458\u8981",
+      "key": "fingerprint",
+      "data_tag": 22
+    },
+    "model": "soc_ssa.ssafieldmap",
+    "pk": 384
+  },
+  {
+    "fields": {
+      "items": "[]",
+      "precedence": 0,
+      "name": "\u6dfb\u52a0\u65e5\u671f",
+      "key": "@timestamp",
+      "data_tag": 20
+    },
+    "model": "soc_ssa.ssafieldmap",
+    "pk": 385
+  },
+  {
+    "fields": {
+      "items": "[]",
+      "precedence": 0,
+      "name": "\u5ba2\u6237\u7aef\u4ea7\u751f\u65e5\u5fd7\u65f6\u95f4",
+      "key": "utcms",
+      "data_tag": 20
+    },
+    "model": "soc_ssa.ssafieldmap",
+    "pk": 386
+  },
+  {
+    "fields": {
+      "items": "[]",
+      "precedence": 0,
+      "name": "\u5ba2\u6237\u7aef\u75c5\u6bd2\u6765\u6e90",
+      "key": "custominitiativedefencesource",
+      "data_tag": 20
+    },
+    "model": "soc_ssa.ssafieldmap",
+    "pk": 387
+  },
+  {
+    "fields": {
+      "items": "[]",
+      "precedence": 0,
+      "name": "\u9632\u5fa1\u4ee3\u7801",
+      "key": "initiativedefencecode",
+      "data_tag": 20
+    },
+    "model": "soc_ssa.ssafieldmap",
+    "pk": 388
+  },
+  {
+    "fields": {
+      "items": "[]",
+      "precedence": 0,
+      "name": "\u611f\u67d3\u6587\u4ef6\u7f16\u7801",
+      "key": "infectedfileinfo_code",
+      "data_tag": 20
+    },
+    "model": "soc_ssa.ssafieldmap",
+    "pk": 389
+  },
+  {
+    "fields": {
+      "items": "[]",
+      "precedence": 0,
+      "name": "\u4e8b\u4ef6\u6570",
+      "key": "event_count",
+      "data_tag": 22
+    },
+    "model": "soc_ssa.ssafieldmap",
+    "pk": 391
+  },
+  {
+    "fields": {
+      "name": "\u4e8b\u4ef6\u6765\u6e90",
+      "precedence": 9,
+      "items": "[{ \"id\" : 1 , \"name\" : \"\u9632\u706b\u5899\" },{ \"id\" : 2 , \"name\" : \"IDS\" },{ \"id\" : 3 , \"name\" : \"\u6570\u636e\u5e93\u5ba1\u8ba1\" },{ \"id\" : 4 , \"name\" : \"\u6446\u6e21\u8bbe\u5907\" },{ \"id\" : 5 , \"name\" : \"\u9694\u79bb\u8bbe\u5907\" },{ \"id\" : 6 , \"name\" : \"\u6740\u6bd2\u8f6f\u4ef6\" },{ \"id\" : 7 , \"name\" : \"\u7ec8\u7aef\" }]",
+      "field_priority": "data_tag",
+      "key": "event_source",
+      "data_tag": 1
+    },
+    "model": "soc_ssa.secfieldmap",
+    "pk": 42
+  },
+  {
+    "fields": {
+      "name": "\u4e8b\u4ef6\u53d1\u73b0\u8bbe\u5907ip",
+      "precedence": 0,
+      "items": "[]",
+      "field_priority": null,
+      "key": "event_host",
+      "data_tag": 1
+    },
+    "model": "soc_ssa.secfieldmap",
+    "pk": 68
+  },
+  {
+    "fields": {
+      "name": "\u4e8b\u4ef6\u8bb0\u5f55\u6807\u8bc6",
+      "precedence": 0,
+      "items": "[]",
+      "field_priority": null,
+      "key": "source_id",
+      "data_tag": 1
+    },
+    "model": "soc_ssa.secfieldmap",
+    "pk": 69
+  },
+  {
+    "fields": {
+      "name": "\u4e8b\u4ef6\u4e00\u7ea7\u7c7b",
+      "precedence": 0,
+      "items": "[{ \"id\" : \"\u75c5\u6bd2\" , \"name\" : \"\u75c5\u6bd2\" },{ \"id\" : \"\u8fdd\u89c4\" , \"name\" : \"\u8fdd\u89c4\" },{ \"id\" : \"\u653b\u51fb\" , \"name\" : \"\u653b\u51fb\" }]",
+      "field_priority": null,
+      "key": "event_one_type",
+      "data_tag": 1
+    },
+    "model": "soc_ssa.secfieldmap",
+    "pk": 70
+  },
+  {
+    "fields": {
+      "name": "\u4e8b\u4ef6\u7c7b\u578b",
+      "precedence": 6,
+      "items": "[{ \"id\" : \"\u6709\u5bb3\u7a0b\u5e8f\" , \"name\" : \"\u6709\u5bb3\u7a0b\u5e8f\" },{ \"id\" : \"\u6f0f\u6d1e\" , \"name\" : \"\u6f0f\u6d1e\" },{ \"id\" : \"\u5176\u5b83\u75c5\u6bd2\" , \"name\" : \"\u5176\u5b83\u75c5\u6bd2\" },{ \"id\" : \"\u963b\u65ad\u7b56\u7565\" , \"name\" : \"\u963b\u65ad\u7b56\u7565\" },{ \"id\" : \"\u8bbf\u95ee\u63a7\u5236\" , \"name\" : \"\u8bbf\u95ee\u63a7\u5236\" },{ \"id\" : \"\u5b89\u5168\u7b56\u7565\" , \"name\" : \"\u5b89\u5168\u7b56\u7565\" },{ \"id\" : \"\u5fc5\u88c5\u5b89\u5168\u8f6f\u4ef6\" , \"name\" : \"\u5fc5\u88c5\u5b89\u5168\u8f6f\u4ef6\" },{ \"id\" : \"\u75d5\u8ff9\u68c0\u67e5\" , \"name\" : \"\u75d5\u8ff9\u68c0\u67e5\" },{ \"id\" : \"\u9ad8\u98ce\u9669\u6307\u4ee4\" , \"name\" : \"\u9ad8\u98ce\u9669\u6307\u4ee4\" },{ \"id\" : \"\u4e2d\u98ce\u9669\u6307\u4ee4\" , \"name\" : \"\u4e2d\u98ce\u9669\u6307\u4ee4\" },{ \"id\" : \"\u4f4e\u98ce\u9669\u6307\u4ee4\" , \"name\" : \"\u4f4e\u98ce\u9669\u6307\u4ee4\" },{ \"id\" : \"\u5176\u5b83\u98ce\u9669\u6307\u4ee4\" , \"name\" : \"\u5176\u5b83\u98ce\u9669\u6307\u4ee4\" },{ \"id\" : \"\u9632\u653b\u51fb\" , \"name\" : \"\u9632\u653b\u51fb\" },{ \"id\" : \"\u4fe1\u606f\u6536\u96c6\" , \"name\" : \"\u4fe1\u606f\u6536\u96c6\" },{ \"id\" : \"\u83b7\u53d6\u6743\u9650\" , \"name\" : \"\u83b7\u53d6\u6743\u9650\" },{ \"id\" : \"\u8fdc\u7a0b\u63a7\u5236\" , \"name\" : \"\u8fdc\u7a0b\u63a7\u5236\" },{ \"id\" : \"\u6570\u636e\u76d7\u53d6\" , \"name\" : \"\u6570\u636e\u76d7\u53d6\" },{ \"id\" : \"\u7cfb\u7edf\u7834\u574f\" , \"name\" : \"\u7cfb\u7edf\u7834\u574f\" },{ \"id\" : \"\u9690\u85cf\u653b\u51fb\u75d5\u8ff9\" , \"name\" : \"\u9690\u85cf\u653b\u51fb\u75d5\u8ff9\" },{ \"id\" : \"\u6076\u610f\u7f51\u7ad9\" , \"name\" : \"\u6076\u610f\u7f51\u7ad9\" },{ \"id\" : \"\u5176\u5b83\u7c7b\u653b\u51fb\u4e8b\u4ef6\" , \"name\" : \"\u5176\u5b83\u7c7b\u653b\u51fb\u4e8b\u4ef6\" },{ \"id\" : \"\u4fe1\u606f\u6536\u96c6\" , \"name\" : \"\u4fe1\u606f\u6536\u96c6\" }]",
+      "field_priority": "event_two_type",
+      "key": "event_two_type",
+      "data_tag": 1
+    },
+    "model": "soc_ssa.secfieldmap",
+    "pk": 71
+  },
+  {
+    "fields": {
+      "name": "\u4e8b\u4ef6\u603b\u6570",
+      "precedence": 0,
+      "items": "[]",
+      "field_priority": null,
+      "key": "event_total",
+      "data_tag": 1
+    },
+    "model": "soc_ssa.secfieldmap",
+    "pk": 73
+  },
+  {
+    "fields": {
+      "name": "\u4e8b\u4ef6\u7ea7\u522b",
+      "precedence": 6,
+      "items": "[{ \"id\" : 1 , \"name\" : \"\u4e00\u822c\" },{ \"id\" : 2 , \"name\" : \"\u5371\u9669\" },{ \"id\" : 3 , \"name\" : \"\u975e\u5e38\u5371\u9669\" }]",
+      "field_priority": null,
+      "key": "event_level",
+      "data_tag": 1
+    },
+    "model": "soc_ssa.secfieldmap",
+    "pk": 74
+  },
+  {
+    "fields": {
+      "name": "\u6d41\u91cf",
+      "precedence": 0,
+      "items": "[]",
+      "field_priority": null,
+      "key": "flow",
+      "data_tag": 1
+    },
+    "model": "soc_ssa.secfieldmap",
+    "pk": 75
+  },
+  {
+    "fields": {
+      "name": "\u64cd\u4f5c\u7ed3\u679c",
+      "precedence": 0,
+      "items": "[{ \"id\" : 0 , \"name\" : \"\u5931\u8d25\" },{ \"id\" : 1 , \"name\" : \"\u6210\u529f\" }]",
+      "field_priority": null,
+      "key": "opt_result",
+      "data_tag": 1
+    },
+    "model": "soc_ssa.secfieldmap",
+    "pk": 76
+  },
+  {
+    "fields": {
+      "name": "\u5f00\u59cb\u65f6\u95f4",
+      "precedence": 0,
+      "items": "[]",
+      "field_priority": "time",
+      "key": "start_time",
+      "data_tag": 1
+    },
+    "model": "soc_ssa.secfieldmap",
+    "pk": 77
+  },
+  {
+    "fields": {
+      "name": "\u7ed3\u675f\u65f6\u95f4",
+      "precedence": 3,
+      "items": "[]",
+      "field_priority": null,
+      "key": "end_time",
+      "data_tag": 1
+    },
+    "model": "soc_ssa.secfieldmap",
+    "pk": 78
+  },
+  {
+    "fields": {
+      "name": "\u5e94\u7528\u5c42\u534f\u8bae",
+      "precedence": 0,
+      "items": "[{ \"id\" : \"FTP\" , \"name\" : \"FTP\" },{ \"id\" : \"Telnet\" , \"name\" : \"Telnet\" },{ \"id\" : \"SMTP\" , \"name\" : \"SMTP\" },{ \"id\" : \"HTTP\" , \"name\" : \"HTTP\" },{ \"id\" : \"RIP\" , \"name\" : \"RIP\" },{ \"id\" : \"NFS\" , \"name\" : \"NFS\" },{ \"id\" : \"DNS\" , \"name\" : \"DNS\" }]",
+      "field_priority": null,
+      "key": "app_protocol",
+      "data_tag": 1
+    },
+    "model": "soc_ssa.secfieldmap",
+    "pk": 79
+  },
+  {
+    "fields": {
+      "name": "\u4f20\u8f93\u5c42\u534f\u8bae",
+      "precedence": 0,
+      "items": "[]",
+      "field_priority": null,
+      "key": "tran_protocol",
+      "data_tag": 1
+    },
+    "model": "soc_ssa.secfieldmap",
+    "pk": 80
+  },
+  {
+    "fields": {
+      "name": "\u76ee\u7684\u7aef\u53e3",
+      "precedence": 0,
+      "items": "[]",
+      "field_priority": null,
+      "key": "dst_port",
+      "data_tag": 1
+    },
+    "model": "soc_ssa.secfieldmap",
+    "pk": 81
+  },
+  {
+    "fields": {
+      "name": "\u6e90\u7aef\u53e3",
+      "precedence": 0,
+      "items": "[]",
+      "field_priority": null,
+      "key": "src_port",
+      "data_tag": 1
+    },
+    "model": "soc_ssa.secfieldmap",
+    "pk": 82
+  },
+  {
+    "fields": {
+      "name": "\u76ee\u7684IP",
+      "precedence": 4,
+      "items": "[]",
+      "field_priority": "dst_ip",
+      "key": "dst_ip",
+      "data_tag": 1
+    },
+    "model": "soc_ssa.secfieldmap",
+    "pk": 83
+  },
+  {
+    "fields": {
+      "name": "\u6e90IP",
+      "precedence": 8,
+      "items": "[]",
+      "field_priority": "src_ip,search_ip",
+      "key": "src_ip",
+      "data_tag": 1
+    },
+    "model": "soc_ssa.secfieldmap",
+    "pk": 84
+  },
+  {
+    "fields": {
+      "name": "\u4e8b\u4ef6\u5185\u5bb9",
+      "precedence": 5,
+      "items": "[]",
+      "field_priority": null,
+      "key": "event_contents",
+      "data_tag": 1
+    },
+    "model": "soc_ssa.secfieldmap",
+    "pk": 85
+  },
+  {
+    "fields": {
+      "name": "\u5355\u4f4d",
+      "precedence": 0,
+      "items": "[]",
+      "field_priority": null,
+      "key": "organization",
+      "data_tag": 1
+    },
+    "model": "soc_ssa.secfieldmap",
+    "pk": 86
+  },
+  {
+    "fields": {
+      "name": "\u539f\u59cb\u65e5\u5fd7",
+      "precedence": 0,
+      "items": "[]",
+      "field_priority": null,
+      "key": "event_detail",
+      "data_tag": 1
+    },
+    "model": "soc_ssa.secfieldmap",
+    "pk": 87
+  },
+  {
+    "fields": {
+      "last_tag": 0,
+      "type_field": "acc_total",
+      "type_desc": "",
+      "type_name": "\u7f51\u7edc\u8bbf\u95ee\u603b\u91cf",
+      "type_items": "[]",
+      "type_tag": 1
+    },
+    "model": "soc_ssa.seceventtype",
+    "pk": 1
+  },
+  {
+    "fields": {
+      "last_tag": 1,
+      "type_field": "acc_type",
+      "type_desc": "",
+      "type_name": "\u7f51\u7edc\u8bbf\u95ee\u7c7b\u578b\u6570\u91cf",
+      "type_items": "[]",
+      "type_tag": 1
+    },
+    "model": "soc_ssa.seceventtype",
+    "pk": 2
+  },
+  {
+    "fields": {
+      "last_tag": 1,
+      "type_field": "acc_session_type",
+      "type_desc": "",
+      "type_name": "\u7f51\u7edc\u8bbf\u95ee\u4f1a\u8bdd\u8fde\u63a5\u6570\u91cf",
+      "type_items": "[]",
+      "type_tag": 1
+    },
+    "model": "soc_ssa.seceventtype",
+    "pk": 3
+  },
+  {
+    "fields": {
+      "data_tag_id": 1,
+      "event_two_type": "\u963b\u65ad\u7b56\u7565",
+      "event_one_type": null,
+      "event_three_types": null
+    },
+    "model": "soc_ssa.ssaeventtype",
+    "pk": 1
+  },
+  {
+    "fields": {
+      "data_tag_id": 4,
+      "event_two_type": "\u963b\u65ad\u7b56\u7565",
+      "event_one_type": null,
+      "event_three_types": null
+    },
+    "model": "soc_ssa.ssaeventtype",
+    "pk": 2
+  },
+  {
+    "fields": {
+      "data_tag_id": 5,
+      "event_two_type": "\u963b\u65ad\u7b56\u7565",
+      "event_one_type": null,
+      "event_three_types": null
+    },
+    "model": "soc_ssa.ssaeventtype",
+    "pk": 3
+  },
+  {
+    "fields": {
+      "data_tag_id": 5,
+      "event_two_type": "\u8bbf\u95ee\u63a7\u5236",
+      "event_one_type": null,
+      "event_three_types": null
+    },
+    "model": "soc_ssa.ssaeventtype",
+    "pk": 4
+  },
+  {
+    "fields": {
+      "data_tag_id": 5,
+      "event_two_type": "\u9632\u653b\u51fb",
+      "event_one_type": null,
+      "event_three_types": null
+    },
+    "model": "soc_ssa.ssaeventtype",
+    "pk": 5
+  },
+  {
+    "fields": {
+      "data_tag_id": 7,
+      "event_two_type": "\u5b89\u5168\u7b56\u7565",
+      "event_one_type": null,
+      "event_three_types": null
+    },
+    "model": "soc_ssa.ssaeventtype",
+    "pk": 6
+  },
+  {
+    "fields": {
+      "data_tag_id": 7,
+      "event_two_type": "\u5fc5\u88c5\u5b89\u5168\u8f6f\u4ef6",
+      "event_one_type": null,
+      "event_three_types": null
+    },
+    "model": "soc_ssa.ssaeventtype",
+    "pk": 7
+  },
+  {
+    "fields": {
+      "data_tag_id": 7,
+      "event_two_type": "\u75d5\u8ff9\u68c0\u67e5",
+      "event_one_type": null,
+      "event_three_types": null
+    },
+    "model": "soc_ssa.ssaeventtype",
+    "pk": 8
+  },
+  {
+    "fields": {
+      "data_tag_id": 2,
+      "event_two_type": "\u4fe1\u606f\u6536\u96c6",
+      "event_one_type": null,
+      "event_three_types": null
+    },
+    "model": "soc_ssa.ssaeventtype",
+    "pk": 9
+  },
+  {
+    "fields": {
+      "data_tag_id": 2,
+      "event_two_type": "\u83b7\u53d6\u6743\u9650",
+      "event_one_type": null,
+      "event_three_types": null
+    },
+    "model": "soc_ssa.ssaeventtype",
+    "pk": 10
+  },
+  {
+    "fields": {
+      "data_tag_id": 2,
+      "event_two_type": "\u8fdc\u7a0b\u63a7\u5236",
+      "event_one_type": null,
+      "event_three_types": null
+    },
+    "model": "soc_ssa.ssaeventtype",
+    "pk": 11
+  },
+  {
+    "fields": {
+      "data_tag_id": 2,
+      "event_two_type": "\u6570\u636e\u76d7\u53d6",
+      "event_one_type": null,
+      "event_three_types": null
+    },
+    "model": "soc_ssa.ssaeventtype",
+    "pk": 12
+  },
+  {
+    "fields": {
+      "data_tag_id": 2,
+      "event_two_type": "\u7cfb\u7edf\u7834\u574f",
+      "event_one_type": null,
+      "event_three_types": null
+    },
+    "model": "soc_ssa.ssaeventtype",
+    "pk": 13
+  },
+  {
+    "fields": {
+      "data_tag_id": 2,
+      "event_two_type": "\u9690\u85cf\u653b\u51fb\u75d5\u8ff9",
+      "event_one_type": null,
+      "event_three_types": null
+    },
+    "model": "soc_ssa.ssaeventtype",
+    "pk": 14
+  },
+  {
+    "fields": {
+      "data_tag_id": 2,
+      "event_two_type": "\u6709\u5bb3\u7a0b\u5e8f",
+      "event_one_type": null,
+      "event_three_types": null
+    },
+    "model": "soc_ssa.ssaeventtype",
+    "pk": 15
+  },
+  {
+    "fields": {
+      "data_tag_id": 2,
+      "event_two_type": "\u6076\u610f\u7f51\u7ad9",
+      "event_one_type": null,
+      "event_three_types": null
+    },
+    "model": "soc_ssa.ssaeventtype",
+    "pk": 16
+  },
+  {
+    "fields": {
+      "data_tag_id": 2,
+      "event_two_type": "\u5176\u4ed6\u653b\u51fb\u7c7b\u4e8b\u4ef6",
+      "event_one_type": null,
+      "event_three_types": null
+    },
+    "model": "soc_ssa.ssaeventtype",
+    "pk": 17
+  },
+  {
+    "fields": {
+      "data_tag_id": 3,
+      "event_two_type": "\u9ad8\u98ce\u9669\u6307\u4ee4",
+      "event_one_type": null,
+      "event_three_types": null
+    },
+    "model": "soc_ssa.ssaeventtype",
+    "pk": 18
+  },
+  {
+    "fields": {
+      "data_tag_id": 3,
+      "event_two_type": "\u4e2d\u98ce\u9669\u6307\u4ee4",
+      "event_one_type": null,
+      "event_three_types": null
+    },
+    "model": "soc_ssa.ssaeventtype",
+    "pk": 19
+  },
+  {
+    "fields": {
+      "data_tag_id": 3,
+      "event_two_type": "\u4f4e\u98ce\u9669\u6307\u4ee4",
+      "event_one_type": null,
+      "event_three_types": null
+    },
+    "model": "soc_ssa.ssaeventtype",
+    "pk": 20
+  },
+  {
+    "fields": {
+      "data_tag_id": 3,
+      "event_two_type": "\u5176\u4ed6\u98ce\u9669\u6307\u4ee4",
+      "event_one_type": null,
+      "event_three_types": null
+    },
+    "model": "soc_ssa.ssaeventtype",
+    "pk": 21
+  },
+  {
+    "fields": {
+      "data_tag_id": 6,
+      "event_two_type": "\u6709\u5bb3\u7a0b\u5e8f",
+      "event_one_type": null,
+      "event_three_types": null
+    },
+    "model": "soc_ssa.ssaeventtype",
+    "pk": 22
+  },
+  {
+    "fields": {
+      "data_tag_id": 6,
+      "event_two_type": "\u6f0f\u6d1e",
+      "event_one_type": null,
+      "event_three_types": null
+    },
+    "model": "soc_ssa.ssaeventtype",
+    "pk": 23
+  },
+  {
+    "fields": {
+      "data_tag_id": 6,
+      "event_two_type": "\u5176\u4ed6",
+      "event_one_type": null,
+      "event_three_types": null
+    },
+    "model": "soc_ssa.ssaeventtype",
+    "pk": 24
+  }
+]

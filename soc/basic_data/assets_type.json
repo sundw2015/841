@@ -1,0 +1,51 @@
+[
+  {
+    "fields": {
+      "assets_type_name": "\u9632\u706b\u5899"
+    },
+    "model": "soc_assets.assetstype",
+    "pk": 1
+  },
+  {
+    "fields": {
+      "assets_type_name": "\u9694\u79bb\u8bbe\u5907"
+    },
+    "model": "soc_assets.assetstype",
+    "pk": 2
+  },
+  {
+    "fields": {
+      "assets_type_name": "\u6446\u6e21\u8bbe\u5907"
+    },
+    "model": "soc_assets.assetstype",
+    "pk": 3
+  },
+  {
+    "fields": {
+      "assets_type_name": "\u7ec8\u7aef"
+    },
+    "model": "soc_assets.assetstype",
+    "pk": 4
+  },
+  {
+    "fields": {
+      "assets_type_name": "360\u6740\u6bd2"
+    },
+    "model": "soc_assets.assetstype",
+    "pk": 5
+  },
+  {
+    "fields": {
+      "assets_type_name": "\u6570\u636e\u5e93\u5ba1\u8ba1"
+    },
+    "model": "soc_assets.assetstype",
+    "pk": 6
+  },
+  {
+    "fields": {
+      "assets_type_name": "IDS"
+    },
+    "model": "soc_assets.assetstype",
+    "pk": 7
+  }
+]

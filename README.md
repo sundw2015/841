@@ -1,2 +1,4 @@
-# 841
-网络安全项目
+# sec_event
+
+# celery
+celery -A soc worker -B -l info

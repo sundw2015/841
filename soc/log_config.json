@@ -1,0 +1,460 @@
+{
+  "version": 1,
+  "disable_existing_loggers": false,
+  "formatters": {
+    "verbose": {
+      "format": "%(asctime)s %(levelname)s %(module)s %(process)d %(thread)d %(filename)s:%(lineno)s %(message)s",
+      "datefmt": "%Y-%m-%d %H:%M:%S"
+    },
+    "simple": {
+      "format": "%(asctime)s %(levelname)s %(message)s",
+      "datefmt": "%Y-%m-%d %H:%M:%S"
+    }
+  },
+  "handlers": {
+    "null": {
+      "level": "DEBUG",
+      "class": "logging.NullHandler"
+    },
+    "console": {
+      "level": "DEBUG",
+      "class": "logging.StreamHandler",
+      "formatter": "verbose"
+    },
+    "mail_admins": {
+      "level": "ERROR",
+      "class": "django.utils.log.AdminEmailHandler"
+    },
+    "soc": {
+      "level": "DEBUG",
+      "class": "logging.FileHandler",
+      "filename": "/var/log/soc/soc.log",
+      "formatter": "verbose"
+    },
+    "count_assets": {
+      "level": "DEBUG",
+      "class": "logging.FileHandler",
+      "filename": "/var/log/soc/count_assets.log",
+      "formatter": "verbose"
+    },
+    "soc_hw": {
+      "level": "DEBUG",
+      "class": "logging.FileHandler",
+      "filename": "/var/log/soc/soc_hw.log",
+      "formatter": "verbose"
+    },
+    "soc_hw_data": {
+      "level": "DEBUG",
+      "class": "logging.FileHandler",
+      "filename": "/var/log/soc/soc_hw_data.log",
+      "formatter": "verbose"
+    },
+    "soc_executor": {
+      "level": "DEBUG",
+      "class": "logging.FileHandler",
+      "filename": "/var/log/soc/soc_executor.log",
+      "formatter": "verbose"
+    },
+    "sync_data": {
+      "level": "DEBUG",
+      "class": "logging.FileHandler",
+      "filename": "/var/log/soc/sync_data.log",
+      "formatter": "verbose"
+    },
+    "sync_hades_data": {
+      "level": "DEBUG",
+      "class": "logging.FileHandler",
+      "filename": "/var/log/soc/sync_hades_data.log",
+      "formatter": "verbose"
+    },
+    "sync_hw_data": {
+      "level": "DEBUG",
+      "class": "logging.FileHandler",
+      "filename": "/var/log/soc/sync_hw_data.log",
+      "formatter": "verbose"
+    },
+    "heart_beat": {
+      "level": "DEBUG",
+      "class": "logging.FileHandler",
+      "filename": "/var/log/soc/heart_beat.log",
+      "formatter": "verbose"
+    },
+    "register": {
+      "level": "DEBUG",
+      "class": "logging.FileHandler",
+      "filename": "/var/log/soc/register.log",
+      "formatter": "verbose"
+    },
+    "message": {
+      "level": "DEBUG",
+      "class": "logging.FileHandler",
+      "filename": "/var/log/soc/message.log",
+      "formatter": "verbose"
+    },
+    "soc_monitor": {
+      "level": "DEBUG",
+      "class": "logging.FileHandler",
+      "filename": "/var/log/soc/soc_monitor.log",
+      "formatter": "verbose"
+    },
+    "sync_item_history": {
+      "level": "DEBUG",
+      "class": "logging.FileHandler",
+      "filename": "/var/log/soc/item_history.log",
+      "formatter": "verbose"
+    },
+    "sync_monitor": {
+      "level": "DEBUG",
+      "class": "logging.FileHandler",
+      "filename": "/var/log/soc/sync_monitor.log",
+      "formatter": "verbose"
+    },
+    "task": {
+      "level": "DEBUG",
+      "class": "logging.FileHandler",
+      "filename": "/var/log/soc/task.log",
+      "formatter": "verbose"
+    },
+    "execute_tasks": {
+      "level": "DEBUG",
+      "class": "logging.FileHandler",
+      "filename": "/var/log/soc/execute_tasks.log",
+      "formatter": "verbose"
+    },
+    "security_callback": {
+      "level": "DEBUG",
+      "class": "logging.FileHandler",
+      "filename": "/var/log/soc/security_callback.log",
+      "formatter": "verbose"
+    },
+    "xml2db": {
+      "level": "DEBUG",
+      "class": "logging.FileHandler",
+      "filename": "/var/log/soc/xml2db.log",
+      "formatter": "verbose"
+    },
+    "soc_hids": {
+      "level": "DEBUG",
+      "class": "logging.FileHandler",
+      "filename": "/var/log/soc/soc_hids.log",
+      "formatter": "verbose"
+    },
+    "soc_datatable": {
+      "level": "DEBUG",
+      "class": "logging.FileHandler",
+      "filename": "/var/log/soc/soc_datatable.log",
+      "formatter": "verbose"
+    },
+    "soc_domain": {
+      "level": "DEBUG",
+      "class": "logging.FileHandler",
+      "filename": "/var/log/soc/soc_domain.log",
+      "formatter": "verbose"
+    },
+    "soc_discovery_task": {
+      "level": "DEBUG",
+      "class": "logging.FileHandler",
+      "filename": "/var/log/soc/soc_discovery_task.log",
+      "formatter": "verbose"
+    },
+    "soc_purchase": {
+      "level": "DEBUG",
+      "class": "logging.FileHandler",
+      "filename": "/var/log/soc/soc_purchase.log",
+      "formatter": "verbose"
+    },
+    "soc_nids": {
+      "level": "DEBUG",
+      "class": "logging.FileHandler",
+      "filename": "/var/log/soc/soc_nids.log",
+      "formatter": "verbose"
+    },
+    "nids_report": {
+      "level": "DEBUG",
+      "class": "logging.FileHandler",
+      "filename": "/var/log/soc/nids_report.log",
+      "formatter": "verbose"
+    },
+    "soc_security": {
+      "level": "DEBUG",
+      "class": "logging.FileHandler",
+      "filename": "/var/log/soc/soc_security.log",
+      "formatter": "verbose"
+    },
+    "soc_system": {
+      "level": "DEBUG",
+      "class": "logging.FileHandler",
+      "filename": "/var/log/soc/soc_system.log",
+      "formatter": "verbose"
+    },
+    "soc_db_security": {
+      "level": "DEBUG",
+      "class": "logging.FileHandler",
+      "filename": "/var/log/soc/soc_db_security.log",
+      "formatter": "verbose"
+    },
+    "soc_ssa": {
+      "level": "DEBUG",
+      "class": "logging.FileHandler",
+      "filename": "/var/log/soc/soc_ssa.log",
+      "formatter": "verbose"
+    },
+    "soc_knowledge": {
+      "level": "DEBUG",
+      "class": "logging.FileHandler",
+      "filename": "/var/log/soc/soc_knowledge.log",
+      "formatter": "verbose"
+    },
+    "soc_scan": {
+      "level": "DEBUG",
+      "class": "logging.FileHandler",
+      "filename": "/var/log/soc/soc_scan.log",
+      "formatter": "verbose"
+    }
+  },
+  "loggers": {
+    "console": {
+      "handlers": [
+        "console",
+        "soc"
+      ],
+      "propagate": true,
+      "level": "DEBUG"
+    },
+    "django": {
+      "handlers": [
+        "console",
+        "soc"
+      ],
+      "propagate": true,
+      "level": "ERROR"
+    },
+    "django.request": {
+      "handlers": [
+        "mail_admins",
+        "soc"
+      ],
+      "level": "ERROR",
+      "propagate": true
+    },
+    "soc": {
+      "handlers": [
+        "soc"
+      ],
+      "level": "DEBUG",
+      "propagate": true
+    },
+    "count_assets": {
+      "handlers": [
+        "count_assets"
+      ],
+      "level": "DEBUG",
+      "propagate": true
+    },
+    "soc_hw": {
+      "handlers": [
+        "soc_hw"
+      ],
+      "level": "DEBUG",
+      "propagate": true
+    },
+    "soc_hw_data": {
+      "handlers": [
+        "soc_hw_data"
+      ],
+      "level": "DEBUG",
+      "propagate": true
+    },
+    "sync_hw_data": {
+      "handlers": [
+        "sync_hw_data"
+      ],
+      "level": "DEBUG",
+      "propagate": true
+    },
+    "soc_executor": {
+      "handlers": [
+        "soc_executor"
+      ],
+      "level": "DEBUG",
+      "propagate": true
+    },
+    "sync_data": {
+      "handlers": [
+        "sync_data"
+      ],
+      "level": "DEBUG",
+      "propagate": true
+    },
+    "sync_hades_data": {
+      "handlers": [
+        "sync_hades_data"
+      ],
+      "level": "DEBUG",
+      "propagate": true
+    },
+    "heart_beat": {
+      "handlers": [
+        "heart_beat"
+      ],
+      "level": "DEBUG",
+      "propagate": true
+    },
+    "agent_register": {
+      "handlers": [
+        "register"
+      ],
+      "propagate": true,
+      "level": "DEBUG"
+    },
+    "message": {
+      "handlers": [
+        "message"
+      ],
+      "propagate": true,
+      "level": "DEBUG"
+    },
+    "soc_monitor": {
+      "handlers": [
+        "soc_monitor"
+      ],
+      "propagate": true,
+      "level": "DEBUG"
+    },
+    "sync_item_history": {
+      "handlers": [
+        "sync_item_history"
+      ],
+      "propagate": true,
+      "level": "DEBUG"
+    },
+    "sync_monitor": {
+      "handlers": [
+        "sync_monitor"
+      ],
+      "propagate": true,
+      "level": "DEBUG"
+    },
+    "task": {
+      "handlers": [
+        "task"
+      ],
+      "propagate": true,
+      "level": "DEBUG"
+    },
+    "execute_tasks": {
+      "handlers": [
+        "execute_tasks"
+      ],
+      "propagate": true,
+      "level": "DEBUG"
+    },
+    "security_callback": {
+      "handlers": [
+        "security_callback"
+      ],
+      "propagate": true,
+      "level": "DEBUG"
+    },
+    "xml2db": {
+      "handlers": [
+        "xml2db"
+      ],
+      "propagate": true,
+      "level": "DEBUG"
+    },
+    "soc_hids": {
+      "handlers": [
+        "soc_hids"
+      ],
+      "propagate": true,
+      "level": "DEBUG"
+    },
+    "soc_datatable": {
+      "handlers": [
+        "soc_datatable",
+        "console"
+      ],
+      "propagate": true,
+      "level": "DEBUG"
+    },
+    "soc_domain": {
+      "handlers": [
+        "soc_domain"
+      ],
+      "propagate": true,
+      "level": "DEBUG"
+    },
+    "soc_discovery_task": {
+      "handlers": [
+        "soc_discovery_task"
+      ],
+      "propagate": true,
+      "level": "DEBUG"
+    },
+    "soc_purchase": {
+      "handlers": [
+        "soc_purchase"
+      ],
+      "propagate": true,
+      "level": "DEBUG"
+    },
+    "soc_nids": {
+      "handlers": [
+        "soc_nids"
+      ],
+      "propagate": true,
+      "level": "DEBUG"
+    },
+    "nids_report": {
+      "handlers": [
+        "nids_report"
+      ],
+      "propagate": true,
+      "level": "DEBUG"
+    },
+    "soc_security": {
+      "handlers": [
+        "soc_security"
+      ],
+      "propagate": true,
+      "level": "DEBUG"
+    },
+    "soc_system": {
+      "handlers": [
+        "soc_system"
+      ],
+      "propagate": true,
+      "level": "DEBUG"
+    },
+    "soc_db_security": {
+      "handlers": [
+        "soc_db_security",
+        "console"
+      ],
+      "propagate": true,
+      "level": "DEBUG"
+    },
+    "soc_ssa": {
+      "handlers": [
+        "soc_ssa"
+      ],
+      "propagate": true,
+      "level": "DEBUG"
+    },
+    "soc_knowledge": {
+      "handlers": [
+        "soc_knowledge"
+      ],
+      "propagate": true,
+      "level": "DEBUG"
+    },
+    "soc_scan": {
+      "handlers": [
+        "soc_scan"
+      ],
+      "propagate": true,
+      "level": "DEBUG"
+    }
+  }
+}

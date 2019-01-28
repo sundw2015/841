@@ -1,0 +1,39 @@
+[
+  {
+    "fields": {
+      "qs_token_secret": null,
+      "qs_api_token": null,
+      "register_count": 5,
+      "qs_api_timeout": 60,
+      "crm_user_id": null,
+      "login_allow": 1,
+      "server_phone": null,
+      "login_timeout": 3600,
+      "fail_range_time": 180,
+      "is_find_password": 1,
+      "title": "admin",
+      "ssl_pub_key": null,
+      "register_time": 180,
+      "fail_count": 10,
+      "qs_token": null,
+      "email": "",
+      "status": 1,
+      "register_allow": 1,
+      "web_title": "\u4e91\u677e",
+      "record_number": null,
+      "agent_id": null,
+      "key": "7fc2e765-f4c0-4e24-ab9b-eeebc1ce42de",
+      "name": "admin",
+      "license": null,
+      "enable_iframe": true,
+      "fail_ban_time": 3600,
+      "token": null,
+      "crm_user_name": null,
+      "login_type": "username,email,phone,wechat",
+      "web_logo": "logo/logo.svg",
+      "web_domain": null
+    },
+    "model": "soc.agent",
+    "pk": 1
+  }
+]

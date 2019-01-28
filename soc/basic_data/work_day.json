@@ -1,0 +1,62 @@
+[
+  {
+    "fields": {
+      "week": "\u5468\u4e00",
+      "am_start_time": "08:30:00",
+      "pm_end_time": "18:30:00",
+      "state": "1",
+      "pm_start_time": "14:30:00",
+      "am_end_time": "12:00:00"
+    },
+    "model": "soc_knowledge.workday",
+    "pk": 1
+  },
+  {
+    "fields": {
+      "week": "\u5468\u4e8c",
+      "am_start_time": "08:30:00",
+      "pm_end_time": "18:30:00",
+      "state": "1",
+      "pm_start_time": "14:30:00",
+      "am_end_time": "12:00:00"
+    },
+    "model": "soc_knowledge.workday",
+    "pk": 2
+  },
+  {
+    "fields": {
+      "week": "\u5468\u4e09",
+      "am_start_time": "08:30:00",
+      "pm_end_time": "18:30:00",
+      "state": "1",
+      "pm_start_time": "14:30:00",
+      "am_end_time": "12:00:00"
+    },
+    "model": "soc_knowledge.workday",
+    "pk": 3
+  },
+  {
+    "fields": {
+      "week": "\u5468\u56db",
+      "am_start_time": "08:30:00",
+      "pm_end_time": "18:30:00",
+      "state": "1",
+      "pm_start_time": "14:30:00",
+      "am_end_time": "12:00:00"
+    },
+    "model": "soc_knowledge.workday",
+    "pk": 4
+  },
+  {
+    "fields": {
+      "week": "\u5468\u4e94",
+      "am_start_time": "08:30:00",
+      "pm_end_time": "18:30:00",
+      "state": "1",
+      "pm_start_time": "14:30:00",
+      "am_end_time": "12:00:00"
+    },
+    "model": "soc_knowledge.workday",
+    "pk": 5
+  }
+]
